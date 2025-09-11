@@ -12,7 +12,7 @@ URL = "https://api.github.com/graphql"
 # A query GraphQL (sem alteração)
 QUERY = """
 query TopJavaRepositories($cursor: String) {
-  search(query: "language:Java sort:stars stars:2000..4999", type: REPOSITORY, first: 100, after: $cursor) {
+  search(query: "language:Java sort:stars stars:2000..2115", type: REPOSITORY, first: 76, after: $cursor) {
     pageInfo {
       endCursor
       hasNextPage
@@ -77,7 +77,7 @@ def get_top_1000_java_repos():
     
     print("Iniciando a coleta de dados do GitHub...")
     
-    for i in range(10):
+    for i in range(1):
         print(f"Buscando página {i + 1}/10...")
         variables = {"cursor": cursor}
         
@@ -121,7 +121,7 @@ if __name__ == "__main__":
         print("ERRO: Por favor, defina seu GITHUB_TOKEN no script.")
     else:
         repositories = get_top_1000_java_repos()
-        with open("repo.json", "w", encoding="utf-8") as f:
+        with open("repo.json", "a", encoding="utf-8") as f:
             json.dump(repositories, f, ensure_ascii=False, indent=2)
         print(f"\n--- Exemplo dos primeiros {len(repositories[:5])} resultados ---")
         for repo in repositories[:5]:
