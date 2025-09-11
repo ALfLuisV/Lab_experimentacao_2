@@ -33,10 +33,12 @@ def analisar_repositorio(repo_name):
             check=True, capture_output=True, text=True
         )
 
-        class_metrics_file = os.path.join(ck_output_path, 'class.csv')
-        
+        # O CK gera os arquivos diretamente no diretório base com nome concatenado
+        class_metrics_file = os.path.join(CK_OUTPUT_DIR_BASE, f"{repo_name.replace('/', '_')}class.csv")
+        print(f"  Arquivo de métricas de classe: {class_metrics_file}")
+
         if not os.path.exists(class_metrics_file):
-            print(f"  AVISO: CK não gerou 'class.csv' para {repo_name}. Pulando.")
+            print(f"  ERRO: 'class.csv' não encontrado para {repo_name}. Pode não ser um projeto Java válido.")
             return None
 
         df_class = pd.read_csv(class_metrics_file)
@@ -58,12 +60,18 @@ def analisar_repositorio(repo_name):
     except subprocess.CalledProcessError as e:
         print(f"  ERRO ao processar {repo_name}: {e.stderr}")
         return None
-    except FileNotFoundError:
-        print(f"  ERRO: 'class.csv' não encontrado para {repo_name}. Pode não ser um projeto Java válido.")
+    except Exception as e:
+        print(f"  ERRO inesperado ao processar {repo_name}: {str(e)}")
         return None
     finally:
+        # Remove o repositório clonado
         if os.path.exists(repo_clone_path):
             shutil.rmtree(repo_clone_path, onerror=remove_readonly)
+        
+        # Remove o diretório de saída do CK se estiver vazio
+        ck_output_dir = os.path.join(CK_OUTPUT_DIR_BASE, repo_name.replace('/', '_'))
+        if os.path.exists(ck_output_dir) and not os.listdir(ck_output_dir):
+            os.rmdir(ck_output_dir)
 
 
 def remove_readonly(func, path, excinfo):
@@ -86,7 +94,7 @@ if __name__ == '__main__':
 
     total_repos = len(repos_df)
     print(f"Iniciando análise de {total_repos} repositórios...")
-    indexTtotal = 0;
+    indexTtotal = 0
     for index, row in repos_df.iterrows():
         if indexTtotal  < 10:
             repo_name = row['name']
