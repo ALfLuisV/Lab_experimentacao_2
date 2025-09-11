@@ -1,0 +1,7002 @@
+[
+  {
+    "name": "2227324689/gpmall",
+    "stars": 4999,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-07-18T14:09:22Z"
+  },
+  {
+    "name": "line/armeria",
+    "stars": 4998,
+    "releases": 260,
+    "age_years": 9,
+    "created_at": "2015-11-16T04:04:01Z"
+  },
+  {
+    "name": "youlookwhat/CloudReader",
+    "stars": 4995,
+    "releases": 26,
+    "age_years": 8,
+    "created_at": "2016-11-20T11:59:25Z"
+  },
+  {
+    "name": "DingMouRen/LayoutManagerGroup",
+    "stars": 4993,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-04-28T11:47:38Z"
+  },
+  {
+    "name": "orhanobut/dialogplus",
+    "stars": 4989,
+    "releases": 9,
+    "age_years": 10,
+    "created_at": "2014-12-12T09:24:44Z"
+  },
+  {
+    "name": "spring-attic/spring-mvc-showcase",
+    "stars": 4987,
+    "releases": 0,
+    "age_years": 14,
+    "created_at": "2011-06-03T15:36:55Z"
+  },
+  {
+    "name": "apache/ignite",
+    "stars": 4983,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-02-19T08:00:05Z"
+  },
+  {
+    "name": "alibaba/UltraViewPager",
+    "stars": 4979,
+    "releases": 10,
+    "age_years": 8,
+    "created_at": "2017-03-29T13:31:53Z"
+  },
+  {
+    "name": "JodaOrg/joda-time",
+    "stars": 4976,
+    "releases": 50,
+    "age_years": 14,
+    "created_at": "2011-05-16T16:49:57Z"
+  },
+  {
+    "name": "killme2008/aviatorscript",
+    "stars": 4974,
+    "releases": 52,
+    "age_years": 14,
+    "created_at": "2011-03-29T12:48:47Z"
+  },
+  {
+    "name": "frogermcs/InstaMaterial",
+    "stars": 4969,
+    "releases": 1,
+    "age_years": 10,
+    "created_at": "2014-11-10T18:56:49Z"
+  },
+  {
+    "name": "Devlight/NavigationTabBar",
+    "stars": 4950,
+    "releases": 13,
+    "age_years": 9,
+    "created_at": "2016-03-29T08:59:27Z"
+  },
+  {
+    "name": "bisq-network/bisq",
+    "stars": 4946,
+    "releases": 142,
+    "age_years": 11,
+    "created_at": "2014-03-12T09:42:29Z"
+  },
+  {
+    "name": "amitshekhariitbhu/RxJava2-Android-Samples",
+    "stars": 4943,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-08-27T08:21:37Z"
+  },
+  {
+    "name": "react-native-linear-gradient/react-native-linear-gradient",
+    "stars": 4940,
+    "releases": 18,
+    "age_years": 10,
+    "created_at": "2015-03-31T17:44:40Z"
+  },
+  {
+    "name": "apache/calcite",
+    "stars": 4934,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-06-25T07:00:07Z"
+  },
+  {
+    "name": "spring-cloud/spring-cloud-netflix",
+    "stars": 4933,
+    "releases": 24,
+    "age_years": 11,
+    "created_at": "2014-07-11T15:46:12Z"
+  },
+  {
+    "name": "lugg/react-native-config",
+    "stars": 4921,
+    "releases": 30,
+    "age_years": 9,
+    "created_at": "2016-02-23T00:19:11Z"
+  },
+  {
+    "name": "roncoo/roncoo-pay",
+    "stars": 4921,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-07-21T02:46:06Z"
+  },
+  {
+    "name": "traex/RippleEffect",
+    "stars": 4916,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2014-10-14T13:32:51Z"
+  },
+  {
+    "name": "PBH-BTN/PeerBanHelper",
+    "stars": 4908,
+    "releases": 143,
+    "age_years": 1,
+    "created_at": "2024-02-07T14:35:16Z"
+  },
+  {
+    "name": "querydsl/querydsl",
+    "stars": 4907,
+    "releases": 35,
+    "age_years": 14,
+    "created_at": "2011-08-05T06:46:32Z"
+  },
+  {
+    "name": "javastacks/spring-boot-best-practice",
+    "stars": 4905,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2018-11-09T06:23:18Z"
+  },
+  {
+    "name": "Ramotion/folding-cell-android",
+    "stars": 4903,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-04-01T11:38:47Z"
+  },
+  {
+    "name": "Docile-Alligator/Infinity-For-Reddit",
+    "stars": 4900,
+    "releases": 181,
+    "age_years": 7,
+    "created_at": "2018-07-26T15:02:51Z"
+  },
+  {
+    "name": "DiUS/java-faker",
+    "stars": 4895,
+    "releases": 0,
+    "age_years": 14,
+    "created_at": "2011-06-06T01:01:21Z"
+  },
+  {
+    "name": "cglib/cglib",
+    "stars": 4876,
+    "releases": 15,
+    "age_years": 11,
+    "created_at": "2014-03-29T13:48:30Z"
+  },
+  {
+    "name": "orientechnologies/orientdb",
+    "stars": 4872,
+    "releases": 225,
+    "age_years": 12,
+    "created_at": "2012-12-09T20:33:47Z"
+  },
+  {
+    "name": "rstudio/rstudio",
+    "stars": 4864,
+    "releases": 0,
+    "age_years": 14,
+    "created_at": "2010-12-07T19:10:25Z"
+  },
+  {
+    "name": "react-native-webrtc/react-native-webrtc",
+    "stars": 4859,
+    "releases": 81,
+    "age_years": 9,
+    "created_at": "2015-09-27T10:57:30Z"
+  },
+  {
+    "name": "reactive-streams/reactive-streams-jvm",
+    "stars": 4858,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-02-28T13:16:15Z"
+  },
+  {
+    "name": "Sayi/poi-tl",
+    "stars": 4852,
+    "releases": 14,
+    "age_years": 10,
+    "created_at": "2015-03-20T06:47:52Z"
+  },
+  {
+    "name": "allure-framework/allure2",
+    "stars": 4849,
+    "releases": 80,
+    "age_years": 9,
+    "created_at": "2016-05-27T14:06:05Z"
+  },
+  {
+    "name": "fuzhengwei/small-spring",
+    "stars": 4849,
+    "releases": 0,
+    "age_years": 4,
+    "created_at": "2021-05-15T06:07:28Z"
+  },
+  {
+    "name": "nextcloud/android",
+    "stars": 4841,
+    "releases": 261,
+    "age_years": 9,
+    "created_at": "2016-06-06T21:23:36Z"
+  },
+  {
+    "name": "mcxiaoke/packer-ng-plugin",
+    "stars": 4825,
+    "releases": 1,
+    "age_years": 9,
+    "created_at": "2015-11-24T04:08:08Z"
+  },
+  {
+    "name": "andkulikov/Transitions-Everywhere",
+    "stars": 4806,
+    "releases": 23,
+    "age_years": 10,
+    "created_at": "2014-10-15T03:37:03Z"
+  },
+  {
+    "name": "claritylab/lucida",
+    "stars": 4800,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-05-13T17:12:49Z"
+  },
+  {
+    "name": "mock-server/mockserver",
+    "stars": 4792,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-02-26T06:09:52Z"
+  },
+  {
+    "name": "TheoKanning/openai-java",
+    "stars": 4789,
+    "releases": 22,
+    "age_years": 4,
+    "created_at": "2020-09-15T02:58:52Z"
+  },
+  {
+    "name": "saiwu-bigkoo/Android-ConvenientBanner",
+    "stars": 4773,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2014-12-23T06:12:33Z"
+  },
+  {
+    "name": "ronmamo/reflections",
+    "stars": 4768,
+    "releases": 3,
+    "age_years": 12,
+    "created_at": "2013-04-16T16:19:26Z"
+  },
+  {
+    "name": "tuguangquan/mybatis",
+    "stars": 4764,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2014-11-03T04:51:06Z"
+  },
+  {
+    "name": "apache/maven",
+    "stars": 4764,
+    "releases": 26,
+    "age_years": 16,
+    "created_at": "2009-05-21T03:22:03Z"
+  },
+  {
+    "name": "etsy/AndroidStaggeredGrid",
+    "stars": 4752,
+    "releases": 7,
+    "age_years": 11,
+    "created_at": "2013-12-09T19:43:45Z"
+  },
+  {
+    "name": "kyleduo/SwitchButton",
+    "stars": 4748,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-09-09T07:20:43Z"
+  },
+  {
+    "name": "nisrulz/android-tips-tricks",
+    "stars": 4747,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-08-25T20:27:33Z"
+  },
+  {
+    "name": "spring-cloud/spring-cloud-gateway",
+    "stars": 4738,
+    "releases": 36,
+    "age_years": 8,
+    "created_at": "2016-11-16T21:42:51Z"
+  },
+  {
+    "name": "firebase/FirebaseUI-Android",
+    "stars": 4734,
+    "releases": 66,
+    "age_years": 10,
+    "created_at": "2015-07-09T17:31:09Z"
+  },
+  {
+    "name": "hongyangAndroid/baseAdapter",
+    "stars": 4723,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-08-03T02:55:51Z"
+  },
+  {
+    "name": "google/cameraview",
+    "stars": 4719,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-08-04T05:22:14Z"
+  },
+  {
+    "name": "zq2599/blog_demos",
+    "stars": 4715,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-04-09T04:51:56Z"
+  },
+  {
+    "name": "hansonwang99/Spring-Boot-In-Action",
+    "stars": 4714,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-01-28T12:56:51Z"
+  },
+  {
+    "name": "micrometer-metrics/micrometer",
+    "stars": 4704,
+    "releases": 273,
+    "age_years": 8,
+    "created_at": "2017-04-10T21:36:51Z"
+  },
+  {
+    "name": "zlt2000/microservices-platform",
+    "stars": 4702,
+    "releases": 30,
+    "age_years": 6,
+    "created_at": "2019-03-07T07:13:37Z"
+  },
+  {
+    "name": "spring-attic/spring-security-oauth",
+    "stars": 4702,
+    "releases": 0,
+    "age_years": 14,
+    "created_at": "2011-07-26T18:08:49Z"
+  },
+  {
+    "name": "jgilfelt/chuck",
+    "stars": 4700,
+    "releases": 5,
+    "age_years": 8,
+    "created_at": "2017-02-07T23:51:39Z"
+  },
+  {
+    "name": "pardom-zz/ActiveAndroid",
+    "stars": 4680,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2012-11-15T18:10:45Z"
+  },
+  {
+    "name": "SPLWare/esProc",
+    "stars": 4672,
+    "releases": 0,
+    "age_years": 3,
+    "created_at": "2021-11-09T15:41:25Z"
+  },
+  {
+    "name": "saysky/ForestBlog",
+    "stars": 4667,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2017-10-08T15:27:47Z"
+  },
+  {
+    "name": "wdullaer/MaterialDateTimePicker",
+    "stars": 4661,
+    "releases": 54,
+    "age_years": 10,
+    "created_at": "2015-01-03T19:41:03Z"
+  },
+  {
+    "name": "cjlin1/libsvm",
+    "stars": 4659,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-09-10T14:32:07Z"
+  },
+  {
+    "name": "stleary/JSON-java",
+    "stars": 4659,
+    "releases": 24,
+    "age_years": 14,
+    "created_at": "2010-12-21T17:46:09Z"
+  },
+  {
+    "name": "gsantner/markor",
+    "stars": 4655,
+    "releases": 76,
+    "age_years": 8,
+    "created_at": "2017-08-26T00:08:35Z"
+  },
+  {
+    "name": "Heeexy/SpringBoot-Shiro-Vue",
+    "stars": 4647,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2017-11-17T18:49:06Z"
+  },
+  {
+    "name": "gabrielemariotti/cardslib",
+    "stars": 4646,
+    "releases": 27,
+    "age_years": 11,
+    "created_at": "2013-09-20T21:57:19Z"
+  },
+  {
+    "name": "romandanylyk/PageIndicatorView",
+    "stars": 4639,
+    "releases": 14,
+    "age_years": 9,
+    "created_at": "2016-08-20T19:25:32Z"
+  },
+  {
+    "name": "bytedeco/javacpp",
+    "stars": 4638,
+    "releases": 13,
+    "age_years": 11,
+    "created_at": "2014-04-21T12:47:21Z"
+  },
+  {
+    "name": "TGX-Android/Telegram-X",
+    "stars": 4637,
+    "releases": 5,
+    "age_years": 4,
+    "created_at": "2021-08-17T17:09:25Z"
+  },
+  {
+    "name": "deepjavalibrary/djl",
+    "stars": 4637,
+    "releases": 35,
+    "age_years": 5,
+    "created_at": "2019-10-29T22:38:54Z"
+  },
+  {
+    "name": "oracle/opengrok",
+    "stars": 4629,
+    "releases": 293,
+    "age_years": 12,
+    "created_at": "2013-01-07T11:49:18Z"
+  },
+  {
+    "name": "Netflix/ribbon",
+    "stars": 4618,
+    "releases": 41,
+    "age_years": 12,
+    "created_at": "2013-01-15T01:08:04Z"
+  },
+  {
+    "name": "bepass-org/oblivion",
+    "stars": 4616,
+    "releases": 12,
+    "age_years": 1,
+    "created_at": "2024-02-08T05:50:09Z"
+  },
+  {
+    "name": "981011512/--",
+    "stars": 4612,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-06-18T22:47:21Z"
+  },
+  {
+    "name": "apache/rocketmq-externals",
+    "stars": 4607,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-03-14T07:00:06Z"
+  },
+  {
+    "name": "SplashCodes/JAViewer",
+    "stars": 4607,
+    "releases": 10,
+    "age_years": 9,
+    "created_at": "2016-05-21T08:47:10Z"
+  },
+  {
+    "name": "yasserg/crawler4j",
+    "stars": 4605,
+    "releases": 3,
+    "age_years": 13,
+    "created_at": "2011-12-31T22:49:18Z"
+  },
+  {
+    "name": "chewiebug/GCViewer",
+    "stars": 4585,
+    "releases": 5,
+    "age_years": 13,
+    "created_at": "2011-10-23T09:01:04Z"
+  },
+  {
+    "name": "CalebFenton/simplify",
+    "stars": 4584,
+    "releases": 9,
+    "age_years": 11,
+    "created_at": "2014-01-16T05:14:02Z"
+  },
+  {
+    "name": "RedSpider1/concurrent",
+    "stars": 4582,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2018-11-03T13:49:36Z"
+  },
+  {
+    "name": "SuperMonster003/AutoJs6",
+    "stars": 4580,
+    "releases": 20,
+    "age_years": 3,
+    "created_at": "2021-12-01T05:27:22Z"
+  },
+  {
+    "name": "angryip/ipscan",
+    "stars": 4578,
+    "releases": 31,
+    "age_years": 14,
+    "created_at": "2011-06-28T20:58:48Z"
+  },
+  {
+    "name": "puniverse/quasar",
+    "stars": 4577,
+    "releases": 18,
+    "age_years": 12,
+    "created_at": "2013-03-27T14:51:24Z"
+  },
+  {
+    "name": "rememberber/WePush",
+    "stars": 4570,
+    "releases": 58,
+    "age_years": 8,
+    "created_at": "2017-06-23T09:03:36Z"
+  },
+  {
+    "name": "chentao0707/SimplifyReader",
+    "stars": 4569,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-08-17T08:22:53Z"
+  },
+  {
+    "name": "javagrowing/JGrowing",
+    "stars": 4566,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-02-26T01:55:08Z"
+  },
+  {
+    "name": "dromara/dynamic-tp",
+    "stars": 4566,
+    "releases": 19,
+    "age_years": 3,
+    "created_at": "2022-01-07T16:35:27Z"
+  },
+  {
+    "name": "zhanghai/Douya",
+    "stars": 4564,
+    "releases": 11,
+    "age_years": 9,
+    "created_at": "2016-02-01T13:44:19Z"
+  },
+  {
+    "name": "objectbox/objectbox-java",
+    "stars": 4554,
+    "releases": 48,
+    "age_years": 8,
+    "created_at": "2017-01-24T10:29:48Z"
+  },
+  {
+    "name": "discord-jda/JDA",
+    "stars": 4554,
+    "releases": 110,
+    "age_years": 9,
+    "created_at": "2015-12-12T13:57:32Z"
+  },
+  {
+    "name": "go-lang-plugin-org/go-lang-idea-plugin",
+    "stars": 4550,
+    "releases": 21,
+    "age_years": 15,
+    "created_at": "2010-08-29T08:20:01Z"
+  },
+  {
+    "name": "charles2gan/GDA-android-reversing-Tool",
+    "stars": 4549,
+    "releases": 40,
+    "age_years": 7,
+    "created_at": "2017-10-31T08:18:29Z"
+  },
+  {
+    "name": "square/sqlbrite",
+    "stars": 4546,
+    "releases": 9,
+    "age_years": 10,
+    "created_at": "2015-02-19T04:38:37Z"
+  },
+  {
+    "name": "danielzeller/Depth-LIB-Android-",
+    "stars": 4543,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-04-27T09:37:28Z"
+  },
+  {
+    "name": "jdamcd/android-crop",
+    "stars": 4537,
+    "releases": 6,
+    "age_years": 11,
+    "created_at": "2014-03-13T10:24:43Z"
+  },
+  {
+    "name": "JZ-Darkal/AndroidHttpCapture",
+    "stars": 4531,
+    "releases": 1,
+    "age_years": 8,
+    "created_at": "2016-10-15T19:48:00Z"
+  },
+  {
+    "name": "alibaba/dexposed",
+    "stars": 4529,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-06-30T02:59:16Z"
+  },
+  {
+    "name": "hussien89aa/AndroidTutorialForBeginners",
+    "stars": 4529,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-09-26T16:36:28Z"
+  },
+  {
+    "name": "zhkl0228/unidbg",
+    "stars": 4524,
+    "releases": 15,
+    "age_years": 6,
+    "created_at": "2019-02-26T09:32:15Z"
+  },
+  {
+    "name": "castorflex/SmoothProgressBar",
+    "stars": 4521,
+    "releases": 9,
+    "age_years": 11,
+    "created_at": "2013-11-27T20:32:16Z"
+  },
+  {
+    "name": "ant-media/Ant-Media-Server",
+    "stars": 4516,
+    "releases": 64,
+    "age_years": 8,
+    "created_at": "2017-03-01T08:21:13Z"
+  },
+  {
+    "name": "Flipboard/bottomsheet",
+    "stars": 4516,
+    "releases": 10,
+    "age_years": 10,
+    "created_at": "2015-04-23T17:37:32Z"
+  },
+  {
+    "name": "azkaban/azkaban",
+    "stars": 4515,
+    "releases": 48,
+    "age_years": 12,
+    "created_at": "2012-10-18T01:34:53Z"
+  },
+  {
+    "name": "tiann/epic",
+    "stars": 4515,
+    "releases": 5,
+    "age_years": 8,
+    "created_at": "2017-05-22T02:52:44Z"
+  },
+  {
+    "name": "phishman3579/java-algorithms-implementation",
+    "stars": 4509,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2013-11-20T03:30:19Z"
+  },
+  {
+    "name": "HotBitmapGG/bilibili-android-client",
+    "stars": 4497,
+    "releases": 1,
+    "age_years": 9,
+    "created_at": "2016-06-01T04:36:01Z"
+  },
+  {
+    "name": "zongzibinbin/MallChat",
+    "stars": 4486,
+    "releases": 0,
+    "age_years": 2,
+    "created_at": "2023-03-16T15:04:35Z"
+  },
+  {
+    "name": "JakeWharton/NineOldAndroids",
+    "stars": 4479,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2011-12-08T19:46:37Z"
+  },
+  {
+    "name": "Meituan-Dianping/Robust",
+    "stars": 4459,
+    "releases": 13,
+    "age_years": 8,
+    "created_at": "2017-03-14T10:14:50Z"
+  },
+  {
+    "name": "janishar/android-mvp-architecture",
+    "stars": 4446,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-01-27T08:39:06Z"
+  },
+  {
+    "name": "linhaojun857/aurora",
+    "stars": 4444,
+    "releases": 0,
+    "age_years": 3,
+    "created_at": "2022-08-19T13:39:16Z"
+  },
+  {
+    "name": "h2database/h2database",
+    "stars": 4442,
+    "releases": 23,
+    "age_years": 10,
+    "created_at": "2015-04-10T19:09:09Z"
+  },
+  {
+    "name": "square/android-times-square",
+    "stars": 4439,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-01-30T20:28:27Z"
+  },
+  {
+    "name": "booklore-app/booklore",
+    "stars": 4437,
+    "releases": 88,
+    "age_years": 0,
+    "created_at": "2024-12-13T19:54:00Z"
+  },
+  {
+    "name": "dreamhead/moco",
+    "stars": 4428,
+    "releases": 1,
+    "age_years": 12,
+    "created_at": "2012-10-18T09:09:51Z"
+  },
+  {
+    "name": "water8394/flink-recommandSystem-demo",
+    "stars": 4419,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-05-15T07:55:35Z"
+  },
+  {
+    "name": "Tencent/GT",
+    "stars": 4414,
+    "releases": 3,
+    "age_years": 9,
+    "created_at": "2016-01-13T10:29:55Z"
+  },
+  {
+    "name": "airbnb/DeepLinkDispatch",
+    "stars": 4406,
+    "releases": 24,
+    "age_years": 10,
+    "created_at": "2015-06-11T21:16:48Z"
+  },
+  {
+    "name": "jacoco/jacoco",
+    "stars": 4404,
+    "releases": 49,
+    "age_years": 13,
+    "created_at": "2012-07-08T21:45:13Z"
+  },
+  {
+    "name": "IoT-Technology/IoT-Technical-Guide",
+    "stars": 4403,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-04-02T01:52:44Z"
+  },
+  {
+    "name": "apache/shiro",
+    "stars": 4402,
+    "releases": 14,
+    "age_years": 16,
+    "created_at": "2009-08-29T08:00:17Z"
+  },
+  {
+    "name": "Freeyourgadget/Gadgetbridge",
+    "stars": 4397,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-01-05T23:19:03Z"
+  },
+  {
+    "name": "robinhood/ticker",
+    "stars": 4389,
+    "releases": 9,
+    "age_years": 9,
+    "created_at": "2016-07-15T21:37:52Z"
+  },
+  {
+    "name": "flutter-webrtc/flutter-webrtc",
+    "stars": 4372,
+    "releases": 132,
+    "age_years": 7,
+    "created_at": "2018-03-07T02:26:03Z"
+  },
+  {
+    "name": "Ashok-Varma/BottomNavigation",
+    "stars": 4365,
+    "releases": 16,
+    "age_years": 9,
+    "created_at": "2016-03-19T19:19:30Z"
+  },
+  {
+    "name": "awangdev/leet-code",
+    "stars": 4356,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-04-25T19:14:09Z"
+  },
+  {
+    "name": "pytorch/serve",
+    "stars": 4347,
+    "releases": 24,
+    "age_years": 5,
+    "created_at": "2019-10-03T03:17:43Z"
+  },
+  {
+    "name": "eirslett/frontend-maven-plugin",
+    "stars": 4323,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-08-30T14:44:38Z"
+  },
+  {
+    "name": "jeasonlzy/ImagePicker",
+    "stars": 4313,
+    "releases": 5,
+    "age_years": 9,
+    "created_at": "2016-01-27T17:05:03Z"
+  },
+  {
+    "name": "mywalkb/LSPosed_mod",
+    "stars": 4310,
+    "releases": 10,
+    "age_years": 3,
+    "created_at": "2022-03-28T08:05:38Z"
+  },
+  {
+    "name": "bingoogolapple/BGARefreshLayout-Android",
+    "stars": 4310,
+    "releases": 4,
+    "age_years": 10,
+    "created_at": "2015-05-28T16:17:00Z"
+  },
+  {
+    "name": "kermitt2/grobid",
+    "stars": 4303,
+    "releases": 22,
+    "age_years": 12,
+    "created_at": "2012-09-13T15:48:54Z"
+  },
+  {
+    "name": "crate/crate",
+    "stars": 4294,
+    "releases": 139,
+    "age_years": 12,
+    "created_at": "2013-04-10T09:17:16Z"
+  },
+  {
+    "name": "dragonwell-project/dragonwell8",
+    "stars": 4287,
+    "releases": 41,
+    "age_years": 6,
+    "created_at": "2019-03-07T02:57:45Z"
+  },
+  {
+    "name": "ThirtyDegreesRay/OpenHub",
+    "stars": 4283,
+    "releases": 31,
+    "age_years": 8,
+    "created_at": "2017-07-11T13:29:51Z"
+  },
+  {
+    "name": "Snailclimb/guide-rpc-framework",
+    "stars": 4281,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-05-10T13:24:42Z"
+  },
+  {
+    "name": "mcxiaoke/android-volley",
+    "stars": 4281,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-05-21T05:35:26Z"
+  },
+  {
+    "name": "failsafe-lib/failsafe",
+    "stars": 4273,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-06-30T00:56:39Z"
+  },
+  {
+    "name": "bjmashibing/InternetArchitect",
+    "stars": 4272,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2019-10-19T16:32:01Z"
+  },
+  {
+    "name": "ongakuer/CircleIndicator",
+    "stars": 4271,
+    "releases": 7,
+    "age_years": 11,
+    "created_at": "2014-07-30T14:02:56Z"
+  },
+  {
+    "name": "brianway/java-learning",
+    "stars": 4270,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-02-09T05:20:58Z"
+  },
+  {
+    "name": "aporter/coursera-android",
+    "stars": 4265,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-01-05T09:55:31Z"
+  },
+  {
+    "name": "grantland/android-autofittextview",
+    "stars": 4261,
+    "releases": 1,
+    "age_years": 14,
+    "created_at": "2011-02-14T06:00:52Z"
+  },
+  {
+    "name": "jitsi/jitsi",
+    "stars": 4255,
+    "releases": 7,
+    "age_years": 12,
+    "created_at": "2013-04-24T17:37:20Z"
+  },
+  {
+    "name": "201206030/novel-plus",
+    "stars": 4253,
+    "releases": 34,
+    "age_years": 5,
+    "created_at": "2020-05-02T07:15:43Z"
+  },
+  {
+    "name": "google/open-location-code",
+    "stars": 4246,
+    "releases": 5,
+    "age_years": 10,
+    "created_at": "2014-09-30T18:26:35Z"
+  },
+  {
+    "name": "camunda/camunda-bpm-platform",
+    "stars": 4240,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-01-03T10:10:31Z"
+  },
+  {
+    "name": "jlegewie/zotfile",
+    "stars": 4234,
+    "releases": 33,
+    "age_years": 13,
+    "created_at": "2011-12-30T14:47:42Z"
+  },
+  {
+    "name": "s4kibs4mi/java-developer-roadmap",
+    "stars": 4224,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-04-23T06:42:13Z"
+  },
+  {
+    "name": "mybatis/spring-boot-starter",
+    "stars": 4217,
+    "releases": 32,
+    "age_years": 9,
+    "created_at": "2015-09-25T13:05:15Z"
+  },
+  {
+    "name": "ChadCSong/ShineButton",
+    "stars": 4216,
+    "releases": 2,
+    "age_years": 9,
+    "created_at": "2016-07-05T06:32:26Z"
+  },
+  {
+    "name": "jboss-javassist/javassist",
+    "stars": 4215,
+    "releases": 24,
+    "age_years": 12,
+    "created_at": "2013-05-24T08:31:32Z"
+  },
+  {
+    "name": "nining377/dolby_beta",
+    "stars": 4206,
+    "releases": 37,
+    "age_years": 5,
+    "created_at": "2020-05-19T12:13:36Z"
+  },
+  {
+    "name": "microsoft/malmo",
+    "stars": 4200,
+    "releases": 21,
+    "age_years": 9,
+    "created_at": "2016-05-17T14:58:40Z"
+  },
+  {
+    "name": "hugeterry/CoordinatorTabLayout",
+    "stars": 4199,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-01-27T13:40:28Z"
+  },
+  {
+    "name": "codingapi/tx-lcn",
+    "stars": 4198,
+    "releases": 14,
+    "age_years": 7,
+    "created_at": "2017-11-11T03:34:34Z"
+  },
+  {
+    "name": "apache/streampark",
+    "stars": 4197,
+    "releases": 15,
+    "age_years": 6,
+    "created_at": "2019-05-27T05:56:03Z"
+  },
+  {
+    "name": "yhaolpz/FloatWindow",
+    "stars": 4196,
+    "releases": 9,
+    "age_years": 7,
+    "created_at": "2017-11-14T14:33:55Z"
+  },
+  {
+    "name": "Jacksgong/JKeyboardPanelSwitch",
+    "stars": 4191,
+    "releases": 14,
+    "age_years": 10,
+    "created_at": "2015-07-01T17:42:01Z"
+  },
+  {
+    "name": "powermock/powermock",
+    "stars": 4191,
+    "releases": 16,
+    "age_years": 11,
+    "created_at": "2014-05-28T07:53:53Z"
+  },
+  {
+    "name": "zendesk/maxwell",
+    "stars": 4183,
+    "releases": 214,
+    "age_years": 10,
+    "created_at": "2015-02-09T22:06:13Z"
+  },
+  {
+    "name": "bingoogolapple/BGABanner-Android",
+    "stars": 4180,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2014-10-25T17:15:18Z"
+  },
+  {
+    "name": "aws/aws-sdk-java",
+    "stars": 4178,
+    "releases": 0,
+    "age_years": 15,
+    "created_at": "2010-03-22T23:34:58Z"
+  },
+  {
+    "name": "ReVanced/revanced-patches",
+    "stars": 4177,
+    "releases": 647,
+    "age_years": 1,
+    "created_at": "2023-12-14T01:25:17Z"
+  },
+  {
+    "name": "tencentmusic/supersonic",
+    "stars": 4164,
+    "releases": 15,
+    "age_years": 2,
+    "created_at": "2023-06-12T07:23:28Z"
+  },
+  {
+    "name": "oddfar/campus-imaotai",
+    "stars": 4162,
+    "releases": 11,
+    "age_years": 2,
+    "created_at": "2023-07-07T10:37:13Z"
+  },
+  {
+    "name": "pedrovgs/AndroidWiFiADB",
+    "stars": 4147,
+    "releases": 8,
+    "age_years": 9,
+    "created_at": "2015-10-18T21:58:45Z"
+  },
+  {
+    "name": "alibaba/fastjson2",
+    "stars": 4145,
+    "releases": 58,
+    "age_years": 3,
+    "created_at": "2022-04-17T04:27:24Z"
+  },
+  {
+    "name": "dromara/hmily",
+    "stars": 4143,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2017-09-28T06:29:01Z"
+  },
+  {
+    "name": "geoserver/geoserver",
+    "stars": 4136,
+    "releases": 62,
+    "age_years": 13,
+    "created_at": "2011-11-10T19:56:06Z"
+  },
+  {
+    "name": "dinuscxj/LoadingDrawable",
+    "stars": 4116,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-04-16T07:33:57Z"
+  },
+  {
+    "name": "karma9874/AndroRAT",
+    "stars": 4115,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-03-22T09:31:28Z"
+  },
+  {
+    "name": "alibaba/Tangram-Android",
+    "stars": 4110,
+    "releases": 38,
+    "age_years": 8,
+    "created_at": "2017-03-29T13:29:57Z"
+  },
+  {
+    "name": "pqpo/SmartCropper",
+    "stars": 4092,
+    "releases": 13,
+    "age_years": 8,
+    "created_at": "2017-08-03T11:08:41Z"
+  },
+  {
+    "name": "Manabu-GT/ExpandableTextView",
+    "stars": 4087,
+    "releases": 4,
+    "age_years": 11,
+    "created_at": "2014-05-17T19:40:15Z"
+  },
+  {
+    "name": "code4craft/tiny-spring",
+    "stars": 4082,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-01-10T16:37:57Z"
+  },
+  {
+    "name": "DTStack/chunjun",
+    "stars": 4081,
+    "releases": 30,
+    "age_years": 7,
+    "created_at": "2018-04-03T12:44:58Z"
+  },
+  {
+    "name": "qunarcorp/bistoury",
+    "stars": 4080,
+    "releases": 8,
+    "age_years": 6,
+    "created_at": "2019-08-01T07:54:25Z"
+  },
+  {
+    "name": "rubensousa/ViewPagerCards",
+    "stars": 4075,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-08-20T15:24:12Z"
+  },
+  {
+    "name": "oblac/jodd",
+    "stars": 4072,
+    "releases": 37,
+    "age_years": 13,
+    "created_at": "2012-09-07T20:26:48Z"
+  },
+  {
+    "name": "luckybilly/CC",
+    "stars": 4046,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2017-11-23T16:26:33Z"
+  },
+  {
+    "name": "freeok/so-novel",
+    "stars": 4030,
+    "releases": 45,
+    "age_years": 3,
+    "created_at": "2022-05-23T15:49:36Z"
+  },
+  {
+    "name": "oldmanpushcart/greys-anatomy",
+    "stars": 4025,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2012-11-21T19:39:35Z"
+  },
+  {
+    "name": "xcltapestry/XCL-Charts",
+    "stars": 4021,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-06-09T15:44:50Z"
+  },
+  {
+    "name": "jMonkeyEngine/jmonkeyengine",
+    "stars": 4020,
+    "releases": 76,
+    "age_years": 11,
+    "created_at": "2014-03-20T22:29:28Z"
+  },
+  {
+    "name": "JabRef/jabref",
+    "stars": 4011,
+    "releases": 45,
+    "age_years": 11,
+    "created_at": "2014-03-11T14:48:42Z"
+  },
+  {
+    "name": "BoltsFramework/Bolts-Android",
+    "stars": 4011,
+    "releases": 11,
+    "age_years": 11,
+    "created_at": "2014-01-30T04:58:14Z"
+  },
+  {
+    "name": "lcodecorex/TwinklingRefreshLayout",
+    "stars": 4007,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-03-02T12:11:56Z"
+  },
+  {
+    "name": "knowm/XChange",
+    "stars": 3999,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-02-02T10:48:28Z"
+  },
+  {
+    "name": "Yalantis/Phoenix",
+    "stars": 3999,
+    "releases": 1,
+    "age_years": 10,
+    "created_at": "2015-01-12T14:11:20Z"
+  },
+  {
+    "name": "jetty/jetty.project",
+    "stars": 3998,
+    "releases": 131,
+    "age_years": 14,
+    "created_at": "2011-07-14T01:11:57Z"
+  },
+  {
+    "name": "LibrePDF/OpenPDF",
+    "stars": 3996,
+    "releases": 83,
+    "age_years": 9,
+    "created_at": "2016-07-11T15:50:34Z"
+  },
+  {
+    "name": "jbloch/effective-java-3e-source-code",
+    "stars": 3996,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-08-03T20:48:35Z"
+  },
+  {
+    "name": "makovkastar/FloatingActionButton",
+    "stars": 3994,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-07-22T13:29:55Z"
+  },
+  {
+    "name": "Piasy/BigImageViewer",
+    "stars": 3988,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-11-06T09:55:02Z"
+  },
+  {
+    "name": "bitcoin-wallet/bitcoin-wallet",
+    "stars": 3984,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-03-31T17:06:47Z"
+  },
+  {
+    "name": "qstumn/BadgeView",
+    "stars": 3982,
+    "releases": 5,
+    "age_years": 8,
+    "created_at": "2017-02-08T02:01:39Z"
+  },
+  {
+    "name": "orhanobut/hawk",
+    "stars": 3982,
+    "releases": 22,
+    "age_years": 10,
+    "created_at": "2015-02-19T22:25:23Z"
+  },
+  {
+    "name": "mercyblitz/tech-weekly",
+    "stars": 3980,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2018-12-03T03:10:52Z"
+  },
+  {
+    "name": "torakiki/pdfsam",
+    "stars": 3966,
+    "releases": 66,
+    "age_years": 11,
+    "created_at": "2013-09-24T11:06:13Z"
+  },
+  {
+    "name": "JeremyLiao/LiveEventBus",
+    "stars": 3965,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-07-11T07:36:59Z"
+  },
+  {
+    "name": "lukas-krecan/ShedLock",
+    "stars": 3965,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-12-11T13:53:59Z"
+  },
+  {
+    "name": "zzhoujay/RichText",
+    "stars": 3960,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-07-21T09:36:01Z"
+  },
+  {
+    "name": "syncthing/syncthing-android",
+    "stars": 3959,
+    "releases": 332,
+    "age_years": 11,
+    "created_at": "2014-02-22T17:15:19Z"
+  },
+  {
+    "name": "rovo89/XposedInstaller",
+    "stars": 3958,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-04-02T20:33:05Z"
+  },
+  {
+    "name": "NotFound9/interviewGuide",
+    "stars": 3958,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-04-20T07:17:09Z"
+  },
+  {
+    "name": "lilishop/lilishop",
+    "stars": 3958,
+    "releases": 3,
+    "age_years": 4,
+    "created_at": "2021-05-14T01:28:51Z"
+  },
+  {
+    "name": "awaitility/awaitility",
+    "stars": 3957,
+    "releases": 0,
+    "age_years": 15,
+    "created_at": "2010-01-22T15:12:52Z"
+  },
+  {
+    "name": "fishercoder1534/Leetcode",
+    "stars": 3956,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-07-31T05:28:15Z"
+  },
+  {
+    "name": "RipMeApp/ripme",
+    "stars": 3956,
+    "releases": 143,
+    "age_years": 8,
+    "created_at": "2017-01-06T17:12:09Z"
+  },
+  {
+    "name": "binIoter/GuideView",
+    "stars": 3955,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-06-19T08:52:25Z"
+  },
+  {
+    "name": "googlesamples/mlkit",
+    "stars": 3947,
+    "releases": 1,
+    "age_years": 5,
+    "created_at": "2020-05-28T21:40:38Z"
+  },
+  {
+    "name": "tronprotocol/java-tron",
+    "stars": 3946,
+    "releases": 80,
+    "age_years": 7,
+    "created_at": "2017-12-26T10:20:38Z"
+  },
+  {
+    "name": "JoanZapata/android-iconify",
+    "stars": 3944,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-06-12T11:42:01Z"
+  },
+  {
+    "name": "Querz/mcaselector",
+    "stars": 3935,
+    "releases": 72,
+    "age_years": 7,
+    "created_at": "2018-04-22T22:23:26Z"
+  },
+  {
+    "name": "rengwuxian/RxJavaSamples",
+    "stars": 3928,
+    "releases": 3,
+    "age_years": 9,
+    "created_at": "2016-03-24T13:08:10Z"
+  },
+  {
+    "name": "linyiqun/DataMiningAlgorithm",
+    "stars": 3928,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-01-11T02:50:28Z"
+  },
+  {
+    "name": "pingfangushi/screw",
+    "stars": 3921,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-06-21T11:37:06Z"
+  },
+  {
+    "name": "promeG/TinyPinyin",
+    "stars": 3916,
+    "releases": 2,
+    "age_years": 9,
+    "created_at": "2015-09-30T03:24:50Z"
+  },
+  {
+    "name": "iterate-ch/cyberduck",
+    "stars": 3909,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-01-20T14:16:34Z"
+  },
+  {
+    "name": "JFormDesigner/FlatLaf",
+    "stars": 3907,
+    "releases": 87,
+    "age_years": 6,
+    "created_at": "2019-08-19T10:27:05Z"
+  },
+  {
+    "name": "bluelinelabs/Conductor",
+    "stars": 3907,
+    "releases": 36,
+    "age_years": 9,
+    "created_at": "2016-03-16T18:42:41Z"
+  },
+  {
+    "name": "sofastack/sofa-rpc",
+    "stars": 3895,
+    "releases": 63,
+    "age_years": 7,
+    "created_at": "2018-04-09T03:32:04Z"
+  },
+  {
+    "name": "databricks/learning-spark",
+    "stars": 3893,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-06-16T04:47:54Z"
+  },
+  {
+    "name": "shuzijun/leetcode-editor",
+    "stars": 3893,
+    "releases": 55,
+    "age_years": 6,
+    "created_at": "2019-03-19T16:32:17Z"
+  },
+  {
+    "name": "JavaNoober/BackgroundLibrary",
+    "stars": 3893,
+    "releases": 13,
+    "age_years": 7,
+    "created_at": "2018-09-09T08:52:45Z"
+  },
+  {
+    "name": "alibaba/jstorm",
+    "stars": 3892,
+    "releases": 22,
+    "age_years": 12,
+    "created_at": "2013-09-03T03:53:16Z"
+  },
+  {
+    "name": "Exrick/xboot",
+    "stars": 3889,
+    "releases": 6,
+    "age_years": 7,
+    "created_at": "2018-04-23T14:44:18Z"
+  },
+  {
+    "name": "ReChronoRain/HyperCeiler",
+    "stars": 3889,
+    "releases": 7,
+    "age_years": 1,
+    "created_at": "2023-10-27T17:17:42Z"
+  },
+  {
+    "name": "amirzaidi/Launcher3",
+    "stars": 3886,
+    "releases": 22,
+    "age_years": 8,
+    "created_at": "2017-05-30T12:53:32Z"
+  },
+  {
+    "name": "VaughnVernon/IDDD_Samples",
+    "stars": 3885,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-04-08T22:12:57Z"
+  },
+  {
+    "name": "vipulasri/Timeline-View",
+    "stars": 3885,
+    "releases": 15,
+    "age_years": 9,
+    "created_at": "2015-12-15T14:55:04Z"
+  },
+  {
+    "name": "M66B/FairEmail",
+    "stars": 3860,
+    "releases": 1000,
+    "age_years": 7,
+    "created_at": "2018-08-02T13:30:25Z"
+  },
+  {
+    "name": "wendux/DSBridge-Android",
+    "stars": 3857,
+    "releases": 2,
+    "age_years": 8,
+    "created_at": "2017-01-02T11:58:53Z"
+  },
+  {
+    "name": "uber/NullAway",
+    "stars": 3845,
+    "releases": 30,
+    "age_years": 8,
+    "created_at": "2017-09-01T17:35:57Z"
+  },
+  {
+    "name": "kubernetes-client/java",
+    "stars": 3835,
+    "releases": 55,
+    "age_years": 8,
+    "created_at": "2017-05-08T21:52:58Z"
+  },
+  {
+    "name": "aurelhubert/ahbottomnavigation",
+    "stars": 3830,
+    "releases": 14,
+    "age_years": 9,
+    "created_at": "2016-03-17T12:17:56Z"
+  },
+  {
+    "name": "MiguelCatalan/MaterialSearchView",
+    "stars": 3826,
+    "releases": 6,
+    "age_years": 9,
+    "created_at": "2015-09-14T17:13:46Z"
+  },
+  {
+    "name": "google/bundletool",
+    "stars": 3821,
+    "releases": 63,
+    "age_years": 7,
+    "created_at": "2018-05-04T07:24:09Z"
+  },
+  {
+    "name": "yanzhenjie/AndServer",
+    "stars": 3819,
+    "releases": 1,
+    "age_years": 9,
+    "created_at": "2016-06-14T00:52:52Z"
+  },
+  {
+    "name": "react-native-share/react-native-share",
+    "stars": 3817,
+    "releases": 139,
+    "age_years": 9,
+    "created_at": "2015-09-30T02:27:34Z"
+  },
+  {
+    "name": "uknownothingsnow/CircleProgress",
+    "stars": 3817,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2014-10-30T16:14:42Z"
+  },
+  {
+    "name": "ZHENFENG13/My-Blog",
+    "stars": 3814,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-03-04T09:17:00Z"
+  },
+  {
+    "name": "jishenghua/jshERP",
+    "stars": 3807,
+    "releases": 6,
+    "age_years": 8,
+    "created_at": "2016-09-20T04:51:39Z"
+  },
+  {
+    "name": "camunda/camunda",
+    "stars": 3795,
+    "releases": 468,
+    "age_years": 9,
+    "created_at": "2016-03-20T03:38:04Z"
+  },
+  {
+    "name": "gh0stkey/HaE",
+    "stars": 3794,
+    "releases": 77,
+    "age_years": 5,
+    "created_at": "2020-03-24T10:12:50Z"
+  },
+  {
+    "name": "shopizer-ecommerce/shopizer",
+    "stars": 3793,
+    "releases": 18,
+    "age_years": 12,
+    "created_at": "2012-11-21T03:42:39Z"
+  },
+  {
+    "name": "sunfusheng/MarqueeView",
+    "stars": 3792,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-06-01T06:50:46Z"
+  },
+  {
+    "name": "Dimezis/BlurView",
+    "stars": 3792,
+    "releases": 31,
+    "age_years": 9,
+    "created_at": "2016-04-21T16:00:07Z"
+  },
+  {
+    "name": "Helium314/HeliBoard",
+    "stars": 3789,
+    "releases": 50,
+    "age_years": 3,
+    "created_at": "2022-03-09T08:38:32Z"
+  },
+  {
+    "name": "fesh0r/fernflower",
+    "stars": 3783,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2014-10-03T05:00:15Z"
+  },
+  {
+    "name": "mpusher/mpush",
+    "stars": 3779,
+    "releases": 9,
+    "age_years": 9,
+    "created_at": "2016-04-28T01:43:19Z"
+  },
+  {
+    "name": "lygttpod/SuperTextView",
+    "stars": 3774,
+    "releases": 39,
+    "age_years": 8,
+    "created_at": "2016-10-19T04:06:54Z"
+  },
+  {
+    "name": "mcxtzhang/SwipeDelMenuLayout",
+    "stars": 3774,
+    "releases": 2,
+    "age_years": 9,
+    "created_at": "2016-08-25T08:10:45Z"
+  },
+  {
+    "name": "watabou/pixel-dungeon",
+    "stars": 3772,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-07-26T17:34:32Z"
+  },
+  {
+    "name": "CameraKit/blurkit-android",
+    "stars": 3767,
+    "releases": 3,
+    "age_years": 8,
+    "created_at": "2016-11-06T03:14:58Z"
+  },
+  {
+    "name": "ageerle/ruoyi-ai",
+    "stars": 3756,
+    "releases": 6,
+    "age_years": 1,
+    "created_at": "2024-01-16T04:16:41Z"
+  },
+  {
+    "name": "MovingBlocks/Terasology",
+    "stars": 3756,
+    "releases": 70,
+    "age_years": 14,
+    "created_at": "2011-03-04T03:49:19Z"
+  },
+  {
+    "name": "Ereza/CustomActivityOnCrash",
+    "stars": 3755,
+    "releases": 12,
+    "age_years": 11,
+    "created_at": "2014-07-04T19:46:21Z"
+  },
+  {
+    "name": "roboguice/roboguice",
+    "stars": 3752,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-08-12T20:37:19Z"
+  },
+  {
+    "name": "timehop/sticky-headers-recyclerview",
+    "stars": 3750,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2014-10-03T01:57:46Z"
+  },
+  {
+    "name": "apache/kylin",
+    "stars": 3748,
+    "releases": 2,
+    "age_years": 10,
+    "created_at": "2015-01-03T08:00:05Z"
+  },
+  {
+    "name": "zhpanvip/BannerViewPager",
+    "stars": 3748,
+    "releases": 59,
+    "age_years": 8,
+    "created_at": "2017-03-28T09:11:11Z"
+  },
+  {
+    "name": "sofastack/sofa-jraft",
+    "stars": 3743,
+    "releases": 32,
+    "age_years": 6,
+    "created_at": "2019-03-04T10:13:43Z"
+  },
+  {
+    "name": "andOTP/andOTP",
+    "stars": 3741,
+    "releases": 38,
+    "age_years": 8,
+    "created_at": "2017-07-05T11:39:52Z"
+  },
+  {
+    "name": "AsamK/signal-cli",
+    "stars": 3738,
+    "releases": 102,
+    "age_years": 10,
+    "created_at": "2015-05-11T10:49:42Z"
+  },
+  {
+    "name": "RoaringBitmap/RoaringBitmap",
+    "stars": 3735,
+    "releases": 39,
+    "age_years": 12,
+    "created_at": "2013-06-17T20:29:23Z"
+  },
+  {
+    "name": "spotbugs/spotbugs",
+    "stars": 3731,
+    "releases": 69,
+    "age_years": 8,
+    "created_at": "2016-11-04T22:18:08Z"
+  },
+  {
+    "name": "JCTools/JCTools",
+    "stars": 3727,
+    "releases": 18,
+    "age_years": 11,
+    "created_at": "2013-11-10T18:04:40Z"
+  },
+  {
+    "name": "ethanhua/Skeleton",
+    "stars": 3727,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-07-30T06:42:39Z"
+  },
+  {
+    "name": "Atmosphere/atmosphere",
+    "stars": 3720,
+    "releases": 0,
+    "age_years": 15,
+    "created_at": "2010-06-30T14:26:23Z"
+  },
+  {
+    "name": "willowtreeapps/spruce-android",
+    "stars": 3719,
+    "releases": 3,
+    "age_years": 8,
+    "created_at": "2017-02-23T20:34:18Z"
+  },
+  {
+    "name": "ByteLegend/ByteLegend",
+    "stars": 3717,
+    "releases": 0,
+    "age_years": 4,
+    "created_at": "2021-02-01T10:11:30Z"
+  },
+  {
+    "name": "stfalcon-studio/ChatKit",
+    "stars": 3715,
+    "releases": 1,
+    "age_years": 8,
+    "created_at": "2017-02-02T09:37:15Z"
+  },
+  {
+    "name": "liuyubobobo/Play-with-Algorithms",
+    "stars": 3709,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-07-05T18:16:22Z"
+  },
+  {
+    "name": "ryanhoo/StylishMusicPlayer",
+    "stars": 3708,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-09-13T14:38:32Z"
+  },
+  {
+    "name": "yanzhenjie/NoHttp",
+    "stars": 3704,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-07-29T06:11:12Z"
+  },
+  {
+    "name": "rbmonster/learning-note",
+    "stars": 3700,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-06-15T16:47:25Z"
+  },
+  {
+    "name": "undertow-io/undertow",
+    "stars": 3694,
+    "releases": 9,
+    "age_years": 13,
+    "created_at": "2012-07-19T00:52:44Z"
+  },
+  {
+    "name": "jtablesaw/tablesaw",
+    "stars": 3689,
+    "releases": 79,
+    "age_years": 9,
+    "created_at": "2016-01-01T14:58:28Z"
+  },
+  {
+    "name": "nICEnnnnnnnLee/BilibiliDown",
+    "stars": 3687,
+    "releases": 80,
+    "age_years": 6,
+    "created_at": "2019-01-23T06:56:46Z"
+  },
+  {
+    "name": "javahuang/SurveyKing",
+    "stars": 3683,
+    "releases": 3,
+    "age_years": 4,
+    "created_at": "2021-09-06T13:34:14Z"
+  },
+  {
+    "name": "Creators-of-Create/Create",
+    "stars": 3679,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-07-18T08:27:10Z"
+  },
+  {
+    "name": "yangfuhai/ASimpleCache",
+    "stars": 3678,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-07-28T13:50:59Z"
+  },
+  {
+    "name": "lihangleo2/ShadowLayout",
+    "stars": 3677,
+    "releases": 28,
+    "age_years": 6,
+    "created_at": "2019-07-09T07:17:06Z"
+  },
+  {
+    "name": "helidon-io/helidon",
+    "stars": 3677,
+    "releases": 130,
+    "age_years": 7,
+    "created_at": "2018-08-27T11:03:52Z"
+  },
+  {
+    "name": "lisawray/groupie",
+    "stars": 3672,
+    "releases": 28,
+    "age_years": 9,
+    "created_at": "2016-09-01T20:59:35Z"
+  },
+  {
+    "name": "dingjikerbo/Android-BluetoothKit",
+    "stars": 3671,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-10-08T09:07:33Z"
+  },
+  {
+    "name": "networknt/light-4j",
+    "stars": 3671,
+    "releases": 192,
+    "age_years": 9,
+    "created_at": "2016-09-09T22:28:14Z"
+  },
+  {
+    "name": "grpc-ecosystem/grpc-spring",
+    "stars": 3670,
+    "releases": 34,
+    "age_years": 8,
+    "created_at": "2016-12-30T09:06:15Z"
+  },
+  {
+    "name": "google/rejoiner",
+    "stars": 3670,
+    "releases": 3,
+    "age_years": 7,
+    "created_at": "2017-12-06T19:09:53Z"
+  },
+  {
+    "name": "yacy/yacy_search_server",
+    "stars": 3668,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-03-22T12:54:20Z"
+  },
+  {
+    "name": "KunMinX/Linkage-RecyclerView",
+    "stars": 3667,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-04-22T04:39:46Z"
+  },
+  {
+    "name": "linkedin/databus",
+    "stars": 3666,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2012-12-17T17:49:17Z"
+  },
+  {
+    "name": "coderbruis/JavaSourceCodeLearning",
+    "stars": 3662,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-06-02T13:34:20Z"
+  },
+  {
+    "name": "PlexPt/chatgpt-java",
+    "stars": 3648,
+    "releases": 24,
+    "age_years": 2,
+    "created_at": "2022-12-07T04:55:33Z"
+  },
+  {
+    "name": "tchiotludo/akhq",
+    "stars": 3645,
+    "releases": 42,
+    "age_years": 7,
+    "created_at": "2018-09-09T19:35:39Z"
+  },
+  {
+    "name": "litesuits/android-common",
+    "stars": 3643,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-05-29T08:08:00Z"
+  },
+  {
+    "name": "microservices-patterns/ftgo-application",
+    "stars": 3627,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2017-10-23T04:30:04Z"
+  },
+  {
+    "name": "huburt-Hu/NewbieGuide",
+    "stars": 3623,
+    "releases": 20,
+    "age_years": 8,
+    "created_at": "2017-07-28T06:54:05Z"
+  },
+  {
+    "name": "apache/incubator-heron",
+    "stars": 3621,
+    "releases": 56,
+    "age_years": 9,
+    "created_at": "2015-09-25T16:09:24Z"
+  },
+  {
+    "name": "FasterXML/jackson-databind",
+    "stars": 3620,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2011-12-23T07:17:41Z"
+  },
+  {
+    "name": "rockerhieu/emojicon",
+    "stars": 3614,
+    "releases": 2,
+    "age_years": 11,
+    "created_at": "2014-01-18T12:32:38Z"
+  },
+  {
+    "name": "blossom-editor/blossom",
+    "stars": 3611,
+    "releases": 19,
+    "age_years": 2,
+    "created_at": "2023-08-07T03:02:17Z"
+  },
+  {
+    "name": "spockframework/spock",
+    "stars": 3608,
+    "releases": 26,
+    "age_years": 14,
+    "created_at": "2010-12-12T19:02:34Z"
+  },
+  {
+    "name": "alibaba/Alink",
+    "stars": 3608,
+    "releases": 22,
+    "age_years": 6,
+    "created_at": "2018-09-30T06:36:11Z"
+  },
+  {
+    "name": "uncle-novel/uncle-novel",
+    "stars": 3602,
+    "releases": 1,
+    "age_years": 6,
+    "created_at": "2018-12-11T12:15:30Z"
+  },
+  {
+    "name": "Mojang/brigadier",
+    "stars": 3600,
+    "releases": 3,
+    "age_years": 10,
+    "created_at": "2014-09-15T08:48:24Z"
+  },
+  {
+    "name": "tyrantgit/ExplosionField",
+    "stars": 3595,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-09-23T11:34:50Z"
+  },
+  {
+    "name": "spring-io/initializr",
+    "stars": 3594,
+    "releases": 17,
+    "age_years": 12,
+    "created_at": "2013-06-07T16:02:22Z"
+  },
+  {
+    "name": "mbechler/marshalsec",
+    "stars": 3592,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-05-22T11:43:57Z"
+  },
+  {
+    "name": "kikoso/android-stackblur",
+    "stars": 3592,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-08-15T14:44:32Z"
+  },
+  {
+    "name": "dtinit/data-transfer-project",
+    "stars": 3589,
+    "releases": 61,
+    "age_years": 7,
+    "created_at": "2018-01-04T21:27:57Z"
+  },
+  {
+    "name": "dongjunkun/DropDownMenu",
+    "stars": 3586,
+    "releases": 2,
+    "age_years": 10,
+    "created_at": "2015-06-23T07:43:56Z"
+  },
+  {
+    "name": "vert-x3/vertx-examples",
+    "stars": 3582,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-02-24T17:42:44Z"
+  },
+  {
+    "name": "hmkcode/Android",
+    "stars": 3579,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-09-02T16:12:28Z"
+  },
+  {
+    "name": "WVector/AppUpdate",
+    "stars": 3577,
+    "releases": 3,
+    "age_years": 8,
+    "created_at": "2017-06-19T09:38:42Z"
+  },
+  {
+    "name": "googlemaps/android-maps-utils",
+    "stars": 3575,
+    "releases": 55,
+    "age_years": 12,
+    "created_at": "2013-05-17T00:08:48Z"
+  },
+  {
+    "name": "OpenHFT/Chronicle-Queue",
+    "stars": 3571,
+    "releases": 533,
+    "age_years": 12,
+    "created_at": "2013-06-02T15:11:33Z"
+  },
+  {
+    "name": "JakeWharton/ThreeTenABP",
+    "stars": 3570,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-07-03T17:35:09Z"
+  },
+  {
+    "name": "davideas/FlexibleAdapter",
+    "stars": 3570,
+    "releases": 30,
+    "age_years": 10,
+    "created_at": "2015-05-02T22:00:43Z"
+  },
+  {
+    "name": "IrisShaders/Iris",
+    "stars": 3569,
+    "releases": 140,
+    "age_years": 4,
+    "created_at": "2020-10-22T20:21:12Z"
+  },
+  {
+    "name": "fabric8io/kubernetes-client",
+    "stars": 3564,
+    "releases": 124,
+    "age_years": 10,
+    "created_at": "2015-07-09T15:43:13Z"
+  },
+  {
+    "name": "code4craft/netty-learning",
+    "stars": 3558,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2013-09-19T02:24:25Z"
+  },
+  {
+    "name": "dropbox/hackpad",
+    "stars": 3556,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-08-14T02:32:17Z"
+  },
+  {
+    "name": "bilibili/MagicaSakura",
+    "stars": 3556,
+    "releases": 3,
+    "age_years": 9,
+    "created_at": "2016-06-23T07:54:59Z"
+  },
+  {
+    "name": "DataLinkDC/dinky",
+    "stars": 3549,
+    "releases": 31,
+    "age_years": 4,
+    "created_at": "2021-06-09T07:11:26Z"
+  },
+  {
+    "name": "johncarl81/parceler",
+    "stars": 3544,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-07-03T02:53:01Z"
+  },
+  {
+    "name": "arimorty/floatingsearchview",
+    "stars": 3535,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-11-22T02:38:32Z"
+  },
+  {
+    "name": "anggrayudi/android-hidden-api",
+    "stars": 3534,
+    "releases": 2,
+    "age_years": 9,
+    "created_at": "2015-09-16T11:58:33Z"
+  },
+  {
+    "name": "LinShunKang/MyPerf4J",
+    "stars": 3534,
+    "releases": 23,
+    "age_years": 7,
+    "created_at": "2018-03-11T09:58:44Z"
+  },
+  {
+    "name": "springdoc/springdoc-openapi",
+    "stars": 3533,
+    "releases": 96,
+    "age_years": 6,
+    "created_at": "2019-07-11T23:08:20Z"
+  },
+  {
+    "name": "fyhertz/libstreaming",
+    "stars": 3533,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-01-30T21:24:47Z"
+  },
+  {
+    "name": "luontola/retrolambda",
+    "stars": 3531,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-07-20T07:25:22Z"
+  },
+  {
+    "name": "HelloWorld521/Java",
+    "stars": 3530,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-12-08T14:01:46Z"
+  },
+  {
+    "name": "andremion/Music-Player",
+    "stars": 3525,
+    "releases": 2,
+    "age_years": 9,
+    "created_at": "2016-05-06T21:55:37Z"
+  },
+  {
+    "name": "apache/logging-log4j2",
+    "stars": 3522,
+    "releases": 15,
+    "age_years": 12,
+    "created_at": "2013-06-12T07:00:19Z"
+  },
+  {
+    "name": "spring-cloud/spring-cloud-kubernetes",
+    "stars": 3520,
+    "releases": 32,
+    "age_years": 8,
+    "created_at": "2016-12-13T21:36:25Z"
+  },
+  {
+    "name": "dariuszseweryn/RxAndroidBle",
+    "stars": 3518,
+    "releases": 60,
+    "age_years": 9,
+    "created_at": "2016-02-04T13:42:02Z"
+  },
+  {
+    "name": "lsjwzh/RecyclerViewPager",
+    "stars": 3517,
+    "releases": 10,
+    "age_years": 10,
+    "created_at": "2015-01-17T18:30:34Z"
+  },
+  {
+    "name": "immutables/immutables",
+    "stars": 3516,
+    "releases": 15,
+    "age_years": 12,
+    "created_at": "2013-07-07T13:48:23Z"
+  },
+  {
+    "name": "Netflix/maestro",
+    "stars": 3515,
+    "releases": 0,
+    "age_years": 1,
+    "created_at": "2024-04-17T01:15:56Z"
+  },
+  {
+    "name": "nytimes/Store",
+    "stars": 3512,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-11-29T20:17:11Z"
+  },
+  {
+    "name": "1024-lab/smart-admin",
+    "stars": 3509,
+    "releases": 22,
+    "age_years": 5,
+    "created_at": "2019-11-16T02:30:31Z"
+  },
+  {
+    "name": "codeestX/GeekNews",
+    "stars": 3508,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-08-07T14:56:56Z"
+  },
+  {
+    "name": "baoyongzhang/SwipeMenuListView",
+    "stars": 3506,
+    "releases": 2,
+    "age_years": 11,
+    "created_at": "2014-08-24T15:40:45Z"
+  },
+  {
+    "name": "cSploit/android",
+    "stars": 3503,
+    "releases": 33,
+    "age_years": 10,
+    "created_at": "2014-10-04T05:53:29Z"
+  },
+  {
+    "name": "lenve/JavaEETest",
+    "stars": 3497,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-12-13T02:13:58Z"
+  },
+  {
+    "name": "KingJA/LoadSir",
+    "stars": 3493,
+    "releases": 6,
+    "age_years": 8,
+    "created_at": "2017-09-02T08:32:15Z"
+  },
+  {
+    "name": "dromara/liteflow",
+    "stars": 3491,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-03-25T16:49:22Z"
+  },
+  {
+    "name": "TNG/ArchUnit",
+    "stars": 3488,
+    "releases": 43,
+    "age_years": 8,
+    "created_at": "2017-04-21T08:39:20Z"
+  },
+  {
+    "name": "AxonFramework/AxonFramework",
+    "stars": 3487,
+    "releases": 136,
+    "age_years": 13,
+    "created_at": "2011-12-02T16:04:42Z"
+  },
+  {
+    "name": "ittianyu/BottomNavigationViewEx",
+    "stars": 3476,
+    "releases": 19,
+    "age_years": 8,
+    "created_at": "2016-11-12T08:39:38Z"
+  },
+  {
+    "name": "phodal/migration",
+    "stars": 3465,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-01-08T02:11:38Z"
+  },
+  {
+    "name": "rubensousa/PreviewSeekBar",
+    "stars": 3461,
+    "releases": 10,
+    "age_years": 8,
+    "created_at": "2017-01-24T23:52:44Z"
+  },
+  {
+    "name": "ferredoxin/QNotified",
+    "stars": 3460,
+    "releases": 28,
+    "age_years": 6,
+    "created_at": "2019-03-24T05:12:41Z"
+  },
+  {
+    "name": "eclipse-openj9/openj9",
+    "stars": 3460,
+    "releases": 53,
+    "age_years": 8,
+    "created_at": "2017-08-25T13:46:07Z"
+  },
+  {
+    "name": "Grt1228/chatgpt-java",
+    "stars": 3459,
+    "releases": 10,
+    "age_years": 2,
+    "created_at": "2023-02-11T08:54:54Z"
+  },
+  {
+    "name": "Netflix/concurrency-limits",
+    "stars": 3455,
+    "releases": 102,
+    "age_years": 7,
+    "created_at": "2017-12-11T19:32:41Z"
+  },
+  {
+    "name": "RikkaApps/Sui",
+    "stars": 3450,
+    "releases": 21,
+    "age_years": 4,
+    "created_at": "2021-01-03T08:26:16Z"
+  },
+  {
+    "name": "alamkanak/Android-Week-View",
+    "stars": 3448,
+    "releases": 4,
+    "age_years": 10,
+    "created_at": "2014-09-17T10:07:12Z"
+  },
+  {
+    "name": "crossoverJie/SSM",
+    "stars": 3441,
+    "releases": 10,
+    "age_years": 9,
+    "created_at": "2016-06-21T10:09:02Z"
+  },
+  {
+    "name": "freeplane/freeplane",
+    "stars": 3440,
+    "releases": 10,
+    "age_years": 12,
+    "created_at": "2012-09-13T08:55:51Z"
+  },
+  {
+    "name": "rom1v/sndcpy",
+    "stars": 3436,
+    "releases": 2,
+    "age_years": 5,
+    "created_at": "2020-06-09T19:36:57Z"
+  },
+  {
+    "name": "apache/fory",
+    "stars": 3435,
+    "releases": 49,
+    "age_years": 2,
+    "created_at": "2023-04-28T03:57:00Z"
+  },
+  {
+    "name": "sherxon/AlgoDS",
+    "stars": 3433,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-12-16T17:01:22Z"
+  },
+  {
+    "name": "guolindev/giffun",
+    "stars": 3432,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-01-28T05:11:00Z"
+  },
+  {
+    "name": "xcc3641/SeeWeather",
+    "stars": 3426,
+    "releases": 2,
+    "age_years": 9,
+    "created_at": "2016-02-20T13:10:14Z"
+  },
+  {
+    "name": "WinterChenS/my-site",
+    "stars": 3425,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-05-03T09:05:37Z"
+  },
+  {
+    "name": "GitLqr/LQRWeChat",
+    "stars": 3421,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-02-07T06:32:40Z"
+  },
+  {
+    "name": "woxingxiao/BubbleSeekBar",
+    "stars": 3419,
+    "releases": 12,
+    "age_years": 8,
+    "created_at": "2016-11-03T14:31:05Z"
+  },
+  {
+    "name": "getActivity/Toaster",
+    "stars": 3416,
+    "releases": 36,
+    "age_years": 6,
+    "created_at": "2018-09-16T05:28:57Z"
+  },
+  {
+    "name": "google/volley",
+    "stars": 3415,
+    "releases": 9,
+    "age_years": 8,
+    "created_at": "2017-01-24T17:39:33Z"
+  },
+  {
+    "name": "openhab/openhab1-addons",
+    "stars": 3413,
+    "releases": 14,
+    "age_years": 11,
+    "created_at": "2013-09-20T20:28:43Z"
+  },
+  {
+    "name": "apache/incubator-kie-optaplanner",
+    "stars": 3412,
+    "releases": 6,
+    "age_years": 14,
+    "created_at": "2011-02-15T19:38:23Z"
+  },
+  {
+    "name": "yigit/android-priority-jobqueue",
+    "stars": 3392,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-06-20T00:12:45Z"
+  },
+  {
+    "name": "apache/linkis",
+    "stars": 3387,
+    "releases": 32,
+    "age_years": 6,
+    "created_at": "2019-07-23T06:41:51Z"
+  },
+  {
+    "name": "portfolio-performance/portfolio",
+    "stars": 3379,
+    "releases": 247,
+    "age_years": 13,
+    "created_at": "2012-03-24T09:43:08Z"
+  },
+  {
+    "name": "kevinsawicki/http-request",
+    "stars": 3370,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2011-10-21T19:54:58Z"
+  },
+  {
+    "name": "uber/AutoDispose",
+    "stars": 3369,
+    "releases": 4,
+    "age_years": 8,
+    "created_at": "2016-12-22T18:46:11Z"
+  },
+  {
+    "name": "avast/android-butterknife-zelezny",
+    "stars": 3369,
+    "releases": 8,
+    "age_years": 11,
+    "created_at": "2013-12-23T14:24:08Z"
+  },
+  {
+    "name": "Devo919/Gewechat",
+    "stars": 3368,
+    "releases": 0,
+    "age_years": 1,
+    "created_at": "2024-07-22T16:56:20Z"
+  },
+  {
+    "name": "abel533/MyBatis-Spring-Boot",
+    "stars": 3365,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-12-19T09:57:22Z"
+  },
+  {
+    "name": "amitshekhariitbhu/PRDownloader",
+    "stars": 3362,
+    "releases": 8,
+    "age_years": 7,
+    "created_at": "2017-11-11T19:29:38Z"
+  },
+  {
+    "name": "cropsly/ffmpeg-android-java",
+    "stars": 3356,
+    "releases": 8,
+    "age_years": 10,
+    "created_at": "2014-09-11T10:12:09Z"
+  },
+  {
+    "name": "aragozin/jvm-tools",
+    "stars": 3341,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-04-28T09:28:32Z"
+  },
+  {
+    "name": "EngineHub/WorldEdit",
+    "stars": 3337,
+    "releases": 0,
+    "age_years": 14,
+    "created_at": "2010-09-28T08:11:57Z"
+  },
+  {
+    "name": "Haleydu/Cimoc",
+    "stars": 3333,
+    "releases": 61,
+    "age_years": 5,
+    "created_at": "2020-07-09T03:09:02Z"
+  },
+  {
+    "name": "luojilab/DDComponentForAndroid",
+    "stars": 3332,
+    "releases": 4,
+    "age_years": 8,
+    "created_at": "2017-09-07T05:48:44Z"
+  },
+  {
+    "name": "dunwu/javacore",
+    "stars": 3328,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-08-18T11:05:08Z"
+  },
+  {
+    "name": "iammert/ScalingLayout",
+    "stars": 3321,
+    "releases": 4,
+    "age_years": 7,
+    "created_at": "2017-10-01T12:28:34Z"
+  },
+  {
+    "name": "ivacf/archi",
+    "stars": 3318,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-09-11T16:13:34Z"
+  },
+  {
+    "name": "wix/react-native-notifications",
+    "stars": 3314,
+    "releases": 28,
+    "age_years": 9,
+    "created_at": "2016-04-06T13:17:44Z"
+  },
+  {
+    "name": "chenBingX/SuperTextView",
+    "stars": 3312,
+    "releases": 33,
+    "age_years": 8,
+    "created_at": "2017-04-17T11:32:41Z"
+  },
+  {
+    "name": "trojan-gfw/igniter",
+    "stars": 3308,
+    "releases": 33,
+    "age_years": 6,
+    "created_at": "2018-11-08T22:19:03Z"
+  },
+  {
+    "name": "aeron-io/simple-binary-encoding",
+    "stars": 3307,
+    "releases": 99,
+    "age_years": 12,
+    "created_at": "2013-09-03T09:13:34Z"
+  },
+  {
+    "name": "gouthampradhan/leetcode",
+    "stars": 3306,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-03-09T10:30:30Z"
+  },
+  {
+    "name": "Guardsquare/proguard",
+    "stars": 3297,
+    "releases": 32,
+    "age_years": 6,
+    "created_at": "2019-03-27T16:35:35Z"
+  },
+  {
+    "name": "shekhargulati/99-problems",
+    "stars": 3297,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-11-22T05:56:33Z"
+  },
+  {
+    "name": "mmin18/RealtimeBlurView",
+    "stars": 3296,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-09-21T15:59:51Z"
+  },
+  {
+    "name": "chengxy-nds/Springboot-Notebook",
+    "stars": 3295,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-06-29T02:34:59Z"
+  },
+  {
+    "name": "eishay/jvm-serializers",
+    "stars": 3292,
+    "releases": 0,
+    "age_years": 15,
+    "created_at": "2010-04-25T03:12:00Z"
+  },
+  {
+    "name": "dotintent/react-native-ble-plx",
+    "stars": 3291,
+    "releases": 30,
+    "age_years": 9,
+    "created_at": "2016-07-27T10:57:27Z"
+  },
+  {
+    "name": "Oleg-Beloy/ChipsLayoutManager",
+    "stars": 3285,
+    "releases": 11,
+    "age_years": 9,
+    "created_at": "2016-08-03T19:23:43Z"
+  },
+  {
+    "name": "Tencent/spring-cloud-tencent",
+    "stars": 3284,
+    "releases": 173,
+    "age_years": 4,
+    "created_at": "2021-07-29T05:12:42Z"
+  },
+  {
+    "name": "UnevenSoftware/LeafPic",
+    "stars": 3280,
+    "releases": 7,
+    "age_years": 9,
+    "created_at": "2016-01-07T17:24:12Z"
+  },
+  {
+    "name": "KeepSafe/ReLinker",
+    "stars": 3279,
+    "releases": 12,
+    "age_years": 9,
+    "created_at": "2015-10-15T18:23:00Z"
+  },
+  {
+    "name": "actorapp/actor-platform",
+    "stars": 3273,
+    "releases": 97,
+    "age_years": 10,
+    "created_at": "2015-06-21T00:29:57Z"
+  },
+  {
+    "name": "elvishew/xLog",
+    "stars": 3273,
+    "releases": 17,
+    "age_years": 9,
+    "created_at": "2015-12-17T05:50:05Z"
+  },
+  {
+    "name": "apache/maven-mvnd",
+    "stars": 3271,
+    "releases": 41,
+    "age_years": 5,
+    "created_at": "2019-09-21T17:49:30Z"
+  },
+  {
+    "name": "eleme/UETool",
+    "stars": 3267,
+    "releases": 10,
+    "age_years": 7,
+    "created_at": "2018-05-16T08:13:17Z"
+  },
+  {
+    "name": "jenly1314/ZXingLite",
+    "stars": 3266,
+    "releases": 43,
+    "age_years": 7,
+    "created_at": "2018-08-09T09:27:04Z"
+  },
+  {
+    "name": "android-notes/Cockroach",
+    "stars": 3265,
+    "releases": 1,
+    "age_years": 8,
+    "created_at": "2017-02-14T03:43:51Z"
+  },
+  {
+    "name": "guoguibing/librec",
+    "stars": 3265,
+    "releases": 3,
+    "age_years": 11,
+    "created_at": "2014-01-09T16:06:11Z"
+  },
+  {
+    "name": "bastillion-io/Bastillion",
+    "stars": 3264,
+    "releases": 18,
+    "age_years": 12,
+    "created_at": "2013-02-07T23:11:49Z"
+  },
+  {
+    "name": "java-aodeng/hope-boot",
+    "stars": 3255,
+    "releases": 2,
+    "age_years": 6,
+    "created_at": "2018-10-17T07:50:48Z"
+  },
+  {
+    "name": "jfinal/jfinal",
+    "stars": 3254,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-04-25T08:48:48Z"
+  },
+  {
+    "name": "oasisfeng/island",
+    "stars": 3246,
+    "releases": 50,
+    "age_years": 9,
+    "created_at": "2016-04-23T11:30:18Z"
+  },
+  {
+    "name": "wenbochang888/house",
+    "stars": 3243,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2018-11-02T13:33:10Z"
+  },
+  {
+    "name": "aserbao/AndroidCamera",
+    "stars": 3242,
+    "releases": 1,
+    "age_years": 7,
+    "created_at": "2018-05-04T09:43:46Z"
+  },
+  {
+    "name": "tangqi92/Android-Tips",
+    "stars": 3240,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-09-10T09:01:47Z"
+  },
+  {
+    "name": "nageoffer/12306",
+    "stars": 3234,
+    "releases": 0,
+    "age_years": 2,
+    "created_at": "2023-05-30T04:08:28Z"
+  },
+  {
+    "name": "Neamar/KISS",
+    "stars": 3230,
+    "releases": 102,
+    "age_years": 12,
+    "created_at": "2012-10-02T16:03:43Z"
+  },
+  {
+    "name": "yangchong211/YCAppTool",
+    "stars": 3228,
+    "releases": 10,
+    "age_years": 7,
+    "created_at": "2017-09-28T07:44:04Z"
+  },
+  {
+    "name": "pengjianbo/GalleryFinal",
+    "stars": 3227,
+    "releases": 4,
+    "age_years": 9,
+    "created_at": "2015-09-21T07:01:17Z"
+  },
+  {
+    "name": "bytedance/ByteX",
+    "stars": 3226,
+    "releases": 3,
+    "age_years": 5,
+    "created_at": "2020-01-10T12:20:07Z"
+  },
+  {
+    "name": "vran-dev/PrettyZoo",
+    "stars": 3224,
+    "releases": 40,
+    "age_years": 5,
+    "created_at": "2019-09-28T02:23:21Z"
+  },
+  {
+    "name": "emanuele-f/PCAPdroid",
+    "stars": 3222,
+    "releases": 67,
+    "age_years": 5,
+    "created_at": "2020-01-06T18:11:27Z"
+  },
+  {
+    "name": "DependencyTrack/dependency-track",
+    "stars": 3220,
+    "releases": 72,
+    "age_years": 12,
+    "created_at": "2013-07-16T19:16:43Z"
+  },
+  {
+    "name": "bethrobson/Head-First-Design-Patterns",
+    "stars": 3220,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-04-28T21:04:55Z"
+  },
+  {
+    "name": "alibaba/cobar",
+    "stars": 3218,
+    "releases": 1,
+    "age_years": 11,
+    "created_at": "2014-01-15T11:20:09Z"
+  },
+  {
+    "name": "prometheus/jmx_exporter",
+    "stars": 3217,
+    "releases": 30,
+    "age_years": 11,
+    "created_at": "2014-02-25T10:55:39Z"
+  },
+  {
+    "name": "ragunathjawahar/android-saripaar",
+    "stars": 3214,
+    "releases": 3,
+    "age_years": 13,
+    "created_at": "2012-09-08T11:52:30Z"
+  },
+  {
+    "name": "daimajia/AndroidViewHover",
+    "stars": 3209,
+    "releases": 4,
+    "age_years": 11,
+    "created_at": "2014-08-08T12:04:43Z"
+  },
+  {
+    "name": "apache/tika",
+    "stars": 3207,
+    "releases": 0,
+    "age_years": 16,
+    "created_at": "2009-05-21T02:12:11Z"
+  },
+  {
+    "name": "noties/Markwon",
+    "stars": 3207,
+    "releases": 33,
+    "age_years": 8,
+    "created_at": "2017-05-18T13:50:21Z"
+  },
+  {
+    "name": "WeBankFinTech/DataSphereStudio",
+    "stars": 3206,
+    "releases": 13,
+    "age_years": 5,
+    "created_at": "2019-11-24T13:27:19Z"
+  },
+  {
+    "name": "bauerca/drag-sort-listview",
+    "stars": 3205,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-06-01T06:32:13Z"
+  },
+  {
+    "name": "java8/Java8InAction",
+    "stars": 3204,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2013-10-28T23:59:40Z"
+  },
+  {
+    "name": "nicolasgramlich/AndEngine",
+    "stars": 3198,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2011-11-22T14:20:11Z"
+  },
+  {
+    "name": "AdoptOpenJDK/jitwatch",
+    "stars": 3197,
+    "releases": 12,
+    "age_years": 11,
+    "created_at": "2013-09-30T14:18:17Z"
+  },
+  {
+    "name": "florent37/ShapeOfView",
+    "stars": 3195,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-02-18T12:14:06Z"
+  },
+  {
+    "name": "bluelinelabs/LoganSquare",
+    "stars": 3193,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-02-17T03:24:12Z"
+  },
+  {
+    "name": "bilibili/boxing",
+    "stars": 3192,
+    "releases": 1,
+    "age_years": 8,
+    "created_at": "2017-01-22T07:04:34Z"
+  },
+  {
+    "name": "facebookarchive/network-connection-class",
+    "stars": 3185,
+    "releases": 2,
+    "age_years": 10,
+    "created_at": "2015-03-18T02:16:43Z"
+  },
+  {
+    "name": "Skykai521/StickerCamera",
+    "stars": 3180,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-07-05T14:12:43Z"
+  },
+  {
+    "name": "Athou/commafeed",
+    "stars": 3177,
+    "releases": 58,
+    "age_years": 12,
+    "created_at": "2013-03-20T19:32:09Z"
+  },
+  {
+    "name": "spring-projects/spring-data-jpa",
+    "stars": 3175,
+    "releases": 169,
+    "age_years": 14,
+    "created_at": "2010-11-11T21:36:56Z"
+  },
+  {
+    "name": "evrencoskun/TableView",
+    "stars": 3172,
+    "releases": 12,
+    "age_years": 8,
+    "created_at": "2017-06-13T04:29:44Z"
+  },
+  {
+    "name": "BruceEckel/OnJava8-Examples",
+    "stars": 3163,
+    "releases": 3,
+    "age_years": 10,
+    "created_at": "2015-04-20T22:34:50Z"
+  },
+  {
+    "name": "mxdldev/android-mvp-mvvm-flytour",
+    "stars": 3156,
+    "releases": 11,
+    "age_years": 6,
+    "created_at": "2018-12-25T10:42:31Z"
+  },
+  {
+    "name": "amulyakhare/TextDrawable",
+    "stars": 3156,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2014-10-19T09:56:45Z"
+  },
+  {
+    "name": "hongyangAndroid/Highlight",
+    "stars": 3156,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-10-08T15:03:40Z"
+  },
+  {
+    "name": "apache/curator",
+    "stars": 3155,
+    "releases": 2,
+    "age_years": 11,
+    "created_at": "2014-03-03T08:00:07Z"
+  },
+  {
+    "name": "Marswin/MarsDaemon",
+    "stars": 3155,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-12-25T03:21:41Z"
+  },
+  {
+    "name": "googlesamples/google-services",
+    "stars": 3155,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-05-20T22:45:11Z"
+  },
+  {
+    "name": "danylovolokh/VideoPlayerManager",
+    "stars": 3155,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-07-09T21:32:15Z"
+  },
+  {
+    "name": "qos-ch/logback",
+    "stars": 3154,
+    "releases": 3,
+    "age_years": 16,
+    "created_at": "2009-08-20T18:48:24Z"
+  },
+  {
+    "name": "zzz40500/GsonFormat",
+    "stars": 3153,
+    "releases": 4,
+    "age_years": 10,
+    "created_at": "2014-10-31T14:16:39Z"
+  },
+  {
+    "name": "apache/avro",
+    "stars": 3148,
+    "releases": 22,
+    "age_years": 16,
+    "created_at": "2009-05-21T02:48:37Z"
+  },
+  {
+    "name": "Tencent/VasDolly",
+    "stars": 3147,
+    "releases": 16,
+    "age_years": 8,
+    "created_at": "2017-01-19T09:12:31Z"
+  },
+  {
+    "name": "yangfuhai/afinal",
+    "stars": 3147,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2012-10-17T08:10:00Z"
+  },
+  {
+    "name": "loks666/get_jobs",
+    "stars": 3146,
+    "releases": 2,
+    "age_years": 1,
+    "created_at": "2024-03-07T21:34:58Z"
+  },
+  {
+    "name": "chrisbanes/ActionBar-PullToRefresh",
+    "stars": 3140,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-06-04T14:44:53Z"
+  },
+  {
+    "name": "Telegram-FOSS-Team/Telegram-FOSS",
+    "stars": 3137,
+    "releases": 71,
+    "age_years": 11,
+    "created_at": "2014-02-20T10:53:44Z"
+  },
+  {
+    "name": "apache/lucene",
+    "stars": 3137,
+    "releases": 21,
+    "age_years": 4,
+    "created_at": "2021-02-23T17:16:56Z"
+  },
+  {
+    "name": "smartloli/EFAK",
+    "stars": 3134,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-02-04T08:52:23Z"
+  },
+  {
+    "name": "zaaach/CityPicker",
+    "stars": 3134,
+    "releases": 2,
+    "age_years": 9,
+    "created_at": "2016-02-27T09:11:27Z"
+  },
+  {
+    "name": "guolindev/booksource",
+    "stars": 3133,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-10-04T02:55:57Z"
+  },
+  {
+    "name": "ukanth/afwall",
+    "stars": 3133,
+    "releases": 52,
+    "age_years": 12,
+    "created_at": "2012-10-27T13:20:30Z"
+  },
+  {
+    "name": "zhou-you/RxEasyHttp",
+    "stars": 3132,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-06-07T09:33:47Z"
+  },
+  {
+    "name": "yusugomori/DeepLearning",
+    "stars": 3130,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-01-01T16:23:53Z"
+  },
+  {
+    "name": "requery/requery",
+    "stars": 3125,
+    "releases": 43,
+    "age_years": 9,
+    "created_at": "2015-11-14T00:45:31Z"
+  },
+  {
+    "name": "airbnb/native-navigation",
+    "stars": 3125,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-09-16T17:16:56Z"
+  },
+  {
+    "name": "JackyAndroid/AndroidTVLauncher",
+    "stars": 3124,
+    "releases": 3,
+    "age_years": 9,
+    "created_at": "2016-03-27T08:59:19Z"
+  },
+  {
+    "name": "jackpal/Android-Terminal-Emulator",
+    "stars": 3121,
+    "releases": 0,
+    "age_years": 15,
+    "created_at": "2010-09-04T13:48:00Z"
+  },
+  {
+    "name": "docker-java/docker-java",
+    "stars": 3121,
+    "releases": 60,
+    "age_years": 11,
+    "created_at": "2014-06-02T18:47:31Z"
+  },
+  {
+    "name": "wildfly/wildfly",
+    "stars": 3120,
+    "releases": 68,
+    "age_years": 15,
+    "created_at": "2010-07-08T20:46:07Z"
+  },
+  {
+    "name": "JackyAndroid/AndroidChromium",
+    "stars": 3119,
+    "releases": 2,
+    "age_years": 9,
+    "created_at": "2016-07-04T07:28:36Z"
+  },
+  {
+    "name": "zaiyunduan123/springboot-seckill",
+    "stars": 3112,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-05-18T03:29:21Z"
+  },
+  {
+    "name": "PlayEdu/PlayEdu",
+    "stars": 3110,
+    "releases": 16,
+    "age_years": 2,
+    "created_at": "2023-02-23T01:34:06Z"
+  },
+  {
+    "name": "OCNYang/Android-Animation-Set",
+    "stars": 3106,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-03-23T02:26:50Z"
+  },
+  {
+    "name": "yipianfengye/android-adDialog",
+    "stars": 3104,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-08-02T08:00:57Z"
+  },
+  {
+    "name": "xerial/sqlite-jdbc",
+    "stars": 3103,
+    "releases": 46,
+    "age_years": 11,
+    "created_at": "2014-08-06T14:01:00Z"
+  },
+  {
+    "name": "openid/AppAuth-Android",
+    "stars": 3102,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-02-19T15:09:43Z"
+  },
+  {
+    "name": "hitherejoe/animate",
+    "stars": 3102,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-11-16T15:06:22Z"
+  },
+  {
+    "name": "oracle/visualvm",
+    "stars": 3102,
+    "releases": 26,
+    "age_years": 8,
+    "created_at": "2016-09-12T14:44:30Z"
+  },
+  {
+    "name": "mplushnikov/lombok-intellij-plugin",
+    "stars": 3095,
+    "releases": 116,
+    "age_years": 11,
+    "created_at": "2013-10-09T21:49:01Z"
+  },
+  {
+    "name": "limboemu/limbo",
+    "stars": 3094,
+    "releases": 12,
+    "age_years": 9,
+    "created_at": "2016-02-13T09:05:37Z"
+  },
+  {
+    "name": "szerhusenBC/jwt-spring-security-demo",
+    "stars": 3093,
+    "releases": 3,
+    "age_years": 9,
+    "created_at": "2016-03-20T19:16:17Z"
+  },
+  {
+    "name": "KeepSafe/dexcount-gradle-plugin",
+    "stars": 3084,
+    "releases": 21,
+    "age_years": 10,
+    "created_at": "2015-06-04T03:33:17Z"
+  },
+  {
+    "name": "halirutan/IntelliJ-Key-Promoter-X",
+    "stars": 3082,
+    "releases": 31,
+    "age_years": 8,
+    "created_at": "2017-07-28T22:09:25Z"
+  },
+  {
+    "name": "AnySoftKeyboard/AnySoftKeyboard",
+    "stars": 3082,
+    "releases": 45,
+    "age_years": 13,
+    "created_at": "2012-04-18T12:38:01Z"
+  },
+  {
+    "name": "CrawlScript/WebCollector",
+    "stars": 3075,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-07-12T03:16:12Z"
+  },
+  {
+    "name": "aeron-io/agrona",
+    "stars": 3069,
+    "releases": 98,
+    "age_years": 10,
+    "created_at": "2014-11-03T20:14:21Z"
+  },
+  {
+    "name": "apache/nutch",
+    "stars": 3067,
+    "releases": 0,
+    "age_years": 16,
+    "created_at": "2009-05-21T01:17:48Z"
+  },
+  {
+    "name": "infinilabs/analysis-pinyin",
+    "stars": 3062,
+    "releases": 1,
+    "age_years": 13,
+    "created_at": "2012-05-22T10:45:42Z"
+  },
+  {
+    "name": "yarolegovich/SlidingRootNav",
+    "stars": 3061,
+    "releases": 1,
+    "age_years": 8,
+    "created_at": "2017-03-26T22:58:48Z"
+  },
+  {
+    "name": "internetarchive/heritrix3",
+    "stars": 3059,
+    "releases": 22,
+    "age_years": 13,
+    "created_at": "2011-10-21T22:00:17Z"
+  },
+  {
+    "name": "Wisser/Jailer",
+    "stars": 3058,
+    "releases": 250,
+    "age_years": 14,
+    "created_at": "2011-06-20T13:28:18Z"
+  },
+  {
+    "name": "Aefyr/SAI",
+    "stars": 3056,
+    "releases": 45,
+    "age_years": 6,
+    "created_at": "2018-12-14T19:22:27Z"
+  },
+  {
+    "name": "M66B/NetGuard",
+    "stars": 3046,
+    "releases": 163,
+    "age_years": 9,
+    "created_at": "2015-10-24T17:59:20Z"
+  },
+  {
+    "name": "gabrielemariotti/RecyclerViewItemAnimators",
+    "stars": 3043,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-08-22T00:24:43Z"
+  },
+  {
+    "name": "ZieIony/Carbon",
+    "stars": 3042,
+    "releases": 2,
+    "age_years": 10,
+    "created_at": "2015-02-04T23:11:18Z"
+  },
+  {
+    "name": "RaiMan/SikuliX1",
+    "stars": 3042,
+    "releases": 9,
+    "age_years": 7,
+    "created_at": "2018-03-07T15:34:13Z"
+  },
+  {
+    "name": "AnyListen/tools-ocr",
+    "stars": 3041,
+    "releases": 5,
+    "age_years": 6,
+    "created_at": "2019-03-22T09:12:25Z"
+  },
+  {
+    "name": "eclipse-paho/paho.mqtt.android",
+    "stars": 3039,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-02-19T15:44:50Z"
+  },
+  {
+    "name": "sofastack/sofa-jarslink",
+    "stars": 3034,
+    "releases": 2,
+    "age_years": 7,
+    "created_at": "2018-02-02T06:02:09Z"
+  },
+  {
+    "name": "xmuSistone/ViewpagerTransition",
+    "stars": 3032,
+    "releases": 1,
+    "age_years": 8,
+    "created_at": "2016-09-19T05:38:45Z"
+  },
+  {
+    "name": "zwwill/yanxuan-weex-demo",
+    "stars": 3032,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-09-05T11:48:42Z"
+  },
+  {
+    "name": "HuanTanSheng/EasyPhotos",
+    "stars": 3030,
+    "releases": 58,
+    "age_years": 7,
+    "created_at": "2017-10-19T03:32:05Z"
+  },
+  {
+    "name": "bmelnychuk/AndroidTreeView",
+    "stars": 3030,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-02-11T02:48:05Z"
+  },
+  {
+    "name": "MarkerHub/vueblog",
+    "stars": 3029,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-05-14T01:53:49Z"
+  },
+  {
+    "name": "egzosn/pay-java-parent",
+    "stars": 3024,
+    "releases": 22,
+    "age_years": 9,
+    "created_at": "2016-05-18T12:52:36Z"
+  },
+  {
+    "name": "niumoo/bing-wallpaper",
+    "stars": 3023,
+    "releases": 0,
+    "age_years": 4,
+    "created_at": "2021-02-08T08:40:53Z"
+  },
+  {
+    "name": "ltsopensource/light-task-scheduler",
+    "stars": 3020,
+    "releases": 29,
+    "age_years": 10,
+    "created_at": "2014-10-24T12:53:14Z"
+  },
+  {
+    "name": "javamelody/javamelody",
+    "stars": 3020,
+    "releases": 62,
+    "age_years": 10,
+    "created_at": "2015-06-21T16:32:48Z"
+  },
+  {
+    "name": "osmdroid/osmdroid",
+    "stars": 3017,
+    "releases": 34,
+    "age_years": 11,
+    "created_at": "2014-03-06T19:03:48Z"
+  },
+  {
+    "name": "jd-alexander/LikeButton",
+    "stars": 3015,
+    "releases": 14,
+    "age_years": 9,
+    "created_at": "2015-12-23T17:49:46Z"
+  },
+  {
+    "name": "ulisesbocchio/jasypt-spring-boot",
+    "stars": 3012,
+    "releases": 10,
+    "age_years": 10,
+    "created_at": "2015-05-27T14:00:55Z"
+  },
+  {
+    "name": "soot-oss/soot",
+    "stars": 3012,
+    "releases": 3,
+    "age_years": 13,
+    "created_at": "2012-06-20T12:41:19Z"
+  },
+  {
+    "name": "yui/yuicompressor",
+    "stars": 3011,
+    "releases": 1,
+    "age_years": 16,
+    "created_at": "2008-12-05T19:13:24Z"
+  },
+  {
+    "name": "jgilfelt/android-viewbadger",
+    "stars": 3010,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2011-09-27T22:50:57Z"
+  },
+  {
+    "name": "keyboardsurfer/Crouton",
+    "stars": 3000,
+    "releases": 8,
+    "age_years": 13,
+    "created_at": "2012-08-03T11:04:36Z"
+  },
+  {
+    "name": "dmytrodanylyk/android-process-button",
+    "stars": 2994,
+    "releases": 1,
+    "age_years": 11,
+    "created_at": "2014-05-02T20:39:23Z"
+  },
+  {
+    "name": "termux/termux-api",
+    "stars": 2992,
+    "releases": 53,
+    "age_years": 10,
+    "created_at": "2015-07-03T00:57:59Z"
+  },
+  {
+    "name": "apache/paimon",
+    "stars": 2990,
+    "releases": 0,
+    "age_years": 3,
+    "created_at": "2022-01-12T03:13:15Z"
+  },
+  {
+    "name": "facebookarchive/react-native-fbsdk",
+    "stars": 2981,
+    "releases": 22,
+    "age_years": 10,
+    "created_at": "2015-08-03T17:10:14Z"
+  },
+  {
+    "name": "FCL-Team/FoldCraftLauncher",
+    "stars": 2975,
+    "releases": 103,
+    "age_years": 2,
+    "created_at": "2022-10-19T10:12:18Z"
+  },
+  {
+    "name": "pedrovgs/DraggablePanel",
+    "stars": 2974,
+    "releases": 10,
+    "age_years": 11,
+    "created_at": "2014-04-13T11:40:54Z"
+  },
+  {
+    "name": "Jzvd/JZVideo",
+    "stars": 2970,
+    "releases": 15,
+    "age_years": 5,
+    "created_at": "2019-12-05T15:59:47Z"
+  },
+  {
+    "name": "lakesoul-io/LakeSoul",
+    "stars": 2968,
+    "releases": 18,
+    "age_years": 3,
+    "created_at": "2021-12-28T08:53:11Z"
+  },
+  {
+    "name": "janishar/android-mvvm-architecture",
+    "stars": 2966,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-07-07T08:34:07Z"
+  },
+  {
+    "name": "openrewrite/rewrite",
+    "stars": 2966,
+    "releases": 360,
+    "age_years": 5,
+    "created_at": "2020-05-12T20:16:14Z"
+  },
+  {
+    "name": "CodeRayZhang/Movie_Recommend",
+    "stars": 2965,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-04-18T15:42:28Z"
+  },
+  {
+    "name": "brianway/springmvc-mybatis-learning",
+    "stars": 2964,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-03-10T07:29:31Z"
+  },
+  {
+    "name": "igniterealtime/Openfire",
+    "stars": 2963,
+    "releases": 100,
+    "age_years": 11,
+    "created_at": "2014-04-07T09:12:33Z"
+  },
+  {
+    "name": "PeterCxy/Shelter",
+    "stars": 2962,
+    "releases": 1,
+    "age_years": 7,
+    "created_at": "2018-08-20T09:55:06Z"
+  },
+  {
+    "name": "SalomonBrys/ANR-WatchDog",
+    "stars": 2961,
+    "releases": 1,
+    "age_years": 12,
+    "created_at": "2013-07-26T13:29:59Z"
+  },
+  {
+    "name": "lovetuzitong/MultiImageSelector",
+    "stars": 2954,
+    "releases": 2,
+    "age_years": 10,
+    "created_at": "2015-04-08T10:12:50Z"
+  },
+  {
+    "name": "jasonross/Nuwa",
+    "stars": 2954,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-11-11T14:48:23Z"
+  },
+  {
+    "name": "CainKernel/CainCamera",
+    "stars": 2946,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-07-19T01:44:55Z"
+  },
+  {
+    "name": "spring-projects/spring-data-elasticsearch",
+    "stars": 2944,
+    "releases": 169,
+    "age_years": 12,
+    "created_at": "2013-04-29T14:27:38Z"
+  },
+  {
+    "name": "ngbdf/redis-manager",
+    "stars": 2943,
+    "releases": 13,
+    "age_years": 7,
+    "created_at": "2018-05-18T06:43:09Z"
+  },
+  {
+    "name": "sockeqwe/AdapterDelegates",
+    "stars": 2940,
+    "releases": 18,
+    "age_years": 10,
+    "created_at": "2015-07-29T11:19:56Z"
+  },
+  {
+    "name": "stephanenicolas/robospice",
+    "stars": 2938,
+    "releases": 1,
+    "age_years": 12,
+    "created_at": "2012-09-19T14:09:37Z"
+  },
+  {
+    "name": "apache/parquet-java",
+    "stars": 2937,
+    "releases": 18,
+    "age_years": 11,
+    "created_at": "2014-06-10T07:00:07Z"
+  },
+  {
+    "name": "sanshengshui/netty-learning-example",
+    "stars": 2933,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2018-09-18T05:45:24Z"
+  },
+  {
+    "name": "xiaojinzi123/Component",
+    "stars": 2931,
+    "releases": 101,
+    "age_years": 7,
+    "created_at": "2018-08-13T07:12:25Z"
+  },
+  {
+    "name": "Pay-Group/best-pay-sdk",
+    "stars": 2931,
+    "releases": 4,
+    "age_years": 8,
+    "created_at": "2017-03-03T06:57:32Z"
+  },
+  {
+    "name": "fengjundev/Android-Skin-Loader",
+    "stars": 2926,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-07-01T07:36:33Z"
+  },
+  {
+    "name": "googlesamples/android-vision",
+    "stars": 2923,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-07-01T21:40:31Z"
+  },
+  {
+    "name": "jiajunhui/PlayerBase",
+    "stars": 2923,
+    "releases": 18,
+    "age_years": 8,
+    "created_at": "2017-03-28T10:19:51Z"
+  },
+  {
+    "name": "linkedin/cruise-control",
+    "stars": 2916,
+    "releases": 12,
+    "age_years": 8,
+    "created_at": "2017-08-15T17:32:10Z"
+  },
+  {
+    "name": "thymeleaf/thymeleaf",
+    "stars": 2915,
+    "releases": 6,
+    "age_years": 13,
+    "created_at": "2012-05-20T15:11:32Z"
+  },
+  {
+    "name": "WindySha/Xpatch",
+    "stars": 2914,
+    "releases": 17,
+    "age_years": 6,
+    "created_at": "2019-03-03T09:00:43Z"
+  },
+  {
+    "name": "geftimov/android-pathview",
+    "stars": 2913,
+    "releases": 2,
+    "age_years": 10,
+    "created_at": "2015-01-20T15:21:06Z"
+  },
+  {
+    "name": "ac-pm/Inspeckage",
+    "stars": 2912,
+    "releases": 3,
+    "age_years": 9,
+    "created_at": "2016-02-28T22:59:51Z"
+  },
+  {
+    "name": "iwgang/CountdownView",
+    "stars": 2909,
+    "releases": 3,
+    "age_years": 9,
+    "created_at": "2015-10-12T07:46:28Z"
+  },
+  {
+    "name": "apache/pdfbox",
+    "stars": 2906,
+    "releases": 0,
+    "age_years": 15,
+    "created_at": "2009-09-26T08:00:19Z"
+  },
+  {
+    "name": "apache/netbeans",
+    "stars": 2904,
+    "releases": 69,
+    "age_years": 8,
+    "created_at": "2017-09-01T07:00:11Z"
+  },
+  {
+    "name": "MeteorDevelopment/meteor-client",
+    "stars": 2903,
+    "releases": 0,
+    "age_years": 4,
+    "created_at": "2020-11-03T15:33:49Z"
+  },
+  {
+    "name": "nic-delhi/AarogyaSetu_Android",
+    "stars": 2903,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-05-26T17:36:26Z"
+  },
+  {
+    "name": "classgraph/classgraph",
+    "stars": 2903,
+    "releases": 424,
+    "age_years": 11,
+    "created_at": "2014-08-17T20:46:57Z"
+  },
+  {
+    "name": "EverythingMe/overscroll-decor",
+    "stars": 2901,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-11-22T11:44:06Z"
+  },
+  {
+    "name": "mybatis/spring",
+    "stars": 2900,
+    "releases": 35,
+    "age_years": 12,
+    "created_at": "2013-02-17T07:01:55Z"
+  },
+  {
+    "name": "OpenHFT/Chronicle-Map",
+    "stars": 2899,
+    "releases": 110,
+    "age_years": 11,
+    "created_at": "2014-07-18T15:33:57Z"
+  },
+  {
+    "name": "googlearchive/android-Camera2Basic",
+    "stars": 2898,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-06-26T15:53:00Z"
+  },
+  {
+    "name": "williamfiset/DEPRECATED-data-structures",
+    "stars": 2895,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-06-19T13:14:48Z"
+  },
+  {
+    "name": "liuyangming/ByteTCC",
+    "stars": 2894,
+    "releases": 17,
+    "age_years": 9,
+    "created_at": "2016-02-12T11:51:14Z"
+  },
+  {
+    "name": "jenkinsci/blueocean-plugin",
+    "stars": 2891,
+    "releases": 64,
+    "age_years": 9,
+    "created_at": "2016-01-23T18:02:45Z"
+  },
+  {
+    "name": "google/binnavi",
+    "stars": 2889,
+    "releases": 3,
+    "age_years": 10,
+    "created_at": "2015-08-19T12:20:24Z"
+  },
+  {
+    "name": "konsoletyper/teavm",
+    "stars": 2889,
+    "releases": 17,
+    "age_years": 11,
+    "created_at": "2013-09-23T20:04:15Z"
+  },
+  {
+    "name": "AltBeacon/android-beacon-library",
+    "stars": 2884,
+    "releases": 87,
+    "age_years": 11,
+    "created_at": "2014-07-28T13:11:19Z"
+  },
+  {
+    "name": "Minestom/Minestom",
+    "stars": 2883,
+    "releases": 19,
+    "age_years": 6,
+    "created_at": "2019-08-03T13:22:27Z"
+  },
+  {
+    "name": "Jackson0714/PassJava-Platform",
+    "stars": 2878,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-04-05T05:31:47Z"
+  },
+  {
+    "name": "wkeyuan/DWSurvey",
+    "stars": 2876,
+    "releases": 7,
+    "age_years": 8,
+    "created_at": "2017-06-11T06:54:35Z"
+  },
+  {
+    "name": "Teevity/ice",
+    "stars": 2876,
+    "releases": 3,
+    "age_years": 12,
+    "created_at": "2013-06-14T20:56:13Z"
+  },
+  {
+    "name": "AweiLoveAndroid/CommonDevKnowledge",
+    "stars": 2874,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2017-12-15T03:00:08Z"
+  },
+  {
+    "name": "presmihaylov/booknotes",
+    "stars": 2869,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-07-19T18:16:26Z"
+  },
+  {
+    "name": "starcwang/easy_javadoc",
+    "stars": 2867,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-08-24T05:30:38Z"
+  },
+  {
+    "name": "donkingliang/ConsecutiveScroller",
+    "stars": 2864,
+    "releases": 50,
+    "age_years": 5,
+    "created_at": "2020-03-15T08:01:26Z"
+  },
+  {
+    "name": "RobotiumTech/robotium",
+    "stars": 2863,
+    "releases": 0,
+    "age_years": 15,
+    "created_at": "2009-12-10T12:51:14Z"
+  },
+  {
+    "name": "ManuelPeinado/FadingActionBar",
+    "stars": 2863,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-05-25T11:50:00Z"
+  },
+  {
+    "name": "amitshekhariitbhu/awesome-android-complete-reference",
+    "stars": 2860,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-06-15T02:13:26Z"
+  },
+  {
+    "name": "udacity/Sunshine-Version-2",
+    "stars": 2859,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-03-05T01:48:44Z"
+  },
+  {
+    "name": "arcadefire/nice-spinner",
+    "stars": 2856,
+    "releases": 18,
+    "age_years": 10,
+    "created_at": "2015-08-02T17:16:45Z"
+  },
+  {
+    "name": "88250/symphony",
+    "stars": 2853,
+    "releases": 4,
+    "age_years": 5,
+    "created_at": "2019-12-01T10:34:32Z"
+  },
+  {
+    "name": "alldatacenter/alldata",
+    "stars": 2850,
+    "releases": 1,
+    "age_years": 5,
+    "created_at": "2019-10-07T07:36:18Z"
+  },
+  {
+    "name": "hamibot/hamibot",
+    "stars": 2850,
+    "releases": 0,
+    "age_years": 4,
+    "created_at": "2020-11-30T04:00:12Z"
+  },
+  {
+    "name": "harjot-oberai/MusicDNA",
+    "stars": 2850,
+    "releases": 2,
+    "age_years": 9,
+    "created_at": "2016-04-30T20:12:34Z"
+  },
+  {
+    "name": "javaee/jersey",
+    "stars": 2849,
+    "releases": 30,
+    "age_years": 13,
+    "created_at": "2012-05-18T11:38:25Z"
+  },
+  {
+    "name": "spring-projects/spring-batch",
+    "stars": 2849,
+    "releases": 55,
+    "age_years": 14,
+    "created_at": "2010-11-17T17:53:45Z"
+  },
+  {
+    "name": "apache/commons-lang",
+    "stars": 2848,
+    "releases": 0,
+    "age_years": 16,
+    "created_at": "2009-05-21T01:24:46Z"
+  },
+  {
+    "name": "power721/alist-tvbox",
+    "stars": 2848,
+    "releases": 60,
+    "age_years": 2,
+    "created_at": "2022-11-06T07:36:51Z"
+  },
+  {
+    "name": "w446108264/XhsEmoticonsKeyboard",
+    "stars": 2847,
+    "releases": 7,
+    "age_years": 10,
+    "created_at": "2015-03-06T02:39:34Z"
+  },
+  {
+    "name": "AbrahamCaiJin/CommonUtilLibrary",
+    "stars": 2846,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-04-28T06:06:58Z"
+  },
+  {
+    "name": "YahooArchive/anthelion",
+    "stars": 2846,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-10-27T00:42:01Z"
+  },
+  {
+    "name": "Nightonke/CoCoin",
+    "stars": 2846,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-10-17T13:50:12Z"
+  },
+  {
+    "name": "SpecialCyCi/AndroidResideMenu",
+    "stars": 2844,
+    "releases": 7,
+    "age_years": 11,
+    "created_at": "2013-12-14T15:25:49Z"
+  },
+  {
+    "name": "JoanZapata/android-pdfview",
+    "stars": 2842,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2012-11-21T16:19:38Z"
+  },
+  {
+    "name": "tyzlmjj/PagerBottomTabStrip",
+    "stars": 2841,
+    "releases": 11,
+    "age_years": 10,
+    "created_at": "2015-08-23T02:35:28Z"
+  },
+  {
+    "name": "openaphid/android-flip",
+    "stars": 2839,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-05-22T07:48:41Z"
+  },
+  {
+    "name": "amitshekhariitbhu/android-developer-roadmap",
+    "stars": 2834,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-07-28T19:16:36Z"
+  },
+  {
+    "name": "nanchen2251/RxJava2Examples",
+    "stars": 2831,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-06-19T05:38:45Z"
+  },
+  {
+    "name": "jprante/elasticsearch-jdbc",
+    "stars": 2831,
+    "releases": 19,
+    "age_years": 13,
+    "created_at": "2012-06-02T23:17:56Z"
+  },
+  {
+    "name": "liweiwei1419/LeetCode-Solutions-in-Good-Style",
+    "stars": 2831,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2018-12-10T01:50:09Z"
+  },
+  {
+    "name": "mouredev/hello-java",
+    "stars": 2828,
+    "releases": 0,
+    "age_years": 0,
+    "created_at": "2025-03-25T11:15:12Z"
+  },
+  {
+    "name": "WhatsApp/stickers",
+    "stars": 2828,
+    "releases": 2,
+    "age_years": 7,
+    "created_at": "2018-04-24T18:23:51Z"
+  },
+  {
+    "name": "jiangqqlmj/FastDev4Android",
+    "stars": 2825,
+    "releases": 4,
+    "age_years": 9,
+    "created_at": "2015-10-22T05:22:53Z"
+  },
+  {
+    "name": "jOOQ/jOOR",
+    "stars": 2825,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2011-12-29T17:01:00Z"
+  },
+  {
+    "name": "FinalTeam/RxGalleryFinal",
+    "stars": 2824,
+    "releases": 1,
+    "age_years": 9,
+    "created_at": "2016-04-22T01:41:15Z"
+  },
+  {
+    "name": "race604/FlyRefresh",
+    "stars": 2823,
+    "releases": 2,
+    "age_years": 10,
+    "created_at": "2015-05-28T10:19:34Z"
+  },
+  {
+    "name": "donglua/PhotoPicker",
+    "stars": 2823,
+    "releases": 13,
+    "age_years": 10,
+    "created_at": "2015-06-25T16:53:50Z"
+  },
+  {
+    "name": "saulmm/Android-Material-Examples",
+    "stars": 2822,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2014-10-13T16:13:02Z"
+  },
+  {
+    "name": "qunarcorp/qmq",
+    "stars": 2821,
+    "releases": 12,
+    "age_years": 6,
+    "created_at": "2018-12-07T05:47:46Z"
+  },
+  {
+    "name": "andpor/react-native-sqlite-storage",
+    "stars": 2814,
+    "releases": 30,
+    "age_years": 9,
+    "created_at": "2015-10-30T08:42:28Z"
+  },
+  {
+    "name": "sunfusheng/StickyHeaderListView",
+    "stars": 2810,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-04-22T11:39:25Z"
+  },
+  {
+    "name": "sleuthkit/autopsy",
+    "stars": 2809,
+    "releases": 26,
+    "age_years": 13,
+    "created_at": "2011-10-05T02:11:11Z"
+  },
+  {
+    "name": "aicareles/Android-BLE",
+    "stars": 2807,
+    "releases": 3,
+    "age_years": 8,
+    "created_at": "2016-11-29T06:15:08Z"
+  },
+  {
+    "name": "mzule/ActivityRouter",
+    "stars": 2807,
+    "releases": 3,
+    "age_years": 9,
+    "created_at": "2016-04-08T02:27:14Z"
+  },
+  {
+    "name": "yizhiwazi/springboot-socks",
+    "stars": 2806,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2017-09-24T16:03:57Z"
+  },
+  {
+    "name": "apache/incubator-hugegraph",
+    "stars": 2805,
+    "releases": 14,
+    "age_years": 7,
+    "created_at": "2018-07-18T03:30:20Z"
+  },
+  {
+    "name": "Twitter4J/Twitter4J",
+    "stars": 2805,
+    "releases": 1,
+    "age_years": 16,
+    "created_at": "2009-04-24T15:25:00Z"
+  },
+  {
+    "name": "sqlcipher/android-database-sqlcipher",
+    "stars": 2801,
+    "releases": 0,
+    "age_years": 14,
+    "created_at": "2011-03-11T00:11:37Z"
+  },
+  {
+    "name": "suceser/android-open-source-project-analysis",
+    "stars": 2794,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-02-24T02:10:48Z"
+  },
+  {
+    "name": "sannies/mp4parser",
+    "stars": 2792,
+    "releases": 13,
+    "age_years": 11,
+    "created_at": "2013-09-15T21:37:40Z"
+  },
+  {
+    "name": "connectbot/connectbot",
+    "stars": 2788,
+    "releases": 585,
+    "age_years": 16,
+    "created_at": "2009-02-06T17:52:35Z"
+  },
+  {
+    "name": "gcacace/android-signaturepad",
+    "stars": 2788,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-03-20T12:54:22Z"
+  },
+  {
+    "name": "FabricMC/fabric",
+    "stars": 2787,
+    "releases": 1000,
+    "age_years": 6,
+    "created_at": "2018-11-04T09:02:05Z"
+  },
+  {
+    "name": "pedrovgs/Algorithms",
+    "stars": 2786,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2014-11-09T14:32:33Z"
+  },
+  {
+    "name": "florent37/ExpectAnim",
+    "stars": 2785,
+    "releases": 1,
+    "age_years": 8,
+    "created_at": "2017-02-20T15:05:03Z"
+  },
+  {
+    "name": "square/flow",
+    "stars": 2784,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2013-09-12T22:20:16Z"
+  },
+  {
+    "name": "bytedeco/javacpp-presets",
+    "stars": 2783,
+    "releases": 13,
+    "age_years": 11,
+    "created_at": "2014-04-21T13:19:55Z"
+  },
+  {
+    "name": "brianway/webporter",
+    "stars": 2783,
+    "releases": 1,
+    "age_years": 8,
+    "created_at": "2016-11-24T04:44:44Z"
+  },
+  {
+    "name": "Meituan-Dianping/Zebra",
+    "stars": 2780,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-08-19T07:36:09Z"
+  },
+  {
+    "name": "widdix/aws-cf-templates",
+    "stars": 2777,
+    "releases": 164,
+    "age_years": 9,
+    "created_at": "2015-10-28T07:47:59Z"
+  },
+  {
+    "name": "jjoe64/GraphView",
+    "stars": 2776,
+    "releases": 1,
+    "age_years": 14,
+    "created_at": "2011-07-04T13:25:41Z"
+  },
+  {
+    "name": "codedrinker/community",
+    "stars": 2775,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-04-23T15:11:24Z"
+  },
+  {
+    "name": "JulienGenoud/android-percent-support-lib-sample",
+    "stars": 2775,
+    "releases": 2,
+    "age_years": 10,
+    "created_at": "2015-06-26T12:44:38Z"
+  },
+  {
+    "name": "wenmingvs/AndroidProcess",
+    "stars": 2774,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-01-19T06:28:11Z"
+  },
+  {
+    "name": "google/truth",
+    "stars": 2773,
+    "releases": 36,
+    "age_years": 14,
+    "created_at": "2011-06-22T18:55:12Z"
+  },
+  {
+    "name": "cucumber/cucumber-jvm",
+    "stars": 2768,
+    "releases": 39,
+    "age_years": 14,
+    "created_at": "2011-06-27T19:49:46Z"
+  },
+  {
+    "name": "proninyaroslav/libretorrent",
+    "stars": 2766,
+    "releases": 15,
+    "age_years": 8,
+    "created_at": "2016-10-18T15:38:44Z"
+  },
+  {
+    "name": "JakeWharton/scalpel",
+    "stars": 2766,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-01-06T17:26:01Z"
+  },
+  {
+    "name": "aistrate/AlgorithmsSedgewick",
+    "stars": 2766,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2011-12-10T15:54:55Z"
+  },
+  {
+    "name": "MagicMashRoom/SuperCalendar",
+    "stars": 2765,
+    "releases": 13,
+    "age_years": 8,
+    "created_at": "2017-05-11T12:28:51Z"
+  },
+  {
+    "name": "federicoiosue/Omni-Notes",
+    "stars": 2763,
+    "releases": 50,
+    "age_years": 11,
+    "created_at": "2013-12-11T21:59:18Z"
+  },
+  {
+    "name": "ag2s20150909/TTS",
+    "stars": 2757,
+    "releases": 22,
+    "age_years": 4,
+    "created_at": "2021-05-09T07:38:35Z"
+  },
+  {
+    "name": "spotify/dockerfile-maven",
+    "stars": 2755,
+    "releases": 14,
+    "age_years": 9,
+    "created_at": "2016-03-16T12:42:37Z"
+  },
+  {
+    "name": "airbnb/airpal",
+    "stars": 2753,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-05-05T18:51:30Z"
+  },
+  {
+    "name": "itwanger/paicoding",
+    "stars": 2752,
+    "releases": 0,
+    "age_years": 3,
+    "created_at": "2022-07-06T12:43:21Z"
+  },
+  {
+    "name": "jenkinsci/configuration-as-code-plugin",
+    "stars": 2751,
+    "releases": 107,
+    "age_years": 7,
+    "created_at": "2017-10-20T12:43:10Z"
+  },
+  {
+    "name": "chanjarster/weixin-java-tools",
+    "stars": 2751,
+    "releases": 21,
+    "age_years": 11,
+    "created_at": "2014-08-18T08:11:26Z"
+  },
+  {
+    "name": "Kodezi/Chronos",
+    "stars": 2750,
+    "releases": 0,
+    "age_years": 0,
+    "created_at": "2025-07-21T07:34:10Z"
+  },
+  {
+    "name": "welk1n/JNDI-Injection-Exploit",
+    "stars": 2749,
+    "releases": 1,
+    "age_years": 5,
+    "created_at": "2019-10-10T01:53:49Z"
+  },
+  {
+    "name": "Tencent/MSEC",
+    "stars": 2747,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-11-28T01:50:35Z"
+  },
+  {
+    "name": "scottyab/rootbeer",
+    "stars": 2745,
+    "releases": 4,
+    "age_years": 10,
+    "created_at": "2015-06-19T09:01:55Z"
+  },
+  {
+    "name": "lizhangqu/CoreLink",
+    "stars": 2744,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-04-30T08:47:04Z"
+  },
+  {
+    "name": "Nightonke/WoWoViewPager",
+    "stars": 2744,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-03-03T04:29:28Z"
+  },
+  {
+    "name": "kabouzeid/Phonograph",
+    "stars": 2744,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-03-05T15:28:53Z"
+  },
+  {
+    "name": "assertj/assertj",
+    "stars": 2743,
+    "releases": 16,
+    "age_years": 12,
+    "created_at": "2013-03-14T16:18:49Z"
+  },
+  {
+    "name": "JessYanCoding/ProgressManager",
+    "stars": 2739,
+    "releases": 9,
+    "age_years": 8,
+    "created_at": "2017-06-06T09:55:43Z"
+  },
+  {
+    "name": "RodneyShag/HackerRank_solutions",
+    "stars": 2735,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-02-04T06:41:49Z"
+  },
+  {
+    "name": "flavioarfaria/KenBurnsView",
+    "stars": 2734,
+    "releases": 4,
+    "age_years": 11,
+    "created_at": "2014-03-19T03:10:02Z"
+  },
+  {
+    "name": "ldoublem/LoadingView",
+    "stars": 2732,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-06-21T07:54:32Z"
+  },
+  {
+    "name": "JsonChao/Awesome-WanAndroid",
+    "stars": 2732,
+    "releases": 8,
+    "age_years": 7,
+    "created_at": "2018-03-09T07:18:08Z"
+  },
+  {
+    "name": "oguzbilgener/CircularFloatingActionMenu",
+    "stars": 2731,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-07-20T20:42:12Z"
+  },
+  {
+    "name": "Hitomis/transferee",
+    "stars": 2731,
+    "releases": 8,
+    "age_years": 8,
+    "created_at": "2017-01-19T05:49:30Z"
+  },
+  {
+    "name": "tdebatty/java-string-similarity",
+    "stars": 2728,
+    "releases": 26,
+    "age_years": 11,
+    "created_at": "2014-04-17T12:10:57Z"
+  },
+  {
+    "name": "aritraroy/PatternLockView",
+    "stars": 2727,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-03-27T18:46:20Z"
+  },
+  {
+    "name": "spring-projects/spring-loaded",
+    "stars": 2723,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2012-12-06T23:17:42Z"
+  },
+  {
+    "name": "deano2390/MaterialShowcaseView",
+    "stars": 2722,
+    "releases": 15,
+    "age_years": 10,
+    "created_at": "2015-08-05T14:47:59Z"
+  },
+  {
+    "name": "yangzongzhuan/RuoYi-Vue",
+    "stars": 2720,
+    "releases": 17,
+    "age_years": 5,
+    "created_at": "2019-11-07T02:18:40Z"
+  },
+  {
+    "name": "synthetichealth/synthea",
+    "stars": 2719,
+    "releases": 18,
+    "age_years": 9,
+    "created_at": "2016-06-17T20:15:40Z"
+  },
+  {
+    "name": "spring-attic/spring-native",
+    "stars": 2719,
+    "releases": 33,
+    "age_years": 6,
+    "created_at": "2019-09-05T23:40:14Z"
+  },
+  {
+    "name": "drewnoakes/metadata-extractor",
+    "stars": 2717,
+    "releases": 34,
+    "age_years": 10,
+    "created_at": "2014-11-19T00:13:55Z"
+  },
+  {
+    "name": "florent37/ViewAnimator",
+    "stars": 2717,
+    "releases": 3,
+    "age_years": 9,
+    "created_at": "2015-12-22T15:49:53Z"
+  },
+  {
+    "name": "doublechaintech/scm-biz-suite",
+    "stars": 2717,
+    "releases": 1,
+    "age_years": 6,
+    "created_at": "2018-12-17T18:07:12Z"
+  },
+  {
+    "name": "Yalantis/GuillotineMenu-Android",
+    "stars": 2716,
+    "releases": 2,
+    "age_years": 10,
+    "created_at": "2015-06-15T13:56:21Z"
+  },
+  {
+    "name": "ata4/disunity",
+    "stars": 2713,
+    "releases": 15,
+    "age_years": 12,
+    "created_at": "2013-07-21T08:09:15Z"
+  },
+  {
+    "name": "AlexLiuSheng/CheckVersionLib",
+    "stars": 2712,
+    "releases": 11,
+    "age_years": 8,
+    "created_at": "2016-09-23T04:47:25Z"
+  },
+  {
+    "name": "jobrunr/jobrunr",
+    "stars": 2710,
+    "releases": 119,
+    "age_years": 5,
+    "created_at": "2020-04-02T17:34:11Z"
+  },
+  {
+    "name": "glomadrian/Grav",
+    "stars": 2710,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-04-01T09:16:27Z"
+  },
+  {
+    "name": "TangoAgency/material-intro-screen",
+    "stars": 2709,
+    "releases": 4,
+    "age_years": 8,
+    "created_at": "2016-09-12T13:16:19Z"
+  },
+  {
+    "name": "vector4wang/spring-boot-quick",
+    "stars": 2708,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-03-13T12:32:30Z"
+  },
+  {
+    "name": "500px/500px-android-blur",
+    "stars": 2708,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-03-13T16:05:30Z"
+  },
+  {
+    "name": "reactor/reactor-netty",
+    "stars": 2706,
+    "releases": 194,
+    "age_years": 9,
+    "created_at": "2016-08-18T20:58:56Z"
+  },
+  {
+    "name": "google/bindiff",
+    "stars": 2703,
+    "releases": 2,
+    "age_years": 1,
+    "created_at": "2023-09-20T06:41:55Z"
+  },
+  {
+    "name": "saulmm/CoordinatorBehaviorExample",
+    "stars": 2700,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-08-16T04:14:38Z"
+  },
+  {
+    "name": "Qihoo360/ArgusAPM",
+    "stars": 2699,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2018-11-27T06:20:01Z"
+  },
+  {
+    "name": "north2016/T-MVP",
+    "stars": 2698,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-05-09T05:55:34Z"
+  },
+  {
+    "name": "Tornaco/Thanox",
+    "stars": 2697,
+    "releases": 129,
+    "age_years": 5,
+    "created_at": "2019-12-14T11:54:54Z"
+  },
+  {
+    "name": "AndroidIDEOfficial/AndroidIDE",
+    "stars": 2693,
+    "releases": 19,
+    "age_years": 4,
+    "created_at": "2021-07-20T13:31:14Z"
+  },
+  {
+    "name": "thombergs/code-examples",
+    "stars": 2692,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-07-30T14:12:24Z"
+  },
+  {
+    "name": "Kong/unirest-java",
+    "stars": 2687,
+    "releases": 77,
+    "age_years": 14,
+    "created_at": "2011-04-11T21:19:53Z"
+  },
+  {
+    "name": "simple-android-framework/android_design_patterns_analysis",
+    "stars": 2686,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-02-28T06:18:40Z"
+  },
+  {
+    "name": "CJT2325/CameraView",
+    "stars": 2682,
+    "releases": 2,
+    "age_years": 8,
+    "created_at": "2017-02-08T10:48:42Z"
+  },
+  {
+    "name": "openboard-team/openboard",
+    "stars": 2681,
+    "releases": 14,
+    "age_years": 5,
+    "created_at": "2019-12-31T17:17:45Z"
+  },
+  {
+    "name": "FudanNLP/fnlp",
+    "stars": 2680,
+    "releases": 3,
+    "age_years": 11,
+    "created_at": "2014-03-12T01:47:00Z"
+  },
+  {
+    "name": "in28minutes/devops-master-class",
+    "stars": 2677,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-01-20T03:46:30Z"
+  },
+  {
+    "name": "threedr3am/learnjavabug",
+    "stars": 2675,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-05-04T11:42:14Z"
+  },
+  {
+    "name": "voldemort/voldemort",
+    "stars": 2671,
+    "releases": 10,
+    "age_years": 16,
+    "created_at": "2009-05-31T03:27:10Z"
+  },
+  {
+    "name": "nisrulz/sensey",
+    "stars": 2669,
+    "releases": 13,
+    "age_years": 9,
+    "created_at": "2015-11-12T06:58:21Z"
+  },
+  {
+    "name": "r0adkll/Slidr",
+    "stars": 2667,
+    "releases": 5,
+    "age_years": 11,
+    "created_at": "2014-08-19T01:32:08Z"
+  },
+  {
+    "name": "jmp-12/SuperToasts",
+    "stars": 2666,
+    "releases": 5,
+    "age_years": 12,
+    "created_at": "2013-06-03T00:56:14Z"
+  },
+  {
+    "name": "bonigarcia/webdrivermanager",
+    "stars": 2666,
+    "releases": 64,
+    "age_years": 10,
+    "created_at": "2015-03-15T19:52:36Z"
+  },
+  {
+    "name": "Krupen/FabulousFilter",
+    "stars": 2666,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-06-26T11:36:38Z"
+  },
+  {
+    "name": "huaban/jieba-analysis",
+    "stars": 2665,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-08-06T02:57:02Z"
+  },
+  {
+    "name": "jfeinstein10/JazzyViewPager",
+    "stars": 2663,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-02-01T04:57:42Z"
+  },
+  {
+    "name": "siyamed/android-shape-imageview",
+    "stars": 2662,
+    "releases": 2,
+    "age_years": 11,
+    "created_at": "2014-08-31T22:18:23Z"
+  },
+  {
+    "name": "TencentCloud/TIMSDK",
+    "stars": 2660,
+    "releases": 61,
+    "age_years": 6,
+    "created_at": "2019-01-17T07:35:20Z"
+  },
+  {
+    "name": "code-troopers/android-betterpickers",
+    "stars": 2660,
+    "releases": 16,
+    "age_years": 12,
+    "created_at": "2013-03-21T01:45:18Z"
+  },
+  {
+    "name": "spotify/docker-maven-plugin",
+    "stars": 2657,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-06-23T22:33:07Z"
+  },
+  {
+    "name": "tiann/understand-plugin-framework",
+    "stars": 2656,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-01-28T02:51:45Z"
+  },
+  {
+    "name": "bingoogolapple/BGABadgeView-Android",
+    "stars": 2653,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-07-07T04:13:57Z"
+  },
+  {
+    "name": "wildfirechat/android-chat",
+    "stars": 2651,
+    "releases": 51,
+    "age_years": 6,
+    "created_at": "2019-01-18T06:25:11Z"
+  },
+  {
+    "name": "vdurmont/emoji-java",
+    "stars": 2647,
+    "releases": 19,
+    "age_years": 10,
+    "created_at": "2014-09-21T16:58:57Z"
+  },
+  {
+    "name": "JetBrains/skija",
+    "stars": 2646,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-04-06T17:25:23Z"
+  },
+  {
+    "name": "jaydenxiao2016/AndroidFire",
+    "stars": 2646,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-09-26T09:42:41Z"
+  },
+  {
+    "name": "Todd-Davies/ProgressWheel",
+    "stars": 2646,
+    "releases": 3,
+    "age_years": 13,
+    "created_at": "2012-02-04T18:13:30Z"
+  },
+  {
+    "name": "mongodb/mongo-java-driver",
+    "stars": 2644,
+    "releases": 154,
+    "age_years": 16,
+    "created_at": "2009-01-15T15:16:29Z"
+  },
+  {
+    "name": "bm-x/PhotoView",
+    "stars": 2642,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-08-11T04:02:56Z"
+  },
+  {
+    "name": "sharpie7/circuitjs1",
+    "stars": 2642,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-06-15T02:11:14Z"
+  },
+  {
+    "name": "erupts/erupt",
+    "stars": 2642,
+    "releases": 65,
+    "age_years": 4,
+    "created_at": "2020-09-15T13:30:13Z"
+  },
+  {
+    "name": "Kyson/AndroidGodEye",
+    "stars": 2641,
+    "releases": 10,
+    "age_years": 7,
+    "created_at": "2017-11-23T13:10:47Z"
+  },
+  {
+    "name": "xuchengsheng/wx-dump-4j",
+    "stars": 2638,
+    "releases": 2,
+    "age_years": 1,
+    "created_at": "2024-01-25T16:23:42Z"
+  },
+  {
+    "name": "Naccl/NBlog",
+    "stars": 2636,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-07-18T12:33:00Z"
+  },
+  {
+    "name": "dlew/joda-time-android",
+    "stars": 2632,
+    "releases": 47,
+    "age_years": 11,
+    "created_at": "2014-01-08T19:11:09Z"
+  },
+  {
+    "name": "VerbalExpressions/JavaVerbalExpressions",
+    "stars": 2632,
+    "releases": 9,
+    "age_years": 12,
+    "created_at": "2013-07-25T16:15:26Z"
+  },
+  {
+    "name": "google/hover",
+    "stars": 2631,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-12-14T02:43:42Z"
+  },
+  {
+    "name": "yingLanNull/ShadowImageView",
+    "stars": 2630,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-03-25T09:42:52Z"
+  },
+  {
+    "name": "manifold-systems/manifold",
+    "stars": 2627,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-06-07T02:37:23Z"
+  },
+  {
+    "name": "huazhiyuan2008/RecyclerViewCardGallery",
+    "stars": 2627,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-09-01T06:43:09Z"
+  },
+  {
+    "name": "Malinskiy/SuperRecyclerView",
+    "stars": 2626,
+    "releases": 7,
+    "age_years": 10,
+    "created_at": "2014-12-11T03:20:17Z"
+  },
+  {
+    "name": "devopshydclub/vprofile-project",
+    "stars": 2626,
+    "releases": 0,
+    "age_years": 4,
+    "created_at": "2020-09-24T15:43:44Z"
+  },
+  {
+    "name": "square/keywhiz",
+    "stars": 2623,
+    "releases": 3,
+    "age_years": 10,
+    "created_at": "2015-03-25T13:31:39Z"
+  },
+  {
+    "name": "pchmn/MaterialChipsInput",
+    "stars": 2622,
+    "releases": 7,
+    "age_years": 8,
+    "created_at": "2017-04-13T22:55:48Z"
+  },
+  {
+    "name": "lxy-go/SpringBoot",
+    "stars": 2621,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-05-15T11:01:39Z"
+  },
+  {
+    "name": "qii/weiciyuan",
+    "stars": 2619,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-07-26T14:23:04Z"
+  },
+  {
+    "name": "chennaione/sugar",
+    "stars": 2617,
+    "releases": 6,
+    "age_years": 14,
+    "created_at": "2011-08-12T13:44:41Z"
+  },
+  {
+    "name": "opensolon/solon",
+    "stars": 2615,
+    "releases": 157,
+    "age_years": 7,
+    "created_at": "2018-07-07T13:23:50Z"
+  },
+  {
+    "name": "android/animation-samples",
+    "stars": 2613,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-08-08T04:45:57Z"
+  },
+  {
+    "name": "devaige/WheelPicker",
+    "stars": 2613,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-12-01T11:57:33Z"
+  },
+  {
+    "name": "esoxjem/MovieGuide",
+    "stars": 2610,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-12-06T08:40:06Z"
+  },
+  {
+    "name": "alibaba/jvm-sandbox-repeater",
+    "stars": 2601,
+    "releases": 1,
+    "age_years": 6,
+    "created_at": "2019-07-03T08:12:04Z"
+  },
+  {
+    "name": "eclipsesource/J2V8",
+    "stars": 2601,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-08-03T17:29:54Z"
+  },
+  {
+    "name": "awsdocs/aws-lambda-developer-guide",
+    "stars": 2601,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2017-12-12T00:13:19Z"
+  },
+  {
+    "name": "hierynomus/sshj",
+    "stars": 2598,
+    "releases": 0,
+    "age_years": 15,
+    "created_at": "2010-02-27T14:34:40Z"
+  },
+  {
+    "name": "Jay-Goo/RangeSeekBar",
+    "stars": 2598,
+    "releases": 19,
+    "age_years": 8,
+    "created_at": "2017-02-08T07:40:56Z"
+  },
+  {
+    "name": "fossasia/phimpme-android",
+    "stars": 2597,
+    "releases": 8,
+    "age_years": 13,
+    "created_at": "2012-09-07T07:14:54Z"
+  },
+  {
+    "name": "Eanya-Tonic/CCTV_Viewer",
+    "stars": 2597,
+    "releases": 15,
+    "age_years": 1,
+    "created_at": "2024-01-02T17:03:26Z"
+  },
+  {
+    "name": "mihaip/dex-method-counts",
+    "stars": 2596,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-05-04T07:22:05Z"
+  },
+  {
+    "name": "xuuhaoo/OkSocket",
+    "stars": 2592,
+    "releases": 12,
+    "age_years": 7,
+    "created_at": "2017-10-12T15:37:38Z"
+  },
+  {
+    "name": "SkyTubeTeam/SkyTube",
+    "stars": 2592,
+    "releases": 56,
+    "age_years": 9,
+    "created_at": "2015-11-20T11:48:20Z"
+  },
+  {
+    "name": "JoyChou93/java-sec-code",
+    "stars": 2590,
+    "releases": 3,
+    "age_years": 7,
+    "created_at": "2017-12-26T06:54:35Z"
+  },
+  {
+    "name": "SonicCloudOrg/sonic-server",
+    "stars": 2590,
+    "releases": 60,
+    "age_years": 4,
+    "created_at": "2021-08-15T14:36:57Z"
+  },
+  {
+    "name": "mouzt/mzt-biz-log",
+    "stars": 2589,
+    "releases": 10,
+    "age_years": 5,
+    "created_at": "2020-07-26T14:24:16Z"
+  },
+  {
+    "name": "gzu-liyujiang/Android_CN_OAID",
+    "stars": 2588,
+    "releases": 26,
+    "age_years": 5,
+    "created_at": "2020-05-29T21:47:28Z"
+  },
+  {
+    "name": "shatyuka/Zhiliao",
+    "stars": 2588,
+    "releases": 34,
+    "age_years": 4,
+    "created_at": "2020-11-09T07:17:35Z"
+  },
+  {
+    "name": "LSPosed/CorePatch",
+    "stars": 2588,
+    "releases": 17,
+    "age_years": 7,
+    "created_at": "2017-11-17T15:59:44Z"
+  },
+  {
+    "name": "iReaderAndroid/X2C",
+    "stars": 2587,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-08-22T03:58:59Z"
+  },
+  {
+    "name": "facebookarchive/device-year-class",
+    "stars": 2586,
+    "releases": 2,
+    "age_years": 10,
+    "created_at": "2015-03-06T20:06:07Z"
+  },
+  {
+    "name": "SimonVT/android-menudrawer",
+    "stars": 2586,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-09-01T13:34:04Z"
+  },
+  {
+    "name": "LuckyJayce/ViewPagerIndicator",
+    "stars": 2585,
+    "releases": 16,
+    "age_years": 10,
+    "created_at": "2014-10-11T15:28:43Z"
+  },
+  {
+    "name": "liangfeidotme/MasteringAndroidDataBinding",
+    "stars": 2581,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-06-02T16:36:09Z"
+  },
+  {
+    "name": "sergejsha/pinned-section-listview",
+    "stars": 2581,
+    "releases": 5,
+    "age_years": 12,
+    "created_at": "2013-05-12T13:22:19Z"
+  },
+  {
+    "name": "bucket4j/bucket4j",
+    "stars": 2580,
+    "releases": 58,
+    "age_years": 10,
+    "created_at": "2014-10-12T14:19:18Z"
+  },
+  {
+    "name": "pf4j/pf4j",
+    "stars": 2575,
+    "releases": 6,
+    "age_years": 12,
+    "created_at": "2012-10-10T13:10:32Z"
+  },
+  {
+    "name": "cyrilmottier/GreenDroid",
+    "stars": 2572,
+    "releases": 0,
+    "age_years": 15,
+    "created_at": "2010-05-08T20:31:52Z"
+  },
+  {
+    "name": "apache/cloudstack",
+    "stars": 2572,
+    "releases": 39,
+    "age_years": 12,
+    "created_at": "2013-04-29T22:27:12Z"
+  },
+  {
+    "name": "Nekogram/Nekogram",
+    "stars": 2569,
+    "releases": 38,
+    "age_years": 2,
+    "created_at": "2023-09-10T07:07:51Z"
+  },
+  {
+    "name": "SufficientlySecure/html-textview",
+    "stars": 2569,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-09-02T16:19:18Z"
+  },
+  {
+    "name": "vladmihalcea/hypersistence-utils",
+    "stars": 2569,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2017-09-25T05:10:02Z"
+  },
+  {
+    "name": "mxn21/FlowingDrawer",
+    "stars": 2568,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-08-14T12:29:05Z"
+  },
+  {
+    "name": "Azoft/CarouselLayoutManager",
+    "stars": 2568,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-03-30T09:57:49Z"
+  },
+  {
+    "name": "katzer/cordova-plugin-local-notifications",
+    "stars": 2564,
+    "releases": 13,
+    "age_years": 12,
+    "created_at": "2013-08-10T11:25:59Z"
+  },
+  {
+    "name": "prontera/spring-cloud-rest-tcc",
+    "stars": 2560,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-12-04T06:20:38Z"
+  },
+  {
+    "name": "Ramotion/paper-onboarding-android",
+    "stars": 2559,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-04-25T09:31:20Z"
+  },
+  {
+    "name": "apache/logging-flume",
+    "stars": 2555,
+    "releases": 0,
+    "age_years": 14,
+    "created_at": "2011-08-12T18:20:14Z"
+  },
+  {
+    "name": "googlearchive/android-ConstraintLayoutExamples",
+    "stars": 2551,
+    "releases": 1,
+    "age_years": 8,
+    "created_at": "2017-03-02T00:11:54Z"
+  },
+  {
+    "name": "risesoft-y9/Digital-Infrastructure",
+    "stars": 2551,
+    "releases": 5,
+    "age_years": 2,
+    "created_at": "2023-06-26T03:13:33Z"
+  },
+  {
+    "name": "florent37/DiagonalLayout",
+    "stars": 2550,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-10-14T14:59:59Z"
+  },
+  {
+    "name": "yzcheng90/x-springboot",
+    "stars": 2549,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-01-05T08:39:00Z"
+  },
+  {
+    "name": "eclipse-collections/eclipse-collections",
+    "stars": 2548,
+    "releases": 20,
+    "age_years": 9,
+    "created_at": "2015-11-24T16:22:48Z"
+  },
+  {
+    "name": "casbin/jcasbin",
+    "stars": 2546,
+    "releases": 140,
+    "age_years": 8,
+    "created_at": "2017-09-08T16:54:38Z"
+  },
+  {
+    "name": "bin456789/Unblock163MusicClient-Xposed",
+    "stars": 2542,
+    "releases": 13,
+    "age_years": 9,
+    "created_at": "2016-01-14T11:22:46Z"
+  },
+  {
+    "name": "pushtorefresh/storio",
+    "stars": 2540,
+    "releases": 30,
+    "age_years": 11,
+    "created_at": "2014-08-30T23:23:41Z"
+  },
+  {
+    "name": "mcxtzhang/ZLayoutManager",
+    "stars": 2540,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-10-27T07:12:49Z"
+  },
+  {
+    "name": "commonmark/commonmark-java",
+    "stars": 2538,
+    "releases": 38,
+    "age_years": 10,
+    "created_at": "2015-07-22T01:08:55Z"
+  },
+  {
+    "name": "nutzam/nutz",
+    "stars": 2538,
+    "releases": 23,
+    "age_years": 14,
+    "created_at": "2011-06-10T01:25:43Z"
+  },
+  {
+    "name": "polymorphicshade/Tubular",
+    "stars": 2535,
+    "releases": 11,
+    "age_years": 1,
+    "created_at": "2024-01-21T02:58:23Z"
+  },
+  {
+    "name": "pwittchen/ReactiveNetwork",
+    "stars": 2534,
+    "releases": 47,
+    "age_years": 10,
+    "created_at": "2015-08-10T16:06:58Z"
+  },
+  {
+    "name": "marytts/marytts",
+    "stars": 2533,
+    "releases": 28,
+    "age_years": 13,
+    "created_at": "2011-12-20T16:44:48Z"
+  },
+  {
+    "name": "linkedin/rest.li",
+    "stars": 2532,
+    "releases": 1,
+    "age_years": 12,
+    "created_at": "2012-11-30T19:37:51Z"
+  },
+  {
+    "name": "bcgit/bc-java",
+    "stars": 2531,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-06-01T02:38:42Z"
+  },
+  {
+    "name": "mc1arke/sonarqube-community-branch-plugin",
+    "stars": 2530,
+    "releases": 39,
+    "age_years": 6,
+    "created_at": "2019-03-04T19:24:36Z"
+  },
+  {
+    "name": "fossasia/susi_server",
+    "stars": 2525,
+    "releases": 1,
+    "age_years": 8,
+    "created_at": "2016-09-14T20:21:09Z"
+  },
+  {
+    "name": "team-supercharge/ShimmerLayout",
+    "stars": 2523,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-05-16T13:00:37Z"
+  },
+  {
+    "name": "lealone/Lealone",
+    "stars": 2522,
+    "releases": 9,
+    "age_years": 12,
+    "created_at": "2013-01-08T13:57:08Z"
+  },
+  {
+    "name": "Zomato/AndroidPhotoFilters",
+    "stars": 2521,
+    "releases": 3,
+    "age_years": 9,
+    "created_at": "2016-06-10T10:23:49Z"
+  },
+  {
+    "name": "alibaba/yugong",
+    "stars": 2520,
+    "releases": 4,
+    "age_years": 9,
+    "created_at": "2016-03-02T07:31:00Z"
+  },
+  {
+    "name": "Azure/azure-sdk-for-java",
+    "stars": 2519,
+    "releases": 1000,
+    "age_years": 13,
+    "created_at": "2011-12-06T23:33:56Z"
+  },
+  {
+    "name": "xtuhcy/gecco",
+    "stars": 2518,
+    "releases": 19,
+    "age_years": 9,
+    "created_at": "2015-12-12T12:41:00Z"
+  },
+  {
+    "name": "nanchen2251/CompressHelper",
+    "stars": 2515,
+    "releases": 6,
+    "age_years": 8,
+    "created_at": "2017-03-16T07:20:08Z"
+  },
+  {
+    "name": "javaee-samples/javaee7-samples",
+    "stars": 2514,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-08-27T18:47:51Z"
+  },
+  {
+    "name": "Swagger2Markup/swagger2markup",
+    "stars": 2513,
+    "releases": 9,
+    "age_years": 10,
+    "created_at": "2015-02-11T11:09:32Z"
+  },
+  {
+    "name": "deeplearning4j/deeplearning4j-examples",
+    "stars": 2513,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-08-24T15:17:43Z"
+  },
+  {
+    "name": "geekidea/spring-boot-plus",
+    "stars": 2513,
+    "releases": 10,
+    "age_years": 6,
+    "created_at": "2019-06-20T08:06:08Z"
+  },
+  {
+    "name": "Antabot/White-Jotter",
+    "stars": 2512,
+    "releases": 1,
+    "age_years": 6,
+    "created_at": "2019-03-09T03:06:40Z"
+  },
+  {
+    "name": "zjw-swun/AppMethodOrder",
+    "stars": 2511,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-03-25T17:21:29Z"
+  },
+  {
+    "name": "elye/loaderviewlibrary",
+    "stars": 2511,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-08-26T03:16:03Z"
+  },
+  {
+    "name": "WangDaYeeeeee/GeometricWeather",
+    "stars": 2508,
+    "releases": 98,
+    "age_years": 9,
+    "created_at": "2016-02-21T04:39:19Z"
+  },
+  {
+    "name": "google/jimfs",
+    "stars": 2504,
+    "releases": 9,
+    "age_years": 11,
+    "created_at": "2013-10-21T14:39:27Z"
+  },
+  {
+    "name": "HotswapProjects/HotswapAgent",
+    "stars": 2503,
+    "releases": 16,
+    "age_years": 11,
+    "created_at": "2013-11-20T16:15:13Z"
+  },
+  {
+    "name": "zema1/suo5",
+    "stars": 2503,
+    "releases": 13,
+    "age_years": 2,
+    "created_at": "2022-11-22T11:45:26Z"
+  },
+  {
+    "name": "yanzhenjie/Album",
+    "stars": 2503,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-11-02T00:49:15Z"
+  },
+  {
+    "name": "Mr-xn/RedTeam_BlueTeam_HW",
+    "stars": 2502,
+    "releases": 0,
+    "age_years": 4,
+    "created_at": "2020-12-07T13:15:49Z"
+  },
+  {
+    "name": "tlaplus/tlaplus",
+    "stars": 2502,
+    "releases": 16,
+    "age_years": 9,
+    "created_at": "2016-02-02T08:48:27Z"
+  },
+  {
+    "name": "UniversalMediaServer/UniversalMediaServer",
+    "stars": 2501,
+    "releases": 139,
+    "age_years": 13,
+    "created_at": "2012-06-07T22:23:22Z"
+  },
+  {
+    "name": "liyiorg/weixin-popular",
+    "stars": 2498,
+    "releases": 47,
+    "age_years": 11,
+    "created_at": "2014-04-22T07:22:27Z"
+  },
+  {
+    "name": "iPaulPro/Android-ItemTouchHelper-Demo",
+    "stars": 2498,
+    "releases": 3,
+    "age_years": 10,
+    "created_at": "2015-06-14T22:08:17Z"
+  },
+  {
+    "name": "igreenwood/SimpleCropView",
+    "stars": 2494,
+    "releases": 16,
+    "age_years": 10,
+    "created_at": "2015-07-21T03:15:29Z"
+  },
+  {
+    "name": "romainguy/ViewServer",
+    "stars": 2493,
+    "releases": 0,
+    "age_years": 14,
+    "created_at": "2011-07-07T20:48:14Z"
+  },
+  {
+    "name": "ndroi/easy163",
+    "stars": 2493,
+    "releases": 23,
+    "age_years": 5,
+    "created_at": "2020-05-16T13:49:01Z"
+  },
+  {
+    "name": "Netflix/archaius",
+    "stars": 2493,
+    "releases": 90,
+    "age_years": 13,
+    "created_at": "2012-05-11T00:07:05Z"
+  },
+  {
+    "name": "vsch/flexmark-java",
+    "stars": 2492,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-01-23T15:29:29Z"
+  },
+  {
+    "name": "http-kit/http-kit",
+    "stars": 2492,
+    "releases": 40,
+    "age_years": 13,
+    "created_at": "2012-03-13T00:51:18Z"
+  },
+  {
+    "name": "oasisfeng/condom",
+    "stars": 2492,
+    "releases": 11,
+    "age_years": 8,
+    "created_at": "2017-03-26T07:20:54Z"
+  },
+  {
+    "name": "wuxudong/react-native-charts-wrapper",
+    "stars": 2490,
+    "releases": 35,
+    "age_years": 8,
+    "created_at": "2017-03-03T07:58:57Z"
+  },
+  {
+    "name": "logfellow/logstash-logback-encoder",
+    "stars": 2489,
+    "releases": 32,
+    "age_years": 12,
+    "created_at": "2013-03-04T16:19:08Z"
+  },
+  {
+    "name": "pac4j/pac4j",
+    "stars": 2488,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-01-28T17:04:12Z"
+  },
+  {
+    "name": "openjdk/jmh",
+    "stars": 2486,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-05-15T06:47:19Z"
+  },
+  {
+    "name": "sofastack/sofa-bolt",
+    "stars": 2486,
+    "releases": 30,
+    "age_years": 7,
+    "created_at": "2018-04-09T03:29:36Z"
+  },
+  {
+    "name": "spring-io/start.spring.io",
+    "stars": 2483,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2018-11-07T08:32:23Z"
+  },
+  {
+    "name": "nico2sh/materialish-progress",
+    "stars": 2483,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2014-11-15T14:32:25Z"
+  },
+  {
+    "name": "chrisk44/Hijacker",
+    "stars": 2483,
+    "releases": 5,
+    "age_years": 8,
+    "created_at": "2016-11-25T01:39:07Z"
+  },
+  {
+    "name": "jdsjlzx/LRecyclerView",
+    "stars": 2476,
+    "releases": 36,
+    "age_years": 9,
+    "created_at": "2016-05-19T10:12:08Z"
+  },
+  {
+    "name": "2dxgujun/AndroidTagGroup",
+    "stars": 2476,
+    "releases": 5,
+    "age_years": 10,
+    "created_at": "2015-02-10T07:42:57Z"
+  },
+  {
+    "name": "AhmadElsagheer/Competitive-programming-library",
+    "stars": 2476,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-05-29T16:04:20Z"
+  },
+  {
+    "name": "LaiFeng-Android/SopCastComponent",
+    "stars": 2473,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-12-06T06:43:32Z"
+  },
+  {
+    "name": "yeriomin/YalpStore",
+    "stars": 2472,
+    "releases": 45,
+    "age_years": 8,
+    "created_at": "2016-12-11T16:57:14Z"
+  },
+  {
+    "name": "Cleveroad/SlidingTutorial-Android",
+    "stars": 2471,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-10-09T14:10:21Z"
+  },
+  {
+    "name": "litao0621/NiftyDialogEffects",
+    "stars": 2471,
+    "releases": 3,
+    "age_years": 11,
+    "created_at": "2014-07-31T08:31:54Z"
+  },
+  {
+    "name": "balysv/material-menu",
+    "stars": 2470,
+    "releases": 20,
+    "age_years": 11,
+    "created_at": "2014-07-10T10:22:20Z"
+  },
+  {
+    "name": "googlemaps-samples/android-samples",
+    "stars": 2468,
+    "releases": 24,
+    "age_years": 10,
+    "created_at": "2015-04-22T02:35:21Z"
+  },
+  {
+    "name": "JakeWharton/RxRelay",
+    "stars": 2467,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-12-29T05:33:22Z"
+  },
+  {
+    "name": "johannilsson/android-pulltorefresh",
+    "stars": 2467,
+    "releases": 0,
+    "age_years": 14,
+    "created_at": "2011-01-09T11:12:41Z"
+  },
+  {
+    "name": "square/tape",
+    "stars": 2466,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-09-10T06:18:49Z"
+  },
+  {
+    "name": "jeasonlzy/NineGridView",
+    "stars": 2466,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-01-28T12:16:02Z"
+  },
+  {
+    "name": "mymmsc/books",
+    "stars": 2465,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-02-08T08:31:19Z"
+  },
+  {
+    "name": "daimajia/AnimationEasingFunctions",
+    "stars": 2465,
+    "releases": 1,
+    "age_years": 11,
+    "created_at": "2014-06-29T07:02:38Z"
+  },
+  {
+    "name": "ctripcorp/C-OCR",
+    "stars": 2462,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-04-11T06:07:08Z"
+  },
+  {
+    "name": "mabe02/lanterna",
+    "stars": 2461,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-06-29T06:06:29Z"
+  },
+  {
+    "name": "atomashpolskiy/bt",
+    "stars": 2459,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-05-15T19:56:23Z"
+  },
+  {
+    "name": "githubwing/ZoomHeader",
+    "stars": 2458,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-12-06T12:45:56Z"
+  },
+  {
+    "name": "JakeWharton/Telecine",
+    "stars": 2457,
+    "releases": 17,
+    "age_years": 10,
+    "created_at": "2014-10-22T09:39:53Z"
+  },
+  {
+    "name": "caoxinyu/RedisClient",
+    "stars": 2454,
+    "releases": 4,
+    "age_years": 11,
+    "created_at": "2014-05-13T09:30:23Z"
+  },
+  {
+    "name": "aws/aws-sdk-java-v2",
+    "stars": 2453,
+    "releases": 355,
+    "age_years": 8,
+    "created_at": "2017-06-23T18:56:01Z"
+  },
+  {
+    "name": "algorithmzuo/algorithm-journey",
+    "stars": 2452,
+    "releases": 0,
+    "age_years": 2,
+    "created_at": "2023-08-03T15:05:16Z"
+  },
+  {
+    "name": "BaronZ88/MinimalistWeather",
+    "stars": 2452,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-04-07T08:14:27Z"
+  },
+  {
+    "name": "qos-ch/slf4j",
+    "stars": 2451,
+    "releases": 1,
+    "age_years": 16,
+    "created_at": "2009-08-20T16:25:49Z"
+  },
+  {
+    "name": "google/copybara",
+    "stars": 2450,
+    "releases": 24,
+    "age_years": 9,
+    "created_at": "2016-09-08T16:44:40Z"
+  },
+  {
+    "name": "huanzi-qch/base-admin",
+    "stars": 2444,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2019-09-17T07:46:16Z"
+  },
+  {
+    "name": "Bukkit/Bukkit",
+    "stars": 2439,
+    "releases": 0,
+    "age_years": 14,
+    "created_at": "2011-01-02T23:47:25Z"
+  },
+  {
+    "name": "Chora10/Cknife",
+    "stars": 2439,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-02-18T02:58:01Z"
+  },
+  {
+    "name": "iammert/MaterialIntroView",
+    "stars": 2438,
+    "releases": 8,
+    "age_years": 9,
+    "created_at": "2016-01-30T13:08:17Z"
+  },
+  {
+    "name": "luxiaoxun/NettyRpc",
+    "stars": 2438,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-03-13T05:24:45Z"
+  },
+  {
+    "name": "yuyakaido/CardStackView",
+    "stars": 2437,
+    "releases": 16,
+    "age_years": 9,
+    "created_at": "2016-03-20T04:52:33Z"
+  },
+  {
+    "name": "nex3z/FlowLayout",
+    "stars": 2435,
+    "releases": 11,
+    "age_years": 8,
+    "created_at": "2017-01-03T14:02:06Z"
+  },
+  {
+    "name": "henninghall/react-native-date-picker",
+    "stars": 2434,
+    "releases": 105,
+    "age_years": 7,
+    "created_at": "2018-04-08T18:31:00Z"
+  },
+  {
+    "name": "open-keychain/open-keychain",
+    "stars": 2433,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-03-09T09:10:42Z"
+  },
+  {
+    "name": "Notsfsssf/Pix-EzViewer",
+    "stars": 2432,
+    "releases": 56,
+    "age_years": 6,
+    "created_at": "2019-04-10T04:55:27Z"
+  },
+  {
+    "name": "saulmm/Material-Movies",
+    "stars": 2430,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-01-31T09:52:23Z"
+  },
+  {
+    "name": "mqzhangw/JIMU",
+    "stars": 2428,
+    "releases": 4,
+    "age_years": 8,
+    "created_at": "2017-08-21T11:15:13Z"
+  },
+  {
+    "name": "DSAppTeam/PanelSwitchHelper",
+    "stars": 2427,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-07-09T09:33:37Z"
+  },
+  {
+    "name": "firebase/firebase-android-sdk",
+    "stars": 2425,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-08-31T20:50:43Z"
+  },
+  {
+    "name": "zeromq/jeromq",
+    "stars": 2425,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-08-01T09:28:37Z"
+  },
+  {
+    "name": "nelenkov/android-backup-extractor",
+    "stars": 2422,
+    "releases": 55,
+    "age_years": 13,
+    "created_at": "2012-06-08T13:33:46Z"
+  },
+  {
+    "name": "EhsanTang/ApiManager",
+    "stars": 2420,
+    "releases": 7,
+    "age_years": 9,
+    "created_at": "2016-03-29T02:50:04Z"
+  },
+  {
+    "name": "zhouchaoyuan/excelPanel",
+    "stars": 2419,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-01-15T14:36:50Z"
+  },
+  {
+    "name": "ozodrukh/CircularReveal",
+    "stars": 2419,
+    "releases": 17,
+    "age_years": 10,
+    "created_at": "2014-11-18T11:59:59Z"
+  },
+  {
+    "name": "opentripplanner/OpenTripPlanner",
+    "stars": 2418,
+    "releases": 10,
+    "age_years": 14,
+    "created_at": "2011-07-18T16:15:38Z"
+  },
+  {
+    "name": "wushuo894/ani-rss",
+    "stars": 2417,
+    "releases": 102,
+    "age_years": 1,
+    "created_at": "2024-07-22T14:46:56Z"
+  },
+  {
+    "name": "igniterealtime/Smack",
+    "stars": 2416,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-02-03T11:36:51Z"
+  },
+  {
+    "name": "androidx/media",
+    "stars": 2415,
+    "releases": 53,
+    "age_years": 4,
+    "created_at": "2021-09-02T18:42:10Z"
+  },
+  {
+    "name": "hellokaton/30-seconds-of-java8",
+    "stars": 2415,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-01-30T13:02:27Z"
+  },
+  {
+    "name": "lbryio/lbry-android",
+    "stars": 2413,
+    "releases": 84,
+    "age_years": 8,
+    "created_at": "2017-08-13T01:04:41Z"
+  },
+  {
+    "name": "modelcontextprotocol/java-sdk",
+    "stars": 2409,
+    "releases": 10,
+    "age_years": 0,
+    "created_at": "2025-01-20T17:52:58Z"
+  },
+  {
+    "name": "Rajawali/Rajawali",
+    "stars": 2406,
+    "releases": 8,
+    "age_years": 14,
+    "created_at": "2011-07-07T10:29:45Z"
+  },
+  {
+    "name": "konifar/android-material-design-icon-generator-plugin",
+    "stars": 2406,
+    "releases": 4,
+    "age_years": 10,
+    "created_at": "2014-12-30T17:01:03Z"
+  },
+  {
+    "name": "moquette-io/moquette",
+    "stars": 2405,
+    "releases": 10,
+    "age_years": 10,
+    "created_at": "2014-09-30T20:14:41Z"
+  },
+  {
+    "name": "spring-projects/spring-kafka",
+    "stars": 2404,
+    "releases": 238,
+    "age_years": 9,
+    "created_at": "2016-03-02T17:01:33Z"
+  },
+  {
+    "name": "hefuyicoder/ListenerMusicPlayer",
+    "stars": 2403,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-02-09T10:01:31Z"
+  },
+  {
+    "name": "delight-im/Android-AdvancedWebView",
+    "stars": 2402,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-01-08T01:33:59Z"
+  },
+  {
+    "name": "path/android-priority-jobqueue",
+    "stars": 2402,
+    "releases": 0,
+    "age_years": 12,
+    "created_at": "2013-04-09T08:43:00Z"
+  },
+  {
+    "name": "yqritc/RecyclerView-FlexibleDivider",
+    "stars": 2396,
+    "releases": 15,
+    "age_years": 10,
+    "created_at": "2015-01-15T15:09:34Z"
+  },
+  {
+    "name": "apache/activemq",
+    "stars": 2394,
+    "releases": 0,
+    "age_years": 16,
+    "created_at": "2009-05-21T01:33:45Z"
+  },
+  {
+    "name": "Julow/Unexpected-Keyboard",
+    "stars": 2393,
+    "releases": 37,
+    "age_years": 10,
+    "created_at": "2015-07-31T21:59:15Z"
+  },
+  {
+    "name": "thombergs/buckpal",
+    "stars": 2392,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-05-08T21:29:43Z"
+  },
+  {
+    "name": "xmuSistone/CardSlidePanel",
+    "stars": 2391,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-11-29T11:03:52Z"
+  },
+  {
+    "name": "openzipkin/brave",
+    "stars": 2390,
+    "releases": 92,
+    "age_years": 12,
+    "created_at": "2013-04-07T15:48:18Z"
+  },
+  {
+    "name": "DeemOpen/zkui",
+    "stars": 2389,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-05-22T06:15:53Z"
+  },
+  {
+    "name": "alexvasilkov/GestureViews",
+    "stars": 2389,
+    "releases": 16,
+    "age_years": 11,
+    "created_at": "2014-05-30T08:42:26Z"
+  },
+  {
+    "name": "xuexiangjys/XUpdate",
+    "stars": 2389,
+    "releases": 33,
+    "age_years": 7,
+    "created_at": "2018-06-29T13:39:08Z"
+  },
+  {
+    "name": "Comcast/FreeFlow",
+    "stars": 2389,
+    "releases": 1,
+    "age_years": 11,
+    "created_at": "2013-10-08T18:13:33Z"
+  },
+  {
+    "name": "cachapa/ExpandableLayout",
+    "stars": 2388,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-05-07T18:31:33Z"
+  },
+  {
+    "name": "gongwen/MarqueeViewLibrary",
+    "stars": 2388,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-12-20T09:27:09Z"
+  },
+  {
+    "name": "alibaba/TProfiler",
+    "stars": 2388,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-04-17T03:46:16Z"
+  },
+  {
+    "name": "rsocket/rsocket-java",
+    "stars": 2383,
+    "releases": 87,
+    "age_years": 10,
+    "created_at": "2015-07-08T04:36:42Z"
+  },
+  {
+    "name": "find-sec-bugs/find-sec-bugs",
+    "stars": 2377,
+    "releases": 20,
+    "age_years": 13,
+    "created_at": "2012-05-17T04:07:57Z"
+  },
+  {
+    "name": "zalando/zalenium",
+    "stars": 2376,
+    "releases": 141,
+    "age_years": 8,
+    "created_at": "2016-10-04T11:23:35Z"
+  },
+  {
+    "name": "WuKongOpenSource/WukongCRM-11.0-JAVA",
+    "stars": 2374,
+    "releases": 0,
+    "age_years": 4,
+    "created_at": "2021-04-06T10:58:55Z"
+  },
+  {
+    "name": "android-cjj/JJSearchViewAnim",
+    "stars": 2371,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-04-03T15:08:38Z"
+  },
+  {
+    "name": "balysv/material-ripple",
+    "stars": 2368,
+    "releases": 3,
+    "age_years": 10,
+    "created_at": "2014-09-16T20:54:56Z"
+  },
+  {
+    "name": "elevenetc/TextSurface",
+    "stars": 2367,
+    "releases": 2,
+    "age_years": 9,
+    "created_at": "2015-10-13T00:21:46Z"
+  },
+  {
+    "name": "VictorAlbertos/RxCache",
+    "stars": 2364,
+    "releases": 44,
+    "age_years": 9,
+    "created_at": "2016-01-10T23:49:22Z"
+  },
+  {
+    "name": "ProgrammerAnthony/Pantheon",
+    "stars": 2359,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-04-21T01:08:20Z"
+  },
+  {
+    "name": "QNJR-GROUP/EasyTransaction",
+    "stars": 2358,
+    "releases": 13,
+    "age_years": 8,
+    "created_at": "2017-03-28T10:13:48Z"
+  },
+  {
+    "name": "komoot/photon",
+    "stars": 2357,
+    "releases": 25,
+    "age_years": 12,
+    "created_at": "2013-08-20T16:06:16Z"
+  },
+  {
+    "name": "spring-projects/spring-integration-samples",
+    "stars": 2354,
+    "releases": 0,
+    "age_years": 14,
+    "created_at": "2011-08-10T04:40:02Z"
+  },
+  {
+    "name": "AnyChart/AnyChart-Android",
+    "stars": 2354,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-08-09T06:48:26Z"
+  },
+  {
+    "name": "apache/dubbo-samples",
+    "stars": 2352,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-04-28T09:25:29Z"
+  },
+  {
+    "name": "pilgr/Paper",
+    "stars": 2350,
+    "releases": 10,
+    "age_years": 10,
+    "created_at": "2015-06-11T20:55:15Z"
+  },
+  {
+    "name": "Ramotion/cardslider-android",
+    "stars": 2350,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-05-04T07:35:28Z"
+  },
+  {
+    "name": "meituan/WMRouter",
+    "stars": 2348,
+    "releases": 6,
+    "age_years": 7,
+    "created_at": "2018-08-16T10:38:51Z"
+  },
+  {
+    "name": "baomidou/mybatis-plus-samples",
+    "stars": 2346,
+    "releases": 1,
+    "age_years": 7,
+    "created_at": "2018-07-23T02:32:11Z"
+  },
+  {
+    "name": "f-droid/fdroidclient",
+    "stars": 2345,
+    "releases": 1,
+    "age_years": 11,
+    "created_at": "2014-07-23T17:46:02Z"
+  },
+  {
+    "name": "confluentinc/schema-registry",
+    "stars": 2345,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2014-12-09T22:38:11Z"
+  },
+  {
+    "name": "didi/tinyid",
+    "stars": 2343,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2018-09-26T06:34:57Z"
+  },
+  {
+    "name": "nikita36078/J2ME-Loader",
+    "stars": 2340,
+    "releases": 94,
+    "age_years": 8,
+    "created_at": "2017-05-21T16:23:08Z"
+  },
+  {
+    "name": "grishka/Houseclub",
+    "stars": 2339,
+    "releases": 10,
+    "age_years": 4,
+    "created_at": "2021-02-20T10:49:53Z"
+  },
+  {
+    "name": "Diolor/Swipecards",
+    "stars": 2339,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-08-06T10:15:32Z"
+  },
+  {
+    "name": "Rukey7/MvpApp",
+    "stars": 2339,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-08-19T09:59:38Z"
+  },
+  {
+    "name": "gitblit-org/gitblit",
+    "stars": 2338,
+    "releases": 8,
+    "age_years": 14,
+    "created_at": "2011-06-22T19:54:49Z"
+  },
+  {
+    "name": "apache/incubator-seata-samples",
+    "stars": 2338,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-01-29T16:01:42Z"
+  },
+  {
+    "name": "modelmapper/modelmapper",
+    "stars": 2338,
+    "releases": 0,
+    "age_years": 14,
+    "created_at": "2010-10-24T21:46:09Z"
+  },
+  {
+    "name": "LuckyJayce/LargeImage",
+    "stars": 2338,
+    "releases": 5,
+    "age_years": 9,
+    "created_at": "2015-10-25T09:43:14Z"
+  },
+  {
+    "name": "FangWW/Document",
+    "stars": 2335,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2017-10-15T05:47:40Z"
+  },
+  {
+    "name": "Etar-Group/Etar-Calendar",
+    "stars": 2330,
+    "releases": 45,
+    "age_years": 10,
+    "created_at": "2015-09-04T07:33:25Z"
+  },
+  {
+    "name": "mybatis-flex/mybatis-flex",
+    "stars": 2329,
+    "releases": 89,
+    "age_years": 2,
+    "created_at": "2023-02-27T03:14:05Z"
+  },
+  {
+    "name": "FreddyChen/NettyChat",
+    "stars": 2329,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-04-10T02:36:18Z"
+  },
+  {
+    "name": "forezp/SpringBootLearning",
+    "stars": 2325,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-04-21T15:57:41Z"
+  },
+  {
+    "name": "open-telemetry/opentelemetry-java-instrumentation",
+    "stars": 2325,
+    "releases": 109,
+    "age_years": 5,
+    "created_at": "2019-09-25T20:19:14Z"
+  },
+  {
+    "name": "LaurieWired/Malimite",
+    "stars": 2320,
+    "releases": 3,
+    "age_years": 1,
+    "created_at": "2023-12-08T01:17:05Z"
+  },
+  {
+    "name": "sarxos/webcam-capture",
+    "stars": 2319,
+    "releases": 11,
+    "age_years": 13,
+    "created_at": "2012-05-25T20:26:28Z"
+  },
+  {
+    "name": "FasterXML/jackson-core",
+    "stars": 2319,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2011-12-23T02:00:51Z"
+  },
+  {
+    "name": "xingda920813/HelloDaemon",
+    "stars": 2318,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-08-14T12:11:00Z"
+  },
+  {
+    "name": "bingoogolapple/BGASwipeBackLayout-Android",
+    "stars": 2317,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-12-27T09:06:24Z"
+  },
+  {
+    "name": "apache/geode",
+    "stars": 2316,
+    "releases": 26,
+    "age_years": 10,
+    "created_at": "2015-04-30T07:00:05Z"
+  },
+  {
+    "name": "DreamCats/java-notes",
+    "stars": 2316,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2019-03-09T05:23:03Z"
+  },
+  {
+    "name": "patrickfav/uber-apk-signer",
+    "stars": 2315,
+    "releases": 18,
+    "age_years": 8,
+    "created_at": "2016-10-10T18:56:44Z"
+  },
+  {
+    "name": "bytedance/AlphaPlayer",
+    "stars": 2315,
+    "releases": 21,
+    "age_years": 5,
+    "created_at": "2020-08-06T09:39:14Z"
+  },
+  {
+    "name": "reneargento/algorithms-sedgewick-wayne",
+    "stars": 2315,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2016-11-27T17:54:25Z"
+  },
+  {
+    "name": "deltazefiro/Amarok-Hider",
+    "stars": 2315,
+    "releases": 36,
+    "age_years": 3,
+    "created_at": "2022-01-31T06:46:16Z"
+  },
+  {
+    "name": "Frank-Zhu/PullZoomView",
+    "stars": 2313,
+    "releases": 0,
+    "age_years": 11,
+    "created_at": "2014-09-04T11:48:46Z"
+  },
+  {
+    "name": "pinguo-zhouwei/MZBannerView",
+    "stars": 2311,
+    "releases": 9,
+    "age_years": 8,
+    "created_at": "2017-05-31T09:45:03Z"
+  },
+  {
+    "name": "hidroh/materialistic",
+    "stars": 2311,
+    "releases": 15,
+    "age_years": 10,
+    "created_at": "2015-01-22T04:03:54Z"
+  },
+  {
+    "name": "vikramkakkar/SublimePicker",
+    "stars": 2311,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2015-05-24T14:51:50Z"
+  },
+  {
+    "name": "exchange-core/exchange-core",
+    "stars": 2306,
+    "releases": 4,
+    "age_years": 7,
+    "created_at": "2018-08-05T18:25:16Z"
+  },
+  {
+    "name": "bytedance/scene",
+    "stars": 2306,
+    "releases": 14,
+    "age_years": 5,
+    "created_at": "2019-10-09T03:32:13Z"
+  },
+  {
+    "name": "SummerSec/ShiroAttack2",
+    "stars": 2301,
+    "releases": 12,
+    "age_years": 4,
+    "created_at": "2021-06-13T03:44:13Z"
+  },
+  {
+    "name": "vipshop/Saturn",
+    "stars": 2300,
+    "releases": 22,
+    "age_years": 8,
+    "created_at": "2016-11-30T08:06:30Z"
+  },
+  {
+    "name": "qiujuer/Genius-Android",
+    "stars": 2299,
+    "releases": 16,
+    "age_years": 11,
+    "created_at": "2014-07-10T08:32:51Z"
+  },
+  {
+    "name": "jenkinsci/kubernetes-plugin",
+    "stars": 2294,
+    "releases": 207,
+    "age_years": 10,
+    "created_at": "2015-02-16T09:02:22Z"
+  },
+  {
+    "name": "florent37/CameraFragment",
+    "stars": 2290,
+    "releases": 1,
+    "age_years": 8,
+    "created_at": "2017-01-13T13:45:42Z"
+  },
+  {
+    "name": "doocs/coding-interview",
+    "stars": 2287,
+    "releases": 0,
+    "age_years": 6,
+    "created_at": "2018-10-27T01:50:49Z"
+  },
+  {
+    "name": "BlueMap-Minecraft/BlueMap",
+    "stars": 2286,
+    "releases": 110,
+    "age_years": 5,
+    "created_at": "2019-11-02T16:25:07Z"
+  },
+  {
+    "name": "plattysoft/Leonids",
+    "stars": 2285,
+    "releases": 6,
+    "age_years": 11,
+    "created_at": "2013-10-23T13:23:27Z"
+  },
+  {
+    "name": "GCX-HCI/tray",
+    "stars": 2284,
+    "releases": 8,
+    "age_years": 10,
+    "created_at": "2015-02-05T13:39:50Z"
+  },
+  {
+    "name": "decaywood/XueQiuSuperSpider",
+    "stars": 2284,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2015-11-24T07:08:18Z"
+  },
+  {
+    "name": "leibnitz27/cfr",
+    "stars": 2284,
+    "releases": 29,
+    "age_years": 11,
+    "created_at": "2014-05-12T16:39:42Z"
+  },
+  {
+    "name": "lamster2018/EasyProtector",
+    "stars": 2279,
+    "releases": 8,
+    "age_years": 7,
+    "created_at": "2018-05-14T13:33:42Z"
+  },
+  {
+    "name": "weixiansen574/HybridFileXfer",
+    "stars": 2276,
+    "releases": 9,
+    "age_years": 1,
+    "created_at": "2024-03-26T09:50:45Z"
+  },
+  {
+    "name": "kongzue/DialogX",
+    "stars": 2275,
+    "releases": 235,
+    "age_years": 4,
+    "created_at": "2020-09-26T07:51:26Z"
+  },
+  {
+    "name": "iiordanov/remote-desktop-clients",
+    "stars": 2274,
+    "releases": 120,
+    "age_years": 13,
+    "created_at": "2012-02-26T19:22:07Z"
+  },
+  {
+    "name": "iqiyi/Andromeda",
+    "stars": 2274,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-04-20T07:29:34Z"
+  },
+  {
+    "name": "youlaitech/youlai-mall",
+    "stars": 2274,
+    "releases": 0,
+    "age_years": 5,
+    "created_at": "2020-03-01T02:19:27Z"
+  },
+  {
+    "name": "code-mc/material-icon-lib",
+    "stars": 2271,
+    "releases": 12,
+    "age_years": 10,
+    "created_at": "2015-07-19T12:10:11Z"
+  },
+  {
+    "name": "H07000223/FlycoDialog_Master",
+    "stars": 2270,
+    "releases": 3,
+    "age_years": 10,
+    "created_at": "2015-08-30T11:10:15Z"
+  },
+  {
+    "name": "apilayer/restcountries",
+    "stars": 2268,
+    "releases": 19,
+    "age_years": 11,
+    "created_at": "2013-10-09T18:33:15Z"
+  },
+  {
+    "name": "HeZaiJin/SlantedTextView",
+    "stars": 2267,
+    "releases": 0,
+    "age_years": 9,
+    "created_at": "2016-06-30T01:41:30Z"
+  },
+  {
+    "name": "shyiko/mysql-binlog-connector-java",
+    "stars": 2267,
+    "releases": 16,
+    "age_years": 12,
+    "created_at": "2013-07-11T15:05:22Z"
+  },
+  {
+    "name": "addthis/stream-lib",
+    "stars": 2266,
+    "releases": 0,
+    "age_years": 14,
+    "created_at": "2011-03-15T18:41:27Z"
+  },
+  {
+    "name": "amaembo/streamex",
+    "stars": 2264,
+    "releases": 5,
+    "age_years": 10,
+    "created_at": "2015-04-10T17:02:32Z"
+  },
+  {
+    "name": "sonatype/nexus-public",
+    "stars": 2264,
+    "releases": 154,
+    "age_years": 10,
+    "created_at": "2015-07-31T23:42:41Z"
+  },
+  {
+    "name": "plutext/docx4j",
+    "stars": 2262,
+    "releases": 0,
+    "age_years": 13,
+    "created_at": "2012-05-11T22:13:30Z"
+  },
+  {
+    "name": "anitaa1990/Android-Cheat-sheet",
+    "stars": 2260,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2018-05-29T14:08:42Z"
+  },
+  {
+    "name": "skyfishjy/android-ripple-background",
+    "stars": 2259,
+    "releases": 0,
+    "age_years": 10,
+    "created_at": "2014-11-07T03:52:06Z"
+  },
+  {
+    "name": "spring-projects/spring-retry",
+    "stars": 2259,
+    "releases": 19,
+    "age_years": 14,
+    "created_at": "2010-12-21T16:41:48Z"
+  },
+  {
+    "name": "warkiz/IndicatorSeekBar",
+    "stars": 2259,
+    "releases": 9,
+    "age_years": 7,
+    "created_at": "2017-10-30T16:48:53Z"
+  },
+  {
+    "name": "a466350665/smart-sso",
+    "stars": 2258,
+    "releases": 1,
+    "age_years": 9,
+    "created_at": "2016-07-11T09:06:38Z"
+  },
+  {
+    "name": "ta4j/ta4j",
+    "stars": 2258,
+    "releases": 5,
+    "age_years": 7,
+    "created_at": "2017-09-14T17:14:32Z"
+  },
+  {
+    "name": "open-telemetry/opentelemetry-java",
+    "stars": 2257,
+    "releases": 86,
+    "age_years": 6,
+    "created_at": "2019-02-26T16:43:36Z"
+  },
+  {
+    "name": "apache/ambari",
+    "stars": 2255,
+    "releases": 2,
+    "age_years": 13,
+    "created_at": "2011-09-23T07:00:08Z"
+  },
+  {
+    "name": "JingYeoh/FragmentRigger",
+    "stars": 2255,
+    "releases": 0,
+    "age_years": 7,
+    "created_at": "2017-11-16T05:38:53Z"
+  },
+  {
+    "name": "iMeiji/Toutiao",
+    "stars": 2255,
+    "releases": 17,
+    "age_years": 8,
+    "created_at": "2016-12-16T14:22:30Z"
+  },
+  {
+    "name": "Zhaoss/WeiXinRecordedDemo",
+    "stars": 2253,
+    "releases": 0,
+    "age_years": 8,
+    "created_at": "2017-03-01T03:21:08Z"
+  },
+  {
+    "name": "bingoogolapple/BGAPhotoPicker-Android",
+    "stars": 2251,
+    "releases": 2,
+    "age_years": 9,
+    "created_at": "2016-06-24T04:05:29Z"
+  },
+  {
+    "name": "i2p/i2p.i2p",
+    "stars": 2251,
+    "releases": 113,
+    "age_years": 13,
+    "created_at": "2012-05-26T20:54:59Z"
+  }
+]
