@@ -49,15 +49,15 @@ def analisar_repositorio(repo_name):
             
         metrics = {
             'repo_name': repo_name,
-            'cbo_median': df_class['cbo'].median(),
-            'dit_median': df_class['dit'].median(),
-            'lcom_median': df_class['lcom'].median(),
+            'cbo_mean': df_class['cbo'].mean(),
+            'dit_mean': df_class['dit'].mean(),
+            'lcom_mean': df_class['lcom'].mean(),
             'cbo_total': df_class['cbo'].sum(),
             'dit_total': df_class['dit'].sum(),
             'lcom_total': df_class['lcom'].sum()
         }
         
-        print(f"  Métricas calculadas para {repo_name}: CBO_median={metrics['cbo_median']:.2f}, DIT_median={metrics['dit_median']:.2f}, LCOM_median={metrics['lcom_median']:.2f}")
+        print(f"  Métricas calculadas para {repo_name}: CBO_mean={metrics['cbo_mean']:.2f}, DIT_mean={metrics['dit_mean']:.2f}, LCOM_mean={metrics['lcom_mean']:.2f}")
         print(f"  Totais: CBO_total={metrics['cbo_total']:.0f}, DIT_total={metrics['dit_total']:.0f}, LCOM_total={metrics['lcom_total']:.0f}")
         return metrics
 
@@ -106,7 +106,7 @@ if __name__ == '__main__':
         exit()
 
     with open(OUTPUT_CSV_FILE, 'w', newline='') as f:
-        f.write('repo_name,cbo_median,dit_median,lcom_median,cbo_total,dit_total,lcom_total\n')
+        f.write('repo_name,cbo_mean,dit_mean,lcom_mean,cbo_total,dit_total,lcom_total\n')
 
     total_repos = len(repos_df)
     print(f"Iniciando análise de {total_repos} repositórios...")
@@ -119,7 +119,7 @@ if __name__ == '__main__':
             metrics_result = analisar_repositorio(repo_name)
             if metrics_result:
                 with open(OUTPUT_CSV_FILE, 'a', newline='') as f:
-                    f.write(f"{metrics_result['repo_name']},{metrics_result['cbo_median']},{metrics_result['dit_median']},{metrics_result['lcom_median']},{metrics_result['cbo_total']},{metrics_result['dit_total']},{metrics_result['lcom_total']}\n")
+                    f.write(f"{metrics_result['repo_name']},{metrics_result['cbo_mean']},{metrics_result['dit_mean']},{metrics_result['lcom_mean']},{metrics_result['cbo_total']},{metrics_result['dit_total']},{metrics_result['lcom_total']}\n")
             indexTtotal = indexTtotal + 1
 
     print(f"\nAnálise concluída! Resultados salvos em '{OUTPUT_CSV_FILE}'.")

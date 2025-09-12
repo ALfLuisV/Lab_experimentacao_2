@@ -22,30 +22,30 @@ def carregar_dados():
         return None
 
 def criar_histogramas(df):
-    """Cria histogramas para as métricas medianas e totais"""
+    """Cria histogramas para as métricas médias e totais"""
     # Criar diretório se não existir
     Path('graficos').mkdir(exist_ok=True)
     
-    # Histogramas para métricas medianas
-    fig, axes = plt.subplots(1, 3, figsize=(20, 8))
-    fig.suptitle('Distribuição das Métricas de Qualidade de Código - Valores Medianos', fontsize=18, fontweight='bold')
+    # Histogramas para métricas médias
+    fig, axes = plt.subplots(1, 3, figsize=(24, 8))
+    fig.suptitle('Distribuição das Métricas de Qualidade de Código - Valores Médios', fontsize=18, fontweight='bold')
     
-    metricas_median = ['cbo_median', 'dit_median', 'lcom_median']
-    titulos_median = ['CBO (Coupling Between Objects)', 'DIT (Depth of Inheritance Tree)', 'LCOM (Lack of Cohesion of Methods)']
+    metricas_mean = ['cbo_mean', 'dit_mean', 'lcom_mean']
+    titulos_mean = ['CBO (Coupling Between Objects)', 'DIT (Depth of Inheritance Tree)', 'LCOM (Lack of Cohesion of Methods)']
     
-    for i, (metrica, titulo) in enumerate(zip(metricas_median, titulos_median)):
+    for i, (metrica, titulo) in enumerate(zip(metricas_mean, titulos_mean)):
         # Ajustar número de bins baseado no tamanho do dataset
         bins = min(30, max(10, len(df) // 20))
         sns.histplot(data=df, x=metrica, bins=bins, kde=True, ax=axes[i])
-        axes[i].set_title(f'{titulo} (Mediana)', fontweight='bold', fontsize=14)
-        axes[i].set_xlabel(f'{titulo} (Mediana)', fontsize=12)
+        axes[i].set_title(f'{titulo} (Média)', fontweight='bold', fontsize=14)
+        axes[i].set_xlabel(f'{titulo} (Média)', fontsize=12)
         axes[i].set_ylabel('Frequência', fontsize=12)
         axes[i].tick_params(labelsize=10)
     
     plt.tight_layout()
-    plt.savefig('graficos/histogramas_metricas_medianas.png', dpi=600, bbox_inches='tight')
+    plt.savefig('graficos/histogramas_metricas_medias.png', dpi=600, bbox_inches='tight')
     plt.show()
-    print("✓ Histogramas (medianas) salvos como 'graficos/histogramas_metricas_medianas.png'")
+    print("✓ Histogramas (médias) salvos como 'graficos/histogramas_metricas_medias.png'")
     
     # Histogramas para métricas totais (separado para melhor visualização)
     fig, axes = plt.subplots(1, 3, figsize=(20, 8))
@@ -71,27 +71,27 @@ def criar_histogramas(df):
 
 def criar_boxplots(df):
     """Cria boxplots para visualizar a distribuição das métricas"""
-    # Boxplots para métricas medianas
-    fig, axes = plt.subplots(1, 3, figsize=(20, 10))
-    fig.suptitle('Boxplots das Métricas de Qualidade de Código - Valores Medianos', fontsize=18, fontweight='bold')
+    # Boxplots para métricas médias
+    fig, axes = plt.subplots(1, 3, figsize=(24, 8))
+    fig.suptitle('Boxplots das Métricas de Qualidade de Código - Valores Médios', fontsize=18, fontweight='bold')
     
-    metricas_median = ['cbo_median', 'dit_median', 'lcom_median']
-    titulos_median = ['CBO (Mediana)', 'DIT (Mediana)', 'LCOM (Mediana)']
+    metricas_mean = ['cbo_mean', 'dit_mean', 'lcom_mean']
+    titulos_mean = ['CBO (Média)', 'DIT (Média)', 'LCOM (Média)']
     
-    for i, (metrica, titulo) in enumerate(zip(metricas_median, titulos_median)):
+    for i, (metrica, titulo) in enumerate(zip(metricas_mean, titulos_mean)):
         sns.boxplot(data=df, y=metrica, ax=axes[i], palette='Set2')
         axes[i].set_title(titulo, fontweight='bold', fontsize=14)
         axes[i].set_ylabel('Valor', fontsize=12)
         axes[i].tick_params(labelsize=10)
         # Adicionar estatísticas no gráfico
-        median_val = df[metrica].median()
-        axes[i].text(0.02, 0.98, f'Mediana: {median_val:.2f}', transform=axes[i].transAxes, 
+        mean_val = df[metrica].mean()
+        axes[i].text(0.02, 0.98, f'Média: {mean_val:.2f}', transform=axes[i].transAxes, 
                     verticalalignment='top', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
     
     plt.tight_layout()
-    plt.savefig('graficos/boxplots_metricas_medianas.png', dpi=600, bbox_inches='tight')
+    plt.savefig('graficos/boxplots_metricas_medias.png', dpi=600, bbox_inches='tight')
     plt.show()
-    print("✓ Boxplots (medianas) salvos como 'graficos/boxplots_metricas_medianas.png'")
+    print("✓ Boxplots (médias) salvos como 'graficos/boxplots_metricas_medias.png'")
     
     # Boxplots para métricas totais (separado para melhor visualização)
     fig, axes = plt.subplots(1, 3, figsize=(20, 10))
@@ -108,8 +108,8 @@ def criar_boxplots(df):
         # Usar escala logarítmica para valores totais
         axes[i].set_yscale('log')
         # Adicionar estatísticas no gráfico
-        median_val = df[metrica].median()
-        axes[i].text(0.02, 0.98, f'Mediana: {median_val:.0f}', transform=axes[i].transAxes, 
+        mean_val = df[metrica].mean()
+        axes[i].text(0.02, 0.98, f'Média: {mean_val:.0f}', transform=axes[i].transAxes, 
                     verticalalignment='top', bbox=dict(boxstyle='round', facecolor='lightblue', alpha=0.8))
     
     plt.tight_layout()
@@ -119,17 +119,17 @@ def criar_boxplots(df):
 
 def criar_scatter_plots(df):
     """Cria gráficos de dispersão para analisar correlações"""
-    # Scatter plots para métricas medianas
+    # Scatter plots para métricas médias
     fig, axes = plt.subplots(1, 3, figsize=(24, 8))
-    fig.suptitle('Análise de Correlações - Métricas Medianas', fontsize=18, fontweight='bold')
+    fig.suptitle('Análise de Correlações - Métricas Médias', fontsize=18, fontweight='bold')
     
-    correlacoes_median = [
-        ('cbo_median', 'dit_median', 'CBO vs DIT (Mediana)'),
-        ('cbo_median', 'lcom_median', 'CBO vs LCOM (Mediana)'),
-        ('dit_median', 'lcom_median', 'DIT vs LCOM (Mediana)')
+    correlacoes_mean = [
+        ('cbo_mean', 'dit_mean', 'CBO vs DIT (Média)'),
+        ('cbo_mean', 'lcom_mean', 'CBO vs LCOM (Média)'),
+        ('dit_mean', 'lcom_mean', 'DIT vs LCOM (Média)')
     ]
     
-    for i, (x_col, y_col, titulo) in enumerate(correlacoes_median):
+    for i, (x_col, y_col, titulo) in enumerate(correlacoes_mean):
         sns.scatterplot(data=df, x=x_col, y=y_col, ax=axes[i], alpha=0.7, s=60)
         axes[i].set_title(titulo, fontweight='bold', fontsize=14)
         axes[i].set_xlabel(x_col.replace('_', ' ').title(), fontsize=12)
@@ -148,9 +148,9 @@ def criar_scatter_plots(df):
                     bbox=dict(boxstyle='round', facecolor='white', alpha=0.9), fontsize=11)
     
     plt.tight_layout()
-    plt.savefig('graficos/scatter_plots_medianas.png', dpi=600, bbox_inches='tight')
-    plt.show()
-    print("✓ Scatter plots (medianas) salvos como 'graficos/scatter_plots_medianas.png'")
+    plt.savefig('graficos/scatter_plots_medias.png', dpi=600, bbox_inches='tight')
+    plt.close()
+    print("✓ Scatter plots (médias) salvos como 'graficos/scatter_plots_medias.png'")
     
     # Scatter plots para métricas totais (separado para melhor visualização)
     fig, axes = plt.subplots(1, 3, figsize=(24, 8))
@@ -186,8 +186,8 @@ def criar_scatter_plots(df):
 def criar_heatmap_correlacao(df):
     """Cria heatmap de correlação entre as métricas"""
     # Calcular matriz de correlação
-    correlation_matrix = df[['cbo_median', 'dit_median', 'lcom_median', 
-                            'cbo_total', 'dit_total', 'lcom_total']].corr()
+    correlation_matrix = df[['cbo_mean', 'dit_mean', 'lcom_mean',
+                             'cbo_total', 'dit_total', 'lcom_total']].corr()
     
     plt.figure(figsize=(12, 10))
     
@@ -209,7 +209,7 @@ def criar_heatmap_correlacao(df):
               fontsize=16, fontweight='bold', pad=20)
     
     # Melhorar labels dos eixos
-    labels = ['CBO\n(Mediana)', 'DIT\n(Mediana)', 'LCOM\n(Mediana)', 
+    labels = ['CBO\n(Média)', 'DIT\n(Média)', 'LCOM\n(Média)',
               'CBO\n(Total)', 'DIT\n(Total)', 'LCOM\n(Total)']
     plt.xticks(range(len(labels)), labels, rotation=45, ha='right', fontsize=11)
     plt.yticks(range(len(labels)), labels, rotation=0, fontsize=11)
@@ -225,27 +225,27 @@ def criar_grafico_barras_repositorios(df):
     
     if n_repos <= 20:
         # Para poucos repositórios, mostrar todos
-        df_sorted = df.sort_values('cbo_median', ascending=False)
+        df_sorted = df.sort_values('cbo_mean', ascending=False)
         
         fig, axes = plt.subplots(3, 1, figsize=(15, 18))
-        fig.suptitle(f'Comparação entre Repositórios - Métricas Medianas ({n_repos} repositórios)', fontsize=16, fontweight='bold')
+        fig.suptitle(f'Comparação entre Repositórios - Métricas Médias ({n_repos} repositórios)', fontsize=16, fontweight='bold')
         
         # CBO
-        sns.barplot(data=df_sorted, x='cbo_median', y='repo_name', ax=axes[0], palette='viridis')
-        axes[0].set_title('CBO (Coupling Between Objects) - Mediana', fontweight='bold')
-        axes[0].set_xlabel('CBO (Mediana)')
+        sns.barplot(data=df_sorted, x='cbo_mean', y='repo_name', ax=axes[0], palette='viridis')
+        axes[0].set_title('CBO (Coupling Between Objects) - Média', fontweight='bold')
+        axes[0].set_xlabel('CBO (Média)')
         axes[0].set_ylabel('Repositório')
         
         # DIT
-        sns.barplot(data=df_sorted, x='dit_median', y='repo_name', ax=axes[1], palette='plasma')
-        axes[1].set_title('DIT (Depth of Inheritance Tree) - Mediana', fontweight='bold')
-        axes[1].set_xlabel('DIT (Mediana)')
+        sns.barplot(data=df_sorted, x='dit_mean', y='repo_name', ax=axes[1], palette='plasma')
+        axes[1].set_title('DIT (Depth of Inheritance Tree) - Média', fontweight='bold')
+        axes[1].set_xlabel('DIT (Média)')
         axes[1].set_ylabel('Repositório')
         
         # LCOM
-        sns.barplot(data=df_sorted, x='lcom_median', y='repo_name', ax=axes[2], palette='inferno')
-        axes[2].set_title('LCOM (Lack of Cohesion of Methods) - Mediana', fontweight='bold')
-        axes[2].set_xlabel('LCOM (Mediana)')
+        sns.barplot(data=df_sorted, x='lcom_mean', y='repo_name', ax=axes[2], palette='inferno')
+        axes[2].set_title('LCOM (Lack of Cohesion of Methods) - Média', fontweight='bold')
+        axes[2].set_xlabel('LCOM (Média)')
         axes[2].set_ylabel('Repositório')
         
         plt.tight_layout()
@@ -256,30 +256,30 @@ def criar_grafico_barras_repositorios(df):
         # Para muitos repositórios, mostrar top 20 e bottom 20
         print(f"📊 Dataset com {n_repos} repositórios. Criando visualizações otimizadas...")
         
-        # Top 20 repositórios por CBO mediana
-        top_20 = df.nlargest(20, 'cbo_median')
-        bottom_20 = df.nsmallest(20, 'cbo_median')
+        # Top 20 repositórios por CBO média
+        top_20 = df.nlargest(20, 'cbo_mean')
+        bottom_20 = df.nsmallest(20, 'cbo_mean')
         
         # Criar gráfico para top 20
         fig, axes = plt.subplots(3, 1, figsize=(20, 18))
         fig.suptitle(f'Top 20 Repositórios - Maiores Valores de CBO (Total: {n_repos} repos)', fontsize=16, fontweight='bold')
         
         # CBO - Top 20
-        sns.barplot(data=top_20, x='cbo_median', y='repo_name', ax=axes[0], palette='viridis')
-        axes[0].set_title('CBO (Coupling Between Objects) - Mediana', fontweight='bold')
-        axes[0].set_xlabel('CBO (Mediana)')
+        sns.barplot(data=top_20, x='cbo_mean', y='repo_name', ax=axes[0], palette='viridis')
+        axes[0].set_title('CBO (Coupling Between Objects) - Média', fontweight='bold')
+        axes[0].set_xlabel('CBO (Média)')
         axes[0].set_ylabel('Repositório')
         
         # DIT - Top 20
-        sns.barplot(data=top_20, x='dit_median', y='repo_name', ax=axes[1], palette='plasma')
-        axes[1].set_title('DIT (Depth of Inheritance Tree) - Mediana', fontweight='bold')
-        axes[1].set_xlabel('DIT (Mediana)')
+        sns.barplot(data=top_20, x='dit_mean', y='repo_name', ax=axes[1], palette='plasma')
+        axes[1].set_title('DIT (Depth of Inheritance Tree) - Média', fontweight='bold')
+        axes[1].set_xlabel('DIT (Média)')
         axes[1].set_ylabel('Repositório')
         
         # LCOM - Top 20
-        sns.barplot(data=top_20, x='lcom_median', y='repo_name', ax=axes[2], palette='inferno')
-        axes[2].set_title('LCOM (Lack of Cohesion of Methods) - Mediana', fontweight='bold')
-        axes[2].set_xlabel('LCOM (Mediana)')
+        sns.barplot(data=top_20, x='lcom_mean', y='repo_name', ax=axes[2], palette='inferno')
+        axes[2].set_title('LCOM (Lack of Cohesion of Methods) - Média', fontweight='bold')
+        axes[2].set_xlabel('LCOM (Média)')
         axes[2].set_ylabel('Repositório')
         
         plt.tight_layout()
@@ -292,21 +292,21 @@ def criar_grafico_barras_repositorios(df):
         fig.suptitle(f'Bottom 20 Repositórios - Menores Valores de CBO (Total: {n_repos} repos)', fontsize=16, fontweight='bold')
         
         # CBO - Bottom 20
-        sns.barplot(data=bottom_20, x='cbo_median', y='repo_name', ax=axes[0], palette='viridis')
-        axes[0].set_title('CBO (Coupling Between Objects) - Mediana', fontweight='bold')
-        axes[0].set_xlabel('CBO (Mediana)')
+        sns.barplot(data=bottom_20, x='cbo_mean', y='repo_name', ax=axes[0], palette='viridis')
+        axes[0].set_title('CBO (Coupling Between Objects) - Média', fontweight='bold')
+        axes[0].set_xlabel('CBO (Média)')
         axes[0].set_ylabel('Repositório')
         
         # DIT - Bottom 20
-        sns.barplot(data=bottom_20, x='dit_median', y='repo_name', ax=axes[1], palette='plasma')
-        axes[1].set_title('DIT (Depth of Inheritance Tree) - Mediana', fontweight='bold')
-        axes[1].set_xlabel('DIT (Mediana)')
+        sns.barplot(data=bottom_20, x='dit_mean', y='repo_name', ax=axes[1], palette='plasma')
+        axes[1].set_title('DIT (Depth of Inheritance Tree) - Média', fontweight='bold')
+        axes[1].set_xlabel('DIT (Média)')
         axes[1].set_ylabel('Repositório')
         
         # LCOM - Bottom 20
-        sns.barplot(data=bottom_20, x='lcom_median', y='repo_name', ax=axes[2], palette='inferno')
-        axes[2].set_title('LCOM (Lack of Cohesion of Methods) - Mediana', fontweight='bold')
-        axes[2].set_xlabel('LCOM (Mediana)')
+        sns.barplot(data=bottom_20, x='lcom_mean', y='repo_name', ax=axes[2], palette='inferno')
+        axes[2].set_title('LCOM (Lack of Cohesion of Methods) - Média', fontweight='bold')
+        axes[2].set_xlabel('LCOM (Média)')
         axes[2].set_ylabel('Repositório')
         
         plt.tight_layout()
@@ -320,11 +320,11 @@ def gerar_estatisticas_descritivas(df):
     print("ESTATÍSTICAS DESCRITIVAS DAS MÉTRICAS")
     print("="*60)
     
-    # Estatísticas das métricas medianas
-    print("\n📊 MÉTRICAS MEDIANAS:")
+    # Estatísticas das métricas médias
+    print("\n📊 MÉTRICAS MÉDIAS:")
     print("-" * 30)
-    metricas_median = ['cbo_median', 'dit_median', 'lcom_median']
-    for metrica in metricas_median:
+    metricas_mean = ['cbo_mean', 'dit_mean', 'lcom_mean']
+    for metrica in metricas_mean:
         print(f"\n{metrica.upper()}:")
         print(f"  Média: {df[metrica].mean():.2f}")
         print(f"  Mediana: {df[metrica].median():.2f}")
@@ -375,11 +375,11 @@ def main():
     
     print("\n✅ Análise visual concluída!")
     print("📁 Arquivos gerados na pasta 'graficos':")
-    print("   • graficos/histogramas_metricas_medianas.png")
+    print("   • graficos/histogramas_metricas_medias.png")
     print("   • graficos/histogramas_metricas_totais.png")
-    print("   • graficos/boxplots_metricas_medianas.png")
+    print("   • graficos/boxplots_metricas_medias.png")
     print("   • graficos/boxplots_metricas_totais.png")
-    print("   • graficos/scatter_plots_medianas.png")
+    print("   • graficos/scatter_plots_medias.png")
     print("   • graficos/scatter_plots_totais.png")
     print("   • graficos/heatmap_correlacao.png")
     if len(df) <= 20:
