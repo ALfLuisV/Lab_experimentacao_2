@@ -20,8 +20,8 @@ logging.basicConfig(
 )
 
 CK_JAR_PATH = 'ck-0.7.1-SNAPSHOT-jar-with-dependencies.jar'; 
-INPUT_JSON_FILE = 'repo.json'
-OUTPUT_CSV_FILE = 'resultados_metricas.csv'
+INPUT_JSON_FILE = 'repositorios_faltantes.json'
+OUTPUT_CSV_FILE = 'resultados_metricas_faltante.csv'
 CLONE_DIR_BASE = 'clones'
 CK_OUTPUT_DIR_BASE = 'ck_output'
 
