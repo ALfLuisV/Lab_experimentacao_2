@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+import json
 from matplotlib.patches import Rectangle
 from pathlib import Path
 
@@ -12,189 +13,125 @@ plt.rcParams['figure.figsize'] = (12, 8)
 plt.rcParams['font.size'] = 10
 
 def carregar_dados():
-    """Carrega os dados do arquivo CSV"""
+    """Carrega e combina os dados do CSV e JSON"""
     try:
-        df = pd.read_csv('resultados_metricas.csv')
-        print(f"Dados carregados com sucesso: {len(df)} repositórios")
-        return df
-    except FileNotFoundError:
-        print("ERRO: Arquivo 'resultados_metricas.csv' não encontrado!")
+        # Carregar dados de métricas de qualidade
+        df_metricas = pd.read_csv('resultados_metricas.csv')
+        print(f"Métricas de qualidade carregadas: {len(df_metricas)} repositórios")
+        
+        # Carregar dados do repositório (JSON)
+        with open('repo.json', 'r', encoding='utf-8') as f:
+            repos_data = json.load(f)
+        
+        # Converter para DataFrame
+        df_repos = pd.DataFrame(repos_data)
+        print(f"Dados de repositórios carregados: {len(df_repos)} repositórios")
+        
+        # Combinar os dados usando o nome do repositório
+        df_combined = pd.merge(df_metricas, df_repos, left_on='repo_name', right_on='name', how='inner')
+        print(f"Dados combinados com sucesso: {len(df_combined)} repositórios")
+        
+        return df_combined
+    except FileNotFoundError as e:
+        print(f"ERRO: Arquivo não encontrado - {e}")
+        return None
+    except Exception as e:
+        print(f"ERRO ao carregar dados: {e}")
         return None
 
-def criar_histogramas(df):
-    """Cria histogramas para as métricas médias e totais"""
-    # Criar diretório se não existir
+def criar_histogramas_completos(df):
+    """Cria histogramas para todas as métricas"""
     Path('graficos').mkdir(exist_ok=True)
     
-    # Histogramas para métricas médias
-    fig, axes = plt.subplots(1, 3, figsize=(24, 8))
-    fig.suptitle('Distribuição das Métricas de Qualidade de Código - Valores Médios', fontsize=18, fontweight='bold')
+    # Histogramas para métricas de qualidade (médias)
+    fig, axes = plt.subplots(2, 3, figsize=(24, 16))
+    fig.suptitle('Distribuição de Todas as Métricas', fontsize=20, fontweight='bold')
     
-    metricas_mean = ['cbo_mean', 'dit_mean', 'lcom_mean']
-    titulos_mean = ['CBO (Coupling Between Objects)', 'DIT (Depth of Inheritance Tree)', 'LCOM (Lack of Cohesion of Methods)']
+    # Métricas de qualidade
+    metricas_qualidade = ['cbo_mean', 'dit_mean', 'lcom_mean']
+    titulos_qualidade = ['CBO (Média)', 'DIT (Média)', 'LCOM (Média)']
     
-    for i, (metrica, titulo) in enumerate(zip(metricas_mean, titulos_mean)):
-        # Ajustar número de bins baseado no tamanho do dataset
+    for i, (metrica, titulo) in enumerate(zip(metricas_qualidade, titulos_qualidade)):
         bins = min(30, max(10, len(df) // 20))
-        sns.histplot(data=df, x=metrica, bins=bins, kde=True, ax=axes[i])
-        axes[i].set_title(f'{titulo} (Média)', fontweight='bold', fontsize=14)
-        axes[i].set_xlabel(f'{titulo} (Média)', fontsize=12)
-        axes[i].set_ylabel('Frequência', fontsize=12)
-        axes[i].tick_params(labelsize=10)
+        sns.histplot(data=df, x=metrica, bins=bins, kde=True, ax=axes[0, i])
+        axes[0, i].set_title(f'{titulo}', fontweight='bold', fontsize=14)
+        axes[0, i].set_xlabel(f'{titulo}', fontsize=12)
+        axes[0, i].set_ylabel('Frequência', fontsize=12)
     
-    plt.tight_layout()
-    plt.savefig('graficos/histogramas_metricas_medias.png', dpi=600, bbox_inches='tight')
-    plt.show()
-    print("✓ Histogramas (médias) salvos como 'graficos/histogramas_metricas_medias.png'")
+    # Métricas do repositório
+    metricas_repo = ['stars', 'releases', 'age_years']
+    titulos_repo = ['Stars', 'Releases', 'Idade (Anos)']
     
-    # Histogramas para métricas totais (separado para melhor visualização)
-    fig, axes = plt.subplots(1, 3, figsize=(20, 8))
-    fig.suptitle('Distribuição das Métricas de Qualidade de Código - Valores Totais (Log Scale)', fontsize=18, fontweight='bold')
-    
-    metricas_total = ['cbo_total', 'dit_total', 'lcom_total']
-    titulos_total = ['CBO Total', 'DIT Total', 'LCOM Total']
-    
-    for i, (metrica, titulo) in enumerate(zip(metricas_total, titulos_total)):
-        # Usar log scale para valores totais
-        data_log = np.log1p(df[metrica])  # log1p para evitar log(0)
+    for i, (metrica, titulo) in enumerate(zip(metricas_repo, titulos_repo)):
         bins = min(30, max(10, len(df) // 20))
-        sns.histplot(data=data_log, bins=bins, kde=True, ax=axes[i])
-        axes[i].set_title(f'{titulo} (Log Scale)', fontweight='bold', fontsize=14)
-        axes[i].set_xlabel(f'{titulo} (Log Scale)', fontsize=12)
-        axes[i].set_ylabel('Frequência', fontsize=12)
-        axes[i].tick_params(labelsize=10)
-    
-    plt.tight_layout()
-    plt.savefig('graficos/histogramas_metricas_totais.png', dpi=600, bbox_inches='tight')
-    plt.show()
-    print("✓ Histogramas (totais) salvos como 'graficos/histogramas_metricas_totais.png'")
-
-def criar_boxplots(df):
-    """Cria boxplots para visualizar a distribuição das métricas"""
-    # Boxplots para métricas médias
-    fig, axes = plt.subplots(1, 3, figsize=(24, 8))
-    fig.suptitle('Boxplots das Métricas de Qualidade de Código - Valores Médios', fontsize=18, fontweight='bold')
-    
-    metricas_mean = ['cbo_mean', 'dit_mean', 'lcom_mean']
-    titulos_mean = ['CBO (Média)', 'DIT (Média)', 'LCOM (Média)']
-    
-    for i, (metrica, titulo) in enumerate(zip(metricas_mean, titulos_mean)):
-        sns.boxplot(data=df, y=metrica, ax=axes[i], palette='Set2')
-        axes[i].set_title(titulo, fontweight='bold', fontsize=14)
-        axes[i].set_ylabel('Valor', fontsize=12)
-        axes[i].tick_params(labelsize=10)
-        # Adicionar estatísticas no gráfico
-        mean_val = df[metrica].mean()
-        axes[i].text(0.02, 0.98, f'Média: {mean_val:.2f}', transform=axes[i].transAxes, 
-                    verticalalignment='top', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
-    
-    plt.tight_layout()
-    plt.savefig('graficos/boxplots_metricas_medias.png', dpi=600, bbox_inches='tight')
-    plt.show()
-    print("✓ Boxplots (médias) salvos como 'graficos/boxplots_metricas_medias.png'")
-    
-    # Boxplots para métricas totais (separado para melhor visualização)
-    fig, axes = plt.subplots(1, 3, figsize=(20, 10))
-    fig.suptitle('Boxplots das Métricas de Qualidade de Código - Valores Totais (Log Scale)', fontsize=18, fontweight='bold')
-    
-    metricas_total = ['cbo_total', 'dit_total', 'lcom_total']
-    titulos_total = ['CBO (Total)', 'DIT (Total)', 'LCOM (Total)']
-    
-    for i, (metrica, titulo) in enumerate(zip(metricas_total, titulos_total)):
-        sns.boxplot(data=df, y=metrica, ax=axes[i], palette='Set1')
-        axes[i].set_title(titulo, fontweight='bold', fontsize=14)
-        axes[i].set_ylabel('Valor (Log Scale)', fontsize=12)
-        axes[i].tick_params(labelsize=10)
-        # Usar escala logarítmica para valores totais
-        axes[i].set_yscale('log')
-        # Adicionar estatísticas no gráfico
-        mean_val = df[metrica].mean()
-        axes[i].text(0.02, 0.98, f'Média: {mean_val:.0f}', transform=axes[i].transAxes, 
-                    verticalalignment='top', bbox=dict(boxstyle='round', facecolor='lightblue', alpha=0.8))
-    
-    plt.tight_layout()
-    plt.savefig('graficos/boxplots_metricas_totais.png', dpi=600, bbox_inches='tight')
-    plt.show()
-    print("✓ Boxplots (totais) salvos como 'graficos/boxplots_metricas_totais.png'")
-
-def criar_scatter_plots(df):
-    """Cria gráficos de dispersão para analisar correlações"""
-    # Scatter plots para métricas médias
-    fig, axes = plt.subplots(1, 3, figsize=(24, 8))
-    fig.suptitle('Análise de Correlações - Métricas Médias', fontsize=18, fontweight='bold')
-    
-    correlacoes_mean = [
-        ('cbo_mean', 'dit_mean', 'CBO vs DIT (Média)'),
-        ('cbo_mean', 'lcom_mean', 'CBO vs LCOM (Média)'),
-        ('dit_mean', 'lcom_mean', 'DIT vs LCOM (Média)')
-    ]
-    
-    for i, (x_col, y_col, titulo) in enumerate(correlacoes_mean):
-        sns.scatterplot(data=df, x=x_col, y=y_col, ax=axes[i], alpha=0.7, s=60)
-        axes[i].set_title(titulo, fontweight='bold', fontsize=14)
-        axes[i].set_xlabel(x_col.replace('_', ' ').title(), fontsize=12)
-        axes[i].set_ylabel(y_col.replace('_', ' ').title(), fontsize=12)
-        axes[i].tick_params(labelsize=10)
+        if metrica == 'stars':
+            # Usar escala log para stars devido à grande variação
+            data_log = np.log1p(df[metrica])
+            sns.histplot(data=data_log, bins=bins, kde=True, ax=axes[1, i])
+            axes[1, i].set_xlabel(f'{titulo} (Log Scale)', fontsize=12)
+        else:
+            sns.histplot(data=df, x=metrica, bins=bins, kde=True, ax=axes[1, i])
+            axes[1, i].set_xlabel(f'{titulo}', fontsize=12)
         
-        # Adicionar linha de tendência
-        if len(df) > 1:  # Verificar se há dados suficientes
-            z = np.polyfit(df[x_col], df[y_col], 1)
-            p = np.poly1d(z)
-            axes[i].plot(df[x_col], p(df[x_col]), "r--", alpha=0.8, linewidth=2)
-        
-        # Calcular e mostrar correlação
-        corr = df[x_col].corr(df[y_col])
-        axes[i].text(0.05, 0.95, f'r = {corr:.3f}', transform=axes[i].transAxes,
-                    bbox=dict(boxstyle='round', facecolor='white', alpha=0.9), fontsize=11)
+        axes[1, i].set_title(f'{titulo}', fontweight='bold', fontsize=14)
+        axes[1, i].set_ylabel('Frequência', fontsize=12)
     
     plt.tight_layout()
-    plt.savefig('graficos/scatter_plots_medias.png', dpi=600, bbox_inches='tight')
+    plt.savefig('graficos/histogramas_todas_metricas.png', dpi=600, bbox_inches='tight')
     plt.close()
-    print("✓ Scatter plots (médias) salvos como 'graficos/scatter_plots_medias.png'")
+    print("✓ Histogramas completos salvos como 'graficos/histogramas_todas_metricas.png'")
+
+def criar_boxplots_completos(df):
+    """Cria boxplots para todas as métricas"""
+    fig, axes = plt.subplots(2, 3, figsize=(24, 16))
+    fig.suptitle('Boxplots de Todas as Métricas', fontsize=20, fontweight='bold')
     
-    # Scatter plots para métricas totais (separado para melhor visualização)
-    fig, axes = plt.subplots(1, 3, figsize=(24, 8))
-    fig.suptitle('Análise de Correlações - Métricas Totais (Log Scale)', fontsize=18, fontweight='bold')
+    # Métricas de qualidade
+    metricas_qualidade = ['cbo_mean', 'dit_mean', 'lcom_mean']
+    titulos_qualidade = ['CBO (Média)', 'DIT (Média)', 'LCOM (Média)']
     
-    correlacoes_total = [
-        ('cbo_total', 'dit_total', 'CBO vs DIT (Total)'),
-        ('cbo_total', 'lcom_total', 'CBO vs LCOM (Total)'),
-        ('dit_total', 'lcom_total', 'DIT vs LCOM (Total)')
-    ]
+    for i, (metrica, titulo) in enumerate(zip(metricas_qualidade, titulos_qualidade)):
+        sns.boxplot(data=df, y=metrica, ax=axes[0, i], palette='Set2')
+        axes[0, i].set_title(titulo, fontweight='bold', fontsize=14)
+        axes[0, i].set_ylabel('Valor', fontsize=12)
+        mean_val = df[metrica].mean()
+        axes[0, i].text(0.02, 0.98, f'Média: {mean_val:.2f}', transform=axes[0, i].transAxes, 
+                       verticalalignment='top', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
     
-    for i, (x_col, y_col, titulo) in enumerate(correlacoes_total):
-        sns.scatterplot(data=df, x=x_col, y=y_col, ax=axes[i], alpha=0.7, s=60)
-        axes[i].set_title(titulo, fontweight='bold', fontsize=14)
-        axes[i].set_xlabel(x_col.replace('_', ' ').title(), fontsize=12)
-        axes[i].set_ylabel(y_col.replace('_', ' ').title(), fontsize=12)
-        axes[i].tick_params(labelsize=10)
+    # Métricas do repositório
+    metricas_repo = ['stars', 'releases', 'age_years']
+    titulos_repo = ['Stars', 'Releases', 'Idade (Anos)']
+    
+    for i, (metrica, titulo) in enumerate(zip(metricas_repo, titulos_repo)):
+        sns.boxplot(data=df, y=metrica, ax=axes[1, i], palette='Set1')
+        axes[1, i].set_title(titulo, fontweight='bold', fontsize=14)
         
-        # Usar escala logarítmica para valores totais
-        axes[i].set_xscale('log')
-        axes[i].set_yscale('log')
+        if metrica == 'stars':
+            axes[1, i].set_yscale('log')
+            axes[1, i].set_ylabel('Valor (Log Scale)', fontsize=12)
+        else:
+            axes[1, i].set_ylabel('Valor', fontsize=12)
         
-        # Calcular e mostrar correlação
-        corr = df[x_col].corr(df[y_col])
-        axes[i].text(0.05, 0.95, f'r = {corr:.3f}', transform=axes[i].transAxes,
-                    bbox=dict(boxstyle='round', facecolor='white', alpha=0.9), fontsize=11)
+        mean_val = df[metrica].mean()
+        axes[1, i].text(0.02, 0.98, f'Média: {mean_val:.0f}', transform=axes[1, i].transAxes, 
+                       verticalalignment='top', bbox=dict(boxstyle='round', facecolor='lightblue', alpha=0.8))
     
     plt.tight_layout()
-    plt.savefig('graficos/scatter_plots_totais.png', dpi=600, bbox_inches='tight')
-    plt.show()
-    print("✓ Scatter plots (totais) salvos como 'graficos/scatter_plots_totais.png'")
+    plt.savefig('graficos/boxplots_todas_metricas.png', dpi=600, bbox_inches='tight')
+    plt.close()
+    print("✓ Boxplots completos salvos como 'graficos/boxplots_todas_metricas.png'")
 
-def criar_heatmap_correlacao(df):
-    """Cria heatmap de correlação entre as métricas"""
-    # Calcular matriz de correlação
-    correlation_matrix = df[['cbo_mean', 'dit_mean', 'lcom_mean',
-                             'cbo_total', 'dit_total', 'lcom_total']].corr()
+def criar_matriz_correlacao_completa(df):
+    """Cria matriz de correlação entre todas as métricas"""
+    # Selecionar todas as métricas numéricas
+    metricas = ['cbo_mean', 'dit_mean', 'lcom_mean', 'cbo_total', 'dit_total', 'lcom_total', 
+                'stars', 'releases', 'age_years']
     
-    plt.figure(figsize=(12, 10))
+    correlation_matrix = df[metricas].corr()
     
-    # Criar máscara para a diagonal superior (opcional)
-    mask = np.triu(np.ones_like(correlation_matrix, dtype=bool))
+    plt.figure(figsize=(14, 12))
     
-    # Criar heatmap com melhor formatação
+    # Criar heatmap
     sns.heatmap(correlation_matrix, 
                 annot=True, 
                 cmap='RdBu_r', 
@@ -202,193 +139,263 @@ def criar_heatmap_correlacao(df):
                 square=True, 
                 fmt='.3f', 
                 cbar_kws={'shrink': 0.8, 'label': 'Coeficiente de Correlação'},
-                annot_kws={'size': 12, 'weight': 'bold'},
+                annot_kws={'size': 10, 'weight': 'bold'},
                 linewidths=0.5)
     
-    plt.title('Matriz de Correlação - Métricas de Qualidade de Código', 
-              fontsize=16, fontweight='bold', pad=20)
+    plt.title('Matriz de Correlação Completa - Todas as Métricas', 
+              fontsize=18, fontweight='bold', pad=20)
     
     # Melhorar labels dos eixos
     labels = ['CBO\n(Média)', 'DIT\n(Média)', 'LCOM\n(Média)',
-              'CBO\n(Total)', 'DIT\n(Total)', 'LCOM\n(Total)']
+              'CBO\n(Total)', 'DIT\n(Total)', 'LCOM\n(Total)',
+              'Stars', 'Releases', 'Idade\n(Anos)']
     plt.xticks(range(len(labels)), labels, rotation=45, ha='right', fontsize=11)
     plt.yticks(range(len(labels)), labels, rotation=0, fontsize=11)
     
     plt.tight_layout()
-    plt.savefig('graficos/heatmap_correlacao.png', dpi=600, bbox_inches='tight')
-    plt.show()
-    print("✓ Heatmap de correlação salvo como 'graficos/heatmap_correlacao.png'")
+    plt.savefig('graficos/matriz_correlacao_completa.png', dpi=600, bbox_inches='tight')
+    plt.close()
+    print("✓ Matriz de correlação completa salva como 'graficos/matriz_correlacao_completa.png'")
 
-def criar_grafico_barras_repositorios(df):
-    """Cria gráficos de barras comparando repositórios (adaptado para grandes datasets)"""
-    n_repos = len(df)
+def criar_scatter_plots_correlacoes(df):
+    """Cria scatter plots para correlações interessantes"""
+    # Correlações entre métricas de qualidade e características do repositório
+    fig, axes = plt.subplots(2, 3, figsize=(24, 16))
+    fig.suptitle('Correlações entre Métricas de Qualidade e Características do Repositório', 
+                 fontsize=18, fontweight='bold')
     
-    if n_repos <= 20:
-        # Para poucos repositórios, mostrar todos
-        df_sorted = df.sort_values('cbo_mean', ascending=False)
+    correlacoes = [
+        ('stars', 'cbo_mean', 'Stars vs CBO (Média)'),
+        ('stars', 'dit_mean', 'Stars vs DIT (Média)'),
+        ('stars', 'lcom_mean', 'Stars vs LCOM (Média)'),
+        ('age_years', 'cbo_mean', 'Idade vs CBO (Média)'),
+        ('releases', 'cbo_mean', 'Releases vs CBO (Média)'),
+        ('age_years', 'releases', 'Idade vs Releases')
+    ]
+    
+    for i, (x_col, y_col, titulo) in enumerate(correlacoes):
+        row = i // 3
+        col = i % 3
         
-        fig, axes = plt.subplots(3, 1, figsize=(15, 18))
-        fig.suptitle(f'Comparação entre Repositórios - Métricas Médias ({n_repos} repositórios)', fontsize=16, fontweight='bold')
+        sns.scatterplot(data=df, x=x_col, y=y_col, ax=axes[row, col], alpha=0.7, s=60)
+        axes[row, col].set_title(titulo, fontweight='bold', fontsize=14)
+        axes[row, col].set_xlabel(x_col.replace('_', ' ').title(), fontsize=12)
+        axes[row, col].set_ylabel(y_col.replace('_', ' ').title(), fontsize=12)
         
-        # CBO
-        sns.barplot(data=df_sorted, x='cbo_mean', y='repo_name', ax=axes[0], palette='viridis')
-        axes[0].set_title('CBO (Coupling Between Objects) - Média', fontweight='bold')
-        axes[0].set_xlabel('CBO (Média)')
-        axes[0].set_ylabel('Repositório')
+        # Usar escala log para stars se necessário
+        if x_col == 'stars':
+            axes[row, col].set_xscale('log')
         
-        # DIT
-        sns.barplot(data=df_sorted, x='dit_mean', y='repo_name', ax=axes[1], palette='plasma')
-        axes[1].set_title('DIT (Depth of Inheritance Tree) - Média', fontweight='bold')
-        axes[1].set_xlabel('DIT (Média)')
-        axes[1].set_ylabel('Repositório')
+        # Adicionar linha de tendência
+        if len(df) > 1:
+            z = np.polyfit(df[x_col], df[y_col], 1)
+            p = np.poly1d(z)
+            axes[row, col].plot(df[x_col], p(df[x_col]), "r--", alpha=0.8, linewidth=2)
         
-        # LCOM
-        sns.barplot(data=df_sorted, x='lcom_mean', y='repo_name', ax=axes[2], palette='inferno')
-        axes[2].set_title('LCOM (Lack of Cohesion of Methods) - Média', fontweight='bold')
-        axes[2].set_xlabel('LCOM (Média)')
-        axes[2].set_ylabel('Repositório')
-        
-        plt.tight_layout()
-        plt.savefig('graficos/barras_repositorios.png', dpi=600, bbox_inches='tight')
-        plt.show()
-        print("✓ Gráfico de barras salvo como 'graficos/barras_repositorios.png'")
-    else:
-        # Para muitos repositórios, mostrar top 20 e bottom 20
-        print(f"📊 Dataset com {n_repos} repositórios. Criando visualizações otimizadas...")
-        
-        # Top 20 repositórios por CBO média
-        top_20 = df.nlargest(20, 'cbo_mean')
-        bottom_20 = df.nsmallest(20, 'cbo_mean')
-        
-        # Criar gráfico para top 20
-        fig, axes = plt.subplots(3, 1, figsize=(20, 18))
-        fig.suptitle(f'Top 20 Repositórios - Maiores Valores de CBO (Total: {n_repos} repos)', fontsize=16, fontweight='bold')
-        
-        # CBO - Top 20
-        sns.barplot(data=top_20, x='cbo_mean', y='repo_name', ax=axes[0], palette='viridis')
-        axes[0].set_title('CBO (Coupling Between Objects) - Média', fontweight='bold')
-        axes[0].set_xlabel('CBO (Média)')
-        axes[0].set_ylabel('Repositório')
-        
-        # DIT - Top 20
-        sns.barplot(data=top_20, x='dit_mean', y='repo_name', ax=axes[1], palette='plasma')
-        axes[1].set_title('DIT (Depth of Inheritance Tree) - Média', fontweight='bold')
-        axes[1].set_xlabel('DIT (Média)')
-        axes[1].set_ylabel('Repositório')
-        
-        # LCOM - Top 20
-        sns.barplot(data=top_20, x='lcom_mean', y='repo_name', ax=axes[2], palette='inferno')
-        axes[2].set_title('LCOM (Lack of Cohesion of Methods) - Média', fontweight='bold')
-        axes[2].set_xlabel('LCOM (Média)')
-        axes[2].set_ylabel('Repositório')
-        
-        plt.tight_layout()
-        plt.savefig('graficos/barras_top20_repositorios.png', dpi=600, bbox_inches='tight')
-        plt.show()
-        print("✓ Gráfico top 20 repositórios salvo como 'graficos/barras_top20_repositorios.png'")
-        
-        # Criar gráfico para bottom 20
-        fig, axes = plt.subplots(3, 1, figsize=(20, 18))
-        fig.suptitle(f'Bottom 20 Repositórios - Menores Valores de CBO (Total: {n_repos} repos)', fontsize=16, fontweight='bold')
-        
-        # CBO - Bottom 20
-        sns.barplot(data=bottom_20, x='cbo_mean', y='repo_name', ax=axes[0], palette='viridis')
-        axes[0].set_title('CBO (Coupling Between Objects) - Média', fontweight='bold')
-        axes[0].set_xlabel('CBO (Média)')
-        axes[0].set_ylabel('Repositório')
-        
-        # DIT - Bottom 20
-        sns.barplot(data=bottom_20, x='dit_mean', y='repo_name', ax=axes[1], palette='plasma')
-        axes[1].set_title('DIT (Depth of Inheritance Tree) - Média', fontweight='bold')
-        axes[1].set_xlabel('DIT (Média)')
-        axes[1].set_ylabel('Repositório')
-        
-        # LCOM - Bottom 20
-        sns.barplot(data=bottom_20, x='lcom_mean', y='repo_name', ax=axes[2], palette='inferno')
-        axes[2].set_title('LCOM (Lack of Cohesion of Methods) - Média', fontweight='bold')
-        axes[2].set_xlabel('LCOM (Média)')
-        axes[2].set_ylabel('Repositório')
-        
-        plt.tight_layout()
-        plt.savefig('graficos/barras_bottom20_repositorios.png', dpi=600, bbox_inches='tight')
-        plt.show()
-        print("✓ Gráfico bottom 20 repositórios salvo como 'graficos/barras_bottom20_repositorios.png'")
+        # Calcular e mostrar correlação
+        corr = df[x_col].corr(df[y_col])
+        axes[row, col].text(0.05, 0.95, f'r = {corr:.3f}', transform=axes[row, col].transAxes,
+                           bbox=dict(boxstyle='round', facecolor='white', alpha=0.9), fontsize=11)
+    
+    plt.tight_layout()
+    plt.savefig('graficos/scatter_correlacoes_qualidade_repo.png', dpi=600, bbox_inches='tight')
+    plt.close()
+    print("✓ Scatter plots de correlações salvos como 'graficos/scatter_correlacoes_qualidade_repo.png'")
 
-def gerar_estatisticas_descritivas(df):
-    """Gera e exibe estatísticas descritivas dos dados"""
-    print("\n" + "="*60)
-    print("ESTATÍSTICAS DESCRITIVAS DAS MÉTRICAS")
-    print("="*60)
+def criar_grafico_popularidade_qualidade(df):
+    """Cria gráfico relacionando popularidade (stars) com qualidade de código"""
+    # Criar categorias de popularidade
+    df['categoria_stars'] = pd.cut(df['stars'], 
+                                   bins=[0, 1000, 10000, 50000, float('inf')],
+                                   labels=['Baixa (<1K)', 'Média (1K-10K)', 'Alta (10K-50K)', 'Muito Alta (>50K)'])
     
-    # Estatísticas das métricas médias
-    print("\n📊 MÉTRICAS MÉDIAS:")
-    print("-" * 30)
-    metricas_mean = ['cbo_mean', 'dit_mean', 'lcom_mean']
-    for metrica in metricas_mean:
+    fig, axes = plt.subplots(1, 3, figsize=(24, 8))
+    fig.suptitle('Qualidade de Código por Categoria de Popularidade (Stars)', 
+                 fontsize=18, fontweight='bold')
+    
+    metricas = ['cbo_mean', 'dit_mean', 'lcom_mean']
+    titulos = ['CBO (Média)', 'DIT (Média)', 'LCOM (Média)']
+    
+    for i, (metrica, titulo) in enumerate(zip(metricas, titulos)):
+        sns.boxplot(data=df, x='categoria_stars', y=metrica, ax=axes[i], palette='viridis')
+        axes[i].set_title(titulo, fontweight='bold', fontsize=14)
+        axes[i].set_xlabel('Categoria de Popularidade', fontsize=12)
+        axes[i].set_ylabel('Valor da Métrica', fontsize=12)
+        axes[i].tick_params(axis='x', rotation=45)
+    
+    plt.tight_layout()
+    plt.savefig('graficos/qualidade_por_popularidade.png', dpi=600, bbox_inches='tight')
+    plt.close()
+    print("✓ Gráfico de qualidade por popularidade salvo como 'graficos/qualidade_por_popularidade.png'")
+
+def criar_grafico_idade_metricas(df):
+    """Cria gráfico relacionando idade do repositório com métricas"""
+    # Criar categorias de idade
+    df['categoria_idade'] = pd.cut(df['age_years'], 
+                                   bins=[0, 2, 5, 10, float('inf')],
+                                   labels=['Novo (0-2 anos)', 'Jovem (2-5 anos)', 'Maduro (5-10 anos)', 'Antigo (>10 anos)'])
+    
+    fig, axes = plt.subplots(2, 2, figsize=(20, 16))
+    fig.suptitle('Métricas por Categoria de Idade do Repositório', 
+                 fontsize=18, fontweight='bold')
+    
+    # Métricas de qualidade por idade
+    sns.boxplot(data=df, x='categoria_idade', y='cbo_mean', ax=axes[0, 0], palette='plasma')
+    axes[0, 0].set_title('CBO (Média) por Idade', fontweight='bold', fontsize=14)
+    axes[0, 0].tick_params(axis='x', rotation=45)
+    
+    sns.boxplot(data=df, x='categoria_idade', y='dit_mean', ax=axes[0, 1], palette='plasma')
+    axes[0, 1].set_title('DIT (Média) por Idade', fontweight='bold', fontsize=14)
+    axes[0, 1].tick_params(axis='x', rotation=45)
+    
+    # Stars e releases por idade
+    sns.boxplot(data=df, x='categoria_idade', y='stars', ax=axes[1, 0], palette='viridis')
+    axes[1, 0].set_title('Stars por Idade', fontweight='bold', fontsize=14)
+    axes[1, 0].set_yscale('log')
+    axes[1, 0].tick_params(axis='x', rotation=45)
+    
+    sns.boxplot(data=df, x='categoria_idade', y='releases', ax=axes[1, 1], palette='viridis')
+    axes[1, 1].set_title('Releases por Idade', fontweight='bold', fontsize=14)
+    axes[1, 1].tick_params(axis='x', rotation=45)
+    
+    plt.tight_layout()
+    plt.savefig('graficos/metricas_por_idade.png', dpi=600, bbox_inches='tight')
+    plt.close()
+    print("✓ Gráfico de métricas por idade salvo como 'graficos/metricas_por_idade.png'")
+
+def criar_ranking_repositorios(df):
+    """Cria ranking dos repositórios considerando múltiplas métricas"""
+    # Calcular score composto (normalizado)
+    df_norm = df.copy()
+    
+    # Normalizar métricas (0-1)
+    metricas_para_normalizar = ['stars', 'releases', 'age_years', 'cbo_mean', 'dit_mean', 'lcom_mean']
+    
+    for metrica in metricas_para_normalizar:
+        min_val = df_norm[metrica].min()
+        max_val = df_norm[metrica].max()
+        if max_val > min_val:
+            df_norm[f'{metrica}_norm'] = (df_norm[metrica] - min_val) / (max_val - min_val)
+        else:
+            df_norm[f'{metrica}_norm'] = 0
+    
+    # Score de popularidade (stars + releases)
+    df_norm['score_popularidade'] = (df_norm['stars_norm'] + df_norm['releases_norm']) / 2
+    
+    # Score de qualidade (inverso das métricas de qualidade - menores valores são melhores)
+    df_norm['score_qualidade'] = (3 - (df_norm['cbo_mean_norm'] + df_norm['dit_mean_norm'] + df_norm['lcom_mean_norm'])) / 3
+    
+    # Top 20 por popularidade
+    top_popularidade = df_norm.nlargest(20, 'score_popularidade')
+    
+    fig, axes = plt.subplots(1, 2, figsize=(24, 12))
+    fig.suptitle('Ranking de Repositórios', fontsize=18, fontweight='bold')
+    
+    # Gráfico de popularidade
+    sns.barplot(data=top_popularidade, y='repo_name', x='score_popularidade', ax=axes[0], palette='viridis')
+    axes[0].set_title('Top 20 - Score de Popularidade', fontweight='bold', fontsize=14)
+    axes[0].set_xlabel('Score de Popularidade (0-1)', fontsize=12)
+    axes[0].set_ylabel('Repositório', fontsize=12)
+    
+    # Top 20 por qualidade
+    top_qualidade = df_norm.nlargest(20, 'score_qualidade')
+    sns.barplot(data=top_qualidade, y='repo_name', x='score_qualidade', ax=axes[1], palette='plasma')
+    axes[1].set_title('Top 20 - Score de Qualidade', fontweight='bold', fontsize=14)
+    axes[1].set_xlabel('Score de Qualidade (0-1)', fontsize=12)
+    axes[1].set_ylabel('Repositório', fontsize=12)
+    
+    plt.tight_layout()
+    plt.savefig('graficos/ranking_repositorios.png', dpi=600, bbox_inches='tight')
+    plt.close()
+    print("✓ Ranking de repositórios salvo como 'graficos/ranking_repositorios.png'")
+
+def gerar_estatisticas_completas(df):
+    """Gera estatísticas descritivas completas"""
+    print("\n" + "="*80)
+    print("ESTATÍSTICAS DESCRITIVAS COMPLETAS")
+    print("="*80)
+    
+    # Estatísticas das métricas de qualidade
+    print("\n📊 MÉTRICAS DE QUALIDADE DE CÓDIGO:")
+    print("-" * 40)
+    metricas_qualidade = ['cbo_total', 'dit_total', 'lcom_total']
+    for metrica in metricas_qualidade:
         print(f"\n{metrica.upper()}:")
-        print(f"  Média: {df[metrica].mean():.2f}")
-        print(f"  Mediana: {df[metrica].median():.2f}")
-        print(f"  Desvio Padrão: {df[metrica].std():.2f}")
-        print(f"  Mínimo: {df[metrica].min():.2f}")
-        print(f"  Máximo: {df[metrica].max():.2f}")
+        print(f"  Média: {df[metrica].mean():.3f}")
+        print(f"  Mediana: {df[metrica].median():.3f}")
+        print(f"  Desvio Padrão: {df[metrica].std():.3f}")
+        print(f"  Mínimo: {df[metrica].min():.3f}")
+        print(f"  Máximo: {df[metrica].max():.3f}")
     
-    # Estatísticas das métricas totais
-    print("\n📈 MÉTRICAS TOTAIS:")
-    print("-" * 30)
-    metricas_total = ['cbo_total', 'dit_total', 'lcom_total']
-    for metrica in metricas_total:
+    # Estatísticas das métricas do repositório
+    print("\n🌟 MÉTRICAS DO REPOSITÓRIO:")
+    print("-" * 40)
+    metricas_repo = ['stars', 'releases', 'age_years']
+    for metrica in metricas_repo:
         print(f"\n{metrica.upper()}:")
         print(f"  Média: {df[metrica].mean():.0f}")
         print(f"  Mediana: {df[metrica].median():.0f}")
         print(f"  Desvio Padrão: {df[metrica].std():.0f}")
         print(f"  Mínimo: {df[metrica].min():.0f}")
         print(f"  Máximo: {df[metrica].max():.0f}")
+    
+    # Correlações mais interessantes
+    print("\n🔗 CORRELAÇÕES MAIS SIGNIFICATIVAS:")
+    print("-" * 40)
+    correlacoes_interesse = [
+        ('stars', 'cbo_mean'),
+        ('stars', 'releases'),
+        ('age_years', 'releases'),
+        ('age_years', 'cbo_mean'),
+        ('releases', 'cbo_mean')
+    ]
+    
+    for metrica1, metrica2 in correlacoes_interesse:
+        corr = df[metrica1].corr(df[metrica2])
+        print(f"  {metrica1} vs {metrica2}: {corr:.3f}")
 
 def main():
     """Função principal"""
-    print("🎨 Iniciando análise visual das métricas de qualidade de código...")
-    print("="*60)
+    print("🎨 Iniciando análise visual completa das métricas...")
+    print("="*80)
     
-    # Carregar dados
+    # Carregar dados combinados
     df = carregar_dados()
     if df is None:
         return
     
     # Exibir informações básicas
-    print(f"\n📋 Dados carregados:")
+    print(f"\n📋 Dados combinados carregados:")
     print(f"   • {len(df)} repositórios analisados")
-    print(f"   • {len(df.columns)} métricas por repositório")
-    print(f"   • Colunas: {', '.join(df.columns)}")
+    print(f"   • {len(df.columns)} colunas por repositório")
+    print(f"   • Métricas disponíveis: {', '.join(df.columns)}")
     
     # Gerar estatísticas descritivas
-    gerar_estatisticas_descritivas(df)
+    gerar_estatisticas_completas(df)
     
-    print("\n🎯 Gerando visualizações...")
-    print("-" * 30)
+    print("\n🎯 Gerando visualizações completas...")
+    print("-" * 50)
     
     # Criar todos os gráficos
-    criar_histogramas(df)
-    criar_boxplots(df)
-    criar_scatter_plots(df)
-    criar_heatmap_correlacao(df)
-    criar_grafico_barras_repositorios(df)
+    criar_histogramas_completos(df)
+    criar_boxplots_completos(df)
+    criar_matriz_correlacao_completa(df)
+    criar_scatter_plots_correlacoes(df)
+    criar_grafico_popularidade_qualidade(df)
+    criar_grafico_idade_metricas(df)
+    criar_ranking_repositorios(df)
     
-    print("\n✅ Análise visual concluída!")
-    print("📁 Arquivos gerados na pasta 'graficos':")
-    print("   • graficos/histogramas_metricas_medias.png")
-    print("   • graficos/histogramas_metricas_totais.png")
-    print("   • graficos/boxplots_metricas_medias.png")
-    print("   • graficos/boxplots_metricas_totais.png")
-    print("   • graficos/scatter_plots_medias.png")
-    print("   • graficos/scatter_plots_totais.png")
-    print("   • graficos/heatmap_correlacao.png")
-    if len(df) <= 20:
-        print("   • graficos/barras_repositorios.png")
-    else:
-        print("   • graficos/barras_top20_repositorios.png")
-        print("   • graficos/barras_bottom20_repositorios.png")
-    print("\n🔍 Use esses gráficos para análise exploratória dos dados!")
-    print("📂 Todos os gráficos estão organizados na pasta 'graficos' para fácil acesso.")
+    print("\n✅ Análise visual completa concluída!")
+    print("📁 Novos arquivos gerados na pasta 'graficos':")
+    print("   • graficos/histogramas_todas_metricas.png")
+    print("   • graficos/boxplots_todas_metricas.png")
+    print("   • graficos/matriz_correlacao_completa.png")
+    print("   • graficos/scatter_correlacoes_qualidade_repo.png")
+    print("   • graficos/qualidade_por_popularidade.png")
+    print("   • graficos/metricas_por_idade.png")
+    print("   • graficos/ranking_repositorios.png")
+    print("\n🔍 Use esses gráficos para análise completa dos dados!")
+    print("📊 Agora você tem correlações entre qualidade de código e características dos repositórios!")
 
 if __name__ == '__main__':
     main()
